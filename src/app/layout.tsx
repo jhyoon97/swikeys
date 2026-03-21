@@ -1,0 +1,48 @@
+import type { Metadata } from 'next';
+import { Toaster } from '@/components/ui/sonner';
+import QueryProvider from '@/components/providers/QueryProvider';
+import Header from '@/components/layout/Header';
+import Footer from '@/components/layout/Footer';
+import './globals.css';
+
+export const metadata: Metadata = {
+  title: 'SwiKeys - 키보드 스위치 위키',
+  description:
+    '키보드 스위치 정보를 위키 형태로 제공하며, 사용자가 제보/댓글/타건음을 공유할 수 있는 커뮤니티 사이트',
+  openGraph: {
+    title: 'SwiKeys - 키보드 스위치 위키',
+    description: '모든 키보드 스위치 정보를 한 곳에서. 검색하고, 비교하고, 공유하세요.',
+    type: 'website',
+  },
+};
+
+const RootLayout = ({ children }: { children: React.ReactNode }) => {
+  return (
+    <html lang="ko" className="h-full antialiased" suppressHydrationWarning>
+      <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function() {
+                var theme = localStorage.getItem('theme');
+                if (theme === 'dark' || (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                  document.documentElement.classList.add('dark');
+                }
+              })();
+            `,
+          }}
+        />
+      </head>
+      <body className="min-h-full flex flex-col">
+        <QueryProvider>
+          <Header />
+          <main className="flex-1">{children}</main>
+          <Footer />
+          <Toaster />
+        </QueryProvider>
+      </body>
+    </html>
+  );
+};
+
+export default RootLayout;

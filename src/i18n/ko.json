@@ -1,0 +1,97 @@
+{
+  "common": {
+    "search": "검색",
+    "submit": "제출",
+    "cancel": "취소",
+    "reset": "초기화",
+    "loading": "로딩 중...",
+    "noResults": "검색 결과가 없습니다.",
+    "noInfo": "정보 없음",
+    "anonymous": "익명",
+    "viewAll": "전체 보기",
+    "home": "홈",
+    "language": "언어"
+  },
+  "nav": {
+    "home": "홈",
+    "switches": "스위치 검색",
+    "submit": "제보하기"
+  },
+  "hero": {
+    "title": "키보드 스위치 위키",
+    "subtitle": "모든 키보드 스위치 정보를 한 곳에서. 검색하고, 비교하고, 공유하세요.",
+    "searchPlaceholder": "스위치 이름으로 검색..."
+  },
+  "switch": {
+    "type": "스위치 타입",
+    "linear": "리니어",
+    "tactile": "택타일",
+    "hallEffect": "Hall Effect",
+    "manufacturer": "제조사",
+    "image": "이미지",
+    "upperHousing": "상부 하우징 재질",
+    "lowerHousing": "하부 하우징 재질",
+    "stemMaterial": "스템 재질",
+    "factoryLubed": "공장 윤활",
+    "springLength": "스프링 길이",
+    "mountPins": "마운트 핀",
+    "travel": "트래블",
+    "actuationPoint": "입력 지점",
+    "actuationForce": "입력압",
+    "initialForce": "초기압",
+    "bottomForce": "바닥압",
+    "specs": "스펙",
+    "recentSwitches": "최근 등록된 스위치",
+    "yes": "예",
+    "no": "아니오",
+    "all": "전체",
+    "pin5": "5핀",
+    "pin3": "3핀",
+    "pinNone": "없음",
+    "mm": "mm",
+    "g": "g"
+  },
+  "filter": {
+    "title": "필터",
+    "type": "타입",
+    "mountPins": "마운트 핀",
+    "factoryLubed": "공장 윤활",
+    "actuationForceRange": "입력압 범위",
+    "travelRange": "트래블 범위",
+    "reset": "필터 초기화"
+  },
+  "submit": {
+    "title": "스위치 제보",
+    "description": "알고 계신 스위치 정보를 제보해주세요. 관리자 검토 후 게시됩니다.",
+    "switchName": "스위치 이름",
+    "switchNameRequired": "스위치 이름은 필수입니다.",
+    "submitButton": "제보하기",
+    "submitting": "제보 중...",
+    "success": "제보가 접수되었습니다. 관리자 검토 후 게시됩니다.",
+    "error": "제보 중 오류가 발생했습니다. 다시 시도해주세요."
+  },
+  "comment": {
+    "title": "댓글",
+    "oneLiner": "한줄평",
+    "buildShare": "빌드 공유",
+    "nickname": "닉네임",
+    "content": "댓글 내용",
+    "write": "작성",
+    "writing": "작성 중...",
+    "noComments": "아직 댓글이 없습니다.",
+    "typingSound": "타건음"
+  },
+  "sound": {
+    "play": "재생",
+    "stop": "정지",
+    "listen": "타건음 듣기",
+    "upload": "타건음 업로드",
+    "uploading": "업로드 중...",
+    "fileTooLarge": "파일 크기는 10MB를 초과할 수 없습니다.",
+    "invalidFormat": "MP3, WAV, OGG 형식만 지원합니다."
+  },
+  "footer": {
+    "copyright": "SwiKeys - 키보드 스위치 위키",
+    "description": "키보드 스위치 정보를 위키 형태로 제공하는 커뮤니티 사이트입니다."
+  }
+}

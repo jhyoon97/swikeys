@@ -1,0 +1,97 @@
+{
+  "common": {
+    "search": "Search",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "reset": "Reset",
+    "loading": "Loading...",
+    "noResults": "No results found.",
+    "noInfo": "N/A",
+    "anonymous": "Anonymous",
+    "viewAll": "View All",
+    "home": "Home",
+    "language": "Language"
+  },
+  "nav": {
+    "home": "Home",
+    "switches": "Switches",
+    "submit": "Submit"
+  },
+  "hero": {
+    "title": "Keyboard Switch Wiki",
+    "subtitle": "All keyboard switch info in one place. Search, compare, and share.",
+    "searchPlaceholder": "Search by switch name..."
+  },
+  "switch": {
+    "type": "Switch Type",
+    "linear": "Linear",
+    "tactile": "Tactile",
+    "hallEffect": "Hall Effect",
+    "manufacturer": "Manufacturer",
+    "image": "Image",
+    "upperHousing": "Upper Housing Material",
+    "lowerHousing": "Lower Housing Material",
+    "stemMaterial": "Stem Material",
+    "factoryLubed": "Factory Lubed",
+    "springLength": "Spring Length",
+    "mountPins": "Mount Pins",
+    "travel": "Travel",
+    "actuationPoint": "Actuation Point",
+    "actuationForce": "Actuation Force",
+    "initialForce": "Initial Force",
+    "bottomForce": "Bottom-out Force",
+    "specs": "Specs",
+    "recentSwitches": "Recently Added Switches",
+    "yes": "Yes",
+    "no": "No",
+    "all": "All",
+    "pin5": "5-pin",
+    "pin3": "3-pin",
+    "pinNone": "None",
+    "mm": "mm",
+    "g": "g"
+  },
+  "filter": {
+    "title": "Filters",
+    "type": "Type",
+    "mountPins": "Mount Pins",
+    "factoryLubed": "Factory Lubed",
+    "actuationForceRange": "Actuation Force Range",
+    "travelRange": "Travel Range",
+    "reset": "Reset Filters"
+  },
+  "submit": {
+    "title": "Submit a Switch",
+    "description": "Share switch info you know. It will be published after admin review.",
+    "switchName": "Switch Name",
+    "switchNameRequired": "Switch name is required.",
+    "submitButton": "Submit",
+    "submitting": "Submitting...",
+    "success": "Your submission has been received. It will be published after review.",
+    "error": "An error occurred. Please try again."
+  },
+  "comment": {
+    "title": "Comments",
+    "oneLiner": "Quick Review",
+    "buildShare": "Build Share",
+    "nickname": "Nickname",
+    "content": "Comment",
+    "write": "Post",
+    "writing": "Posting...",
+    "noComments": "No comments yet.",
+    "typingSound": "Typing Sound"
+  },
+  "sound": {
+    "play": "Play",
+    "stop": "Stop",
+    "listen": "Listen",
+    "upload": "Upload Sound",
+    "uploading": "Uploading...",
+    "fileTooLarge": "File size must not exceed 10MB.",
+    "invalidFormat": "Only MP3, WAV, and OGG formats are supported."
+  },
+  "footer": {
+    "copyright": "SwiKeys - Keyboard Switch Wiki",
+    "description": "A community site providing keyboard switch information in wiki format."
+  }
+}
