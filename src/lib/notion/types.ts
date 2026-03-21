@@ -1,5 +1,6 @@
 import type { PageObjectResponse } from '@notionhq/client/build/src/api-endpoints';
 import type { KeyboardSwitch, MountPins, SwitchComment, SwitchType, CommentType } from '@/types/switch';
+import { nameToSlug } from '@/lib/utils';
 
 type Properties = PageObjectResponse['properties'];
 type PropertyValue = Properties[string];
@@ -89,9 +90,12 @@ export const mapPageToSwitch = (page: PageObjectResponse): KeyboardSwitch => {
   if (typeRaw === '택타일') type = '택타일';
   else if (typeRaw === 'hall effect') type = 'hall effect';
 
+  const name = getTitle(props['이름']);
+
   return {
     id: page.id,
-    name: getTitle(props['이름']),
+    slug: nameToSlug(name),
+    name,
     manufacturer: getRichText(props['제조사']),
     image: getFiles(props['이미지']),
     type,

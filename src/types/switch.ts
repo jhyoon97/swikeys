@@ -4,6 +4,7 @@ export type SwitchStatus = '게시됨' | '제보(대기중)' | '검토중';
 
 export interface KeyboardSwitch {
   id: string;
+  slug: string;
   name: string;
   manufacturer?: string;
   image?: string;

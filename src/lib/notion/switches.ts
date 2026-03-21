@@ -2,6 +2,7 @@ import type { PageObjectResponse } from '@notionhq/client/build/src/api-endpoint
 import { getNotionClient, SWITCHES_DB_ID } from './client';
 import { mapPageToSwitch } from './types';
 import type { KeyboardSwitch, SwitchFilters, SubmitSwitchData } from '@/types/switch';
+import { nameToSlug } from '@/lib/utils';
 
 export const getSwitches = async (pageSize = 50): Promise<KeyboardSwitch[]> => {
   const notion = getNotionClient();
@@ -29,6 +30,37 @@ export const getSwitchById = async (id: string): Promise<KeyboardSwitch | null> 
   } catch {
     return null;
   }
+};
+
+export const getSwitchBySlug = async (slug: string): Promise<KeyboardSwitch | null> => {
+  const notion = getNotionClient();
+
+  // slug에서 대략적인 검색어 추출 (하이픈→공백)하여 Notion 필터로 후보 축소
+  const searchHint = decodeURIComponent(slug).replace(/-/g, ' ').slice(0, 20);
+
+  const response = await notion.databases.query({
+    database_id: SWITCHES_DB_ID,
+    filter: {
+      and: [
+        { property: '상태', status: { equals: '게시됨' } },
+        { property: '이름', title: { contains: searchHint.split(' ')[0] } },
+      ],
+    },
+    page_size: 100,
+  });
+
+  const pages = response.results.filter(
+    (page): page is PageObjectResponse => 'properties' in page,
+  );
+
+  for (const page of pages) {
+    const sw = mapPageToSwitch(page);
+    if (sw.slug === decodeURIComponent(slug)) return sw;
+  }
+
+  // 힌트 검색으로 못 찾은 경우 전체 조회 fallback
+  const allSwitches = await getSwitches(100);
+  return allSwitches.find((sw) => sw.slug === decodeURIComponent(slug)) ?? null;
 };
 
 export const searchSwitches = async (filters: SwitchFilters): Promise<KeyboardSwitch[]> => {

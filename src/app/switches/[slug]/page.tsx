@@ -1,18 +1,18 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { getSwitchById, getSwitches } from '@/lib/notion/switches';
+import { getSwitchBySlug, getSwitches } from '@/lib/notion/switches';
 import SwitchDetail from '@/components/switch/SwitchDetail';
 import CommentSection from '@/components/comment/CommentSection';
 
 export const revalidate = 300;
 
 interface PageProps {
-  params: Promise<{ id: string }>;
+  params: Promise<{ slug: string }>;
 }
 
 export const generateMetadata = async ({ params }: PageProps): Promise<Metadata> => {
-  const { id } = await params;
-  const sw = await getSwitchById(id);
+  const { slug } = await params;
+  const sw = await getSwitchBySlug(slug);
   if (!sw) return { title: 'Switch Not Found' };
 
   return {
@@ -29,15 +29,15 @@ export const generateMetadata = async ({ params }: PageProps): Promise<Metadata>
 export const generateStaticParams = async () => {
   try {
     const switches = await getSwitches(20);
-    return switches.map((sw) => ({ id: sw.id }));
+    return switches.map((sw) => ({ slug: sw.slug }));
   } catch {
     return [];
   }
 };
 
 const SwitchDetailPage = async ({ params }: PageProps) => {
-  const { id } = await params;
-  const sw = await getSwitchById(id);
+  const { slug } = await params;
+  const sw = await getSwitchBySlug(slug);
 
   if (!sw) notFound();
 

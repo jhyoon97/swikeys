@@ -24,7 +24,7 @@ const SwitchCard = ({ sw }: { sw: KeyboardSwitch }) => {
         : t('switch.hallEffect');
 
   return (
-    <Link href={`/switches/${sw.id}`}>
+    <Link href={`/switches/${sw.slug}`}>
       <Card className="group overflow-hidden transition-shadow hover:shadow-lg cursor-pointer h-full">
         <div className="relative aspect-square bg-muted overflow-hidden">
           {sw.image ? (
