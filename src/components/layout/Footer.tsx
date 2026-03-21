@@ -16,7 +16,7 @@ const Footer = () => {
           </div>
           <p className="text-sm text-muted-foreground">{t('footer.description')}</p>
           <p className="text-xs text-muted-foreground/60">
-            &copy; {new Date().getFullYear()} SwiKeys. All rights reserved.
+            &copy; {new Date().getFullYear()} SwiKey. All rights reserved.
           </p>
         </div>
       </div>

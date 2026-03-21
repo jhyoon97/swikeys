@@ -5,7 +5,7 @@ let notionClient: Client | null = null;
 export const getNotionClient = (): Client => {
   if (!notionClient) {
     notionClient = new Client({
-      auth: process.env.NOTION_TOKEN,
+      auth: process.env.NOTION_AUTH_KEY,
     });
   }
   return notionClient;

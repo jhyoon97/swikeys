@@ -16,10 +16,10 @@ export const generateMetadata = async ({ params }: PageProps): Promise<Metadata>
   if (!sw) return { title: 'Switch Not Found' };
 
   return {
-    title: `${sw.name} - SwiKeys`,
+    title: `${sw.name} - SwiKey`,
     description: `${sw.name} (${sw.type}) - ${sw.manufacturer ?? ''} | 키보드 스위치 상세 정보`,
     openGraph: {
-      title: `${sw.name} - SwiKeys`,
+      title: `${sw.name} - SwiKey`,
       description: `${sw.name} 키보드 스위치 상세 정보`,
       images: sw.image ? [sw.image] : undefined,
     },

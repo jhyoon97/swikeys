@@ -23,7 +23,7 @@ const Header = () => {
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4">
         <Link href="/" className="flex items-center gap-2 font-bold text-xl text-primary">
           <Keyboard className="h-6 w-6" />
-          SwiKeys
+          SwiKey
         </Link>
 
         <nav className="hidden md:flex items-center gap-6">
