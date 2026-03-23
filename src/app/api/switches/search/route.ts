@@ -14,6 +14,10 @@ export const GET = async (request: NextRequest) => {
       mountPins: searchParams.get('mountPins')
         ? (Number(searchParams.get('mountPins')) as MountPins)
         : undefined,
+      silent:
+        searchParams.get('silent') !== null
+          ? searchParams.get('silent') === 'true'
+          : undefined,
       factoryLubed:
         searchParams.get('factoryLubed') !== null
           ? searchParams.get('factoryLubed') === 'true'

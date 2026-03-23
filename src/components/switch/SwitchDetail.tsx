@@ -34,6 +34,10 @@ const SwitchDetail = ({ sw }: { sw: KeyboardSwitch }) => {
         : t('switch.pinNone');
 
   const specs = [
+    {
+      label: t('switch.silent'),
+      value: sw.silent ? t('switch.yes') : t('switch.no'),
+    },
     { label: t('switch.manufacturer'), value: sw.manufacturer },
     { label: t('switch.upperHousing'), value: sw.upperHousingMaterial },
     { label: t('switch.lowerHousing'), value: sw.lowerHousingMaterial },

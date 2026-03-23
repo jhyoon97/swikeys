@@ -31,6 +31,7 @@ export const useSearchSwitches = (filters: SwitchFilters) => {
   if (filters.type) params.set('type', filters.type);
   if (filters.manufacturer) params.set('manufacturer', filters.manufacturer);
   if (filters.mountPins !== undefined) params.set('mountPins', String(filters.mountPins));
+  if (filters.silent !== undefined) params.set('silent', String(filters.silent));
   if (filters.factoryLubed !== undefined) params.set('factoryLubed', String(filters.factoryLubed));
   if (filters.actuationMin !== undefined) params.set('actuationMin', String(filters.actuationMin));
   if (filters.actuationMax !== undefined) params.set('actuationMax', String(filters.actuationMax));

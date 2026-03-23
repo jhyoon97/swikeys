@@ -36,6 +36,7 @@ user_invocable: true
 | 제조사 | 제조사 | rich_text |
 | 콜라보업체 | 콜라보업체 | rich_text |
 | 스위치타입 | 스위치타입 | select |
+| 저소음 | 저소음 | checkbox |
 | 상부하우징재질 | 상부하우징재질 | rich_text |
 | 하부하우징재질 | 하부하우징재질 | rich_text |
 | 스템재질 | 스템재질 | rich_text |

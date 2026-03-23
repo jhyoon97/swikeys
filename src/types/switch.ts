@@ -14,6 +14,7 @@ export interface KeyboardSwitch {
   upperHousingMaterial?: string;
   lowerHousingMaterial?: string;
   stemMaterial?: string;
+  silent: boolean;
   factoryLubed: boolean;
   springLength?: number;
   mountPins: MountPins;
@@ -47,6 +48,7 @@ export interface SwitchFilters {
   type?: SwitchType;
   manufacturer?: string;
   mountPins?: MountPins;
+  silent?: boolean;
   factoryLubed?: boolean;
   actuationMin?: number;
   actuationMax?: number;
@@ -63,6 +65,7 @@ export interface SubmitSwitchData {
   upperHousingMaterial?: string;
   lowerHousingMaterial?: string;
   stemMaterial?: string;
+  silent?: boolean;
   factoryLubed?: boolean;
   springLength?: number;
   mountPins?: MountPins;

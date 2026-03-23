@@ -1,11 +1,9 @@
 'use client';
 
-import { useCallback } from 'react';
-import { useRouter, useSearchParams } from 'next/navigation';
+import { useState } from 'react';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { Label } from '@/components/ui/label';
-import { Checkbox } from '@/components/ui/checkbox';
 import { Slider } from '@/components/ui/slider';
 import { Separator } from '@/components/ui/separator';
 import { useTranslation } from '@/i18n/useTranslation';
@@ -13,7 +11,8 @@ import type { SwitchType, MountPins, SwitchFilters } from '@/types/switch';
 
 interface SwitchFilterProps {
   filters: SwitchFilters;
-  onFilterChange: (filters: SwitchFilters) => void;
+  onSubmit: (filters: SwitchFilters) => void;
+  onReset: () => void;
   manufacturers?: string[];
 }
 
@@ -29,44 +28,21 @@ const mountPinOptions: { value: MountPins; labelKey: string }[] = [
   { value: 0, labelKey: 'switch.pinNone' },
 ];
 
-const SwitchFilter = ({ filters, onFilterChange, manufacturers = [] }: SwitchFilterProps) => {
+const SwitchFilter = ({ filters: appliedFilters, onSubmit, onReset, manufacturers = [] }: SwitchFilterProps) => {
   const { t } = useTranslation();
-  const router = useRouter();
-  const searchParams = useSearchParams();
-
-  const updateUrl = useCallback(
-    (newFilters: SwitchFilters) => {
-      const params = new URLSearchParams();
-      if (newFilters.query) params.set('q', newFilters.query);
-      if (newFilters.type) params.set('type', newFilters.type);
-      if (newFilters.manufacturer) params.set('manufacturer', newFilters.manufacturer);
-      if (newFilters.mountPins !== undefined) params.set('mountPins', String(newFilters.mountPins));
-      if (newFilters.factoryLubed !== undefined)
-        params.set('factoryLubed', String(newFilters.factoryLubed));
-      if (newFilters.actuationMin !== undefined)
-        params.set('actuationMin', String(newFilters.actuationMin));
-      if (newFilters.actuationMax !== undefined)
-        params.set('actuationMax', String(newFilters.actuationMax));
-      if (newFilters.travelMin !== undefined)
-        params.set('travelMin', String(newFilters.travelMin));
-      if (newFilters.travelMax !== undefined)
-        params.set('travelMax', String(newFilters.travelMax));
-      const qs = params.toString();
-      router.push(qs ? `/switches?${qs}` : '/switches', { scroll: false });
-    },
-    [router],
-  );
+  const [draft, setDraft] = useState<SwitchFilters>(appliedFilters);
 
   const update = (partial: Partial<SwitchFilters>) => {
-    const newFilters = { ...filters, ...partial };
-    onFilterChange(newFilters);
-    updateUrl(newFilters);
+    setDraft((prev) => ({ ...prev, ...partial }));
   };
 
-  const reset = () => {
-    const empty: SwitchFilters = {};
-    onFilterChange(empty);
-    router.push('/switches', { scroll: false });
+  const handleSubmit = () => {
+    onSubmit(draft);
+  };
+
+  const handleReset = () => {
+    setDraft({});
+    onReset();
   };
 
   return (
@@ -75,7 +51,7 @@ const SwitchFilter = ({ filters, onFilterChange, manufacturers = [] }: SwitchFil
         <Label className="text-sm font-medium mb-2 block">{t('common.search')}</Label>
         <Input
           placeholder={t('hero.searchPlaceholder')}
-          value={filters.query ?? ''}
+          value={draft.query ?? ''}
           onChange={(e) => update({ query: e.target.value || undefined })}
         />
       </div>
@@ -87,7 +63,7 @@ const SwitchFilter = ({ filters, onFilterChange, manufacturers = [] }: SwitchFil
         <div className="space-y-2">
           <button
             type="button"
-            className={`block text-sm w-full text-left px-2 py-1 rounded ${!filters.type ? 'bg-primary text-primary-foreground' : 'hover:bg-muted'}`}
+            className={`block text-sm w-full text-left px-2 py-1 rounded ${!draft.type ? 'bg-primary text-primary-foreground' : 'hover:bg-muted'}`}
             onClick={() => update({ type: undefined })}
           >
             {t('switch.all')}
@@ -96,7 +72,7 @@ const SwitchFilter = ({ filters, onFilterChange, manufacturers = [] }: SwitchFil
             <button
               key={st.value}
               type="button"
-              className={`block text-sm w-full text-left px-2 py-1 rounded ${filters.type === st.value ? 'bg-primary text-primary-foreground' : 'hover:bg-muted'}`}
+              className={`block text-sm w-full text-left px-2 py-1 rounded ${draft.type === st.value ? 'bg-primary text-primary-foreground' : 'hover:bg-muted'}`}
               onClick={() => update({ type: st.value })}
             >
               {t(st.labelKey)}
@@ -113,7 +89,7 @@ const SwitchFilter = ({ filters, onFilterChange, manufacturers = [] }: SwitchFil
           <div className="space-y-2 max-h-48 overflow-y-auto">
             <button
               type="button"
-              className={`block text-sm w-full text-left px-2 py-1 rounded ${!filters.manufacturer ? 'bg-primary text-primary-foreground' : 'hover:bg-muted'}`}
+              className={`block text-sm w-full text-left px-2 py-1 rounded ${!draft.manufacturer ? 'bg-primary text-primary-foreground' : 'hover:bg-muted'}`}
               onClick={() => update({ manufacturer: undefined })}
             >
               {t('switch.all')}
@@ -122,7 +98,7 @@ const SwitchFilter = ({ filters, onFilterChange, manufacturers = [] }: SwitchFil
               <button
                 key={m}
                 type="button"
-                className={`block text-sm w-full text-left px-2 py-1 rounded ${filters.manufacturer === m ? 'bg-primary text-primary-foreground' : 'hover:bg-muted'}`}
+                className={`block text-sm w-full text-left px-2 py-1 rounded ${draft.manufacturer === m ? 'bg-primary text-primary-foreground' : 'hover:bg-muted'}`}
                 onClick={() => update({ manufacturer: m })}
               >
                 {m}
@@ -139,7 +115,7 @@ const SwitchFilter = ({ filters, onFilterChange, manufacturers = [] }: SwitchFil
         <div className="space-y-2">
           <button
             type="button"
-            className={`block text-sm w-full text-left px-2 py-1 rounded ${filters.mountPins === undefined ? 'bg-primary text-primary-foreground' : 'hover:bg-muted'}`}
+            className={`block text-sm w-full text-left px-2 py-1 rounded ${draft.mountPins === undefined ? 'bg-primary text-primary-foreground' : 'hover:bg-muted'}`}
             onClick={() => update({ mountPins: undefined })}
           >
             {t('switch.all')}
@@ -148,10 +124,32 @@ const SwitchFilter = ({ filters, onFilterChange, manufacturers = [] }: SwitchFil
             <button
               key={opt.value}
               type="button"
-              className={`block text-sm w-full text-left px-2 py-1 rounded ${filters.mountPins === opt.value ? 'bg-primary text-primary-foreground' : 'hover:bg-muted'}`}
+              className={`block text-sm w-full text-left px-2 py-1 rounded ${draft.mountPins === opt.value ? 'bg-primary text-primary-foreground' : 'hover:bg-muted'}`}
               onClick={() => update({ mountPins: opt.value })}
             >
               {t(opt.labelKey)}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      <Separator />
+
+      <div>
+        <Label className="text-sm font-medium mb-3 block">{t('filter.silent')}</Label>
+        <div className="space-y-2">
+          {[
+            { value: undefined, label: t('switch.all') },
+            { value: true, label: t('switch.yes') },
+            { value: false, label: t('switch.no') },
+          ].map((opt, i) => (
+            <button
+              key={i}
+              type="button"
+              className={`block text-sm w-full text-left px-2 py-1 rounded ${draft.silent === opt.value ? 'bg-primary text-primary-foreground' : 'hover:bg-muted'}`}
+              onClick={() => update({ silent: opt.value })}
+            >
+              {opt.label}
             </button>
           ))}
         </div>
@@ -170,7 +168,7 @@ const SwitchFilter = ({ filters, onFilterChange, manufacturers = [] }: SwitchFil
             <button
               key={i}
               type="button"
-              className={`block text-sm w-full text-left px-2 py-1 rounded ${filters.factoryLubed === opt.value ? 'bg-primary text-primary-foreground' : 'hover:bg-muted'}`}
+              className={`block text-sm w-full text-left px-2 py-1 rounded ${draft.factoryLubed === opt.value ? 'bg-primary text-primary-foreground' : 'hover:bg-muted'}`}
               onClick={() => update({ factoryLubed: opt.value })}
             >
               {opt.label}
@@ -183,15 +181,15 @@ const SwitchFilter = ({ filters, onFilterChange, manufacturers = [] }: SwitchFil
 
       <div>
         <Label className="text-sm font-medium mb-3 block">
-          {t('filter.actuationForceRange')} ({filters.actuationMin ?? 0}~
-          {filters.actuationMax ?? 100}
+          {t('filter.actuationForceRange')} ({draft.actuationMin ?? 0}~
+          {draft.actuationMax ?? 100}
           {t('switch.g')})
         </Label>
         <Slider
           min={0}
           max={100}
           step={5}
-          value={[filters.actuationMin ?? 0, filters.actuationMax ?? 100]}
+          value={[draft.actuationMin ?? 0, draft.actuationMax ?? 100]}
           onValueChange={(value) => {
             const v = value as number[];
             update({
@@ -204,14 +202,14 @@ const SwitchFilter = ({ filters, onFilterChange, manufacturers = [] }: SwitchFil
 
       <div>
         <Label className="text-sm font-medium mb-3 block">
-          {t('filter.travelRange')} ({filters.travelMin ?? 0}~{filters.travelMax ?? 5}
+          {t('filter.travelRange')} ({draft.travelMin ?? 0}~{draft.travelMax ?? 5}
           {t('switch.mm')})
         </Label>
         <Slider
           min={0}
           max={5}
           step={0.1}
-          value={[filters.travelMin ?? 0, filters.travelMax ?? 5]}
+          value={[draft.travelMin ?? 0, draft.travelMax ?? 5]}
           onValueChange={(value) => {
             const v = value as number[];
             update({
@@ -222,9 +220,14 @@ const SwitchFilter = ({ filters, onFilterChange, manufacturers = [] }: SwitchFil
         />
       </div>
 
-      <Button variant="outline" className="w-full" onClick={reset}>
-        {t('filter.reset')}
-      </Button>
+      <div className="flex gap-2">
+        <Button className="flex-1" onClick={handleSubmit}>
+          {t('common.search')}
+        </Button>
+        <Button variant="outline" className="flex-1" onClick={handleReset}>
+          {t('filter.reset')}
+        </Button>
+      </div>
     </div>
   );
 };

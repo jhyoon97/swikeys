@@ -1,7 +1,7 @@
 'use client';
 
-import { useState, useEffect, Suspense } from 'react';
-import { useSearchParams } from 'next/navigation';
+import { useState, useCallback, Suspense } from 'react';
+import { useRouter, useSearchParams } from 'next/navigation';
 import { Filter } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import SwitchFilter from '@/components/switch/SwitchFilter';
@@ -10,38 +10,74 @@ import { useSearchSwitches, useManufacturers } from '@/lib/api/queries/useSwitch
 import { useTranslation } from '@/i18n/useTranslation';
 import type { SwitchFilters, SwitchType, MountPins } from '@/types/switch';
 
+const parseFiltersFromParams = (searchParams: URLSearchParams): SwitchFilters => ({
+  query: searchParams.get('q') || undefined,
+  type: (searchParams.get('type') as SwitchType) || undefined,
+  manufacturer: searchParams.get('manufacturer') || undefined,
+  mountPins: searchParams.get('mountPins')
+    ? (Number(searchParams.get('mountPins')) as MountPins)
+    : undefined,
+  silent:
+    searchParams.get('silent') !== null
+      ? searchParams.get('silent') === 'true'
+      : undefined,
+  factoryLubed:
+    searchParams.get('factoryLubed') !== null
+      ? searchParams.get('factoryLubed') === 'true'
+      : undefined,
+  actuationMin: searchParams.get('actuationMin')
+    ? Number(searchParams.get('actuationMin'))
+    : undefined,
+  actuationMax: searchParams.get('actuationMax')
+    ? Number(searchParams.get('actuationMax'))
+    : undefined,
+  travelMin: searchParams.get('travelMin')
+    ? Number(searchParams.get('travelMin'))
+    : undefined,
+  travelMax: searchParams.get('travelMax')
+    ? Number(searchParams.get('travelMax'))
+    : undefined,
+});
+
+const filtersToParams = (filters: SwitchFilters): string => {
+  const params = new URLSearchParams();
+  if (filters.query) params.set('q', filters.query);
+  if (filters.type) params.set('type', filters.type);
+  if (filters.manufacturer) params.set('manufacturer', filters.manufacturer);
+  if (filters.mountPins !== undefined) params.set('mountPins', String(filters.mountPins));
+  if (filters.silent !== undefined) params.set('silent', String(filters.silent));
+  if (filters.factoryLubed !== undefined) params.set('factoryLubed', String(filters.factoryLubed));
+  if (filters.actuationMin !== undefined) params.set('actuationMin', String(filters.actuationMin));
+  if (filters.actuationMax !== undefined) params.set('actuationMax', String(filters.actuationMax));
+  if (filters.travelMin !== undefined) params.set('travelMin', String(filters.travelMin));
+  if (filters.travelMax !== undefined) params.set('travelMax', String(filters.travelMax));
+  return params.toString();
+};
+
 const SwitchesPageContent = () => {
   const { t } = useTranslation();
+  const router = useRouter();
   const searchParams = useSearchParams();
   const [showFilter, setShowFilter] = useState(false);
 
-  const [filters, setFilters] = useState<SwitchFilters>(() => ({
-    query: searchParams.get('q') || undefined,
-    type: (searchParams.get('type') as SwitchType) || undefined,
-    manufacturer: searchParams.get('manufacturer') || undefined,
-    mountPins: searchParams.get('mountPins')
-      ? (Number(searchParams.get('mountPins')) as MountPins)
-      : undefined,
-    factoryLubed:
-      searchParams.get('factoryLubed') !== null
-        ? searchParams.get('factoryLubed') === 'true'
-        : undefined,
-    actuationMin: searchParams.get('actuationMin')
-      ? Number(searchParams.get('actuationMin'))
-      : undefined,
-    actuationMax: searchParams.get('actuationMax')
-      ? Number(searchParams.get('actuationMax'))
-      : undefined,
-    travelMin: searchParams.get('travelMin')
-      ? Number(searchParams.get('travelMin'))
-      : undefined,
-    travelMax: searchParams.get('travelMax')
-      ? Number(searchParams.get('travelMax'))
-      : undefined,
-  }));
+  const [filters, setFilters] = useState<SwitchFilters>(() => parseFiltersFromParams(searchParams));
 
   const { data: switches, isLoading } = useSearchSwitches(filters);
   const { data: manufacturers } = useManufacturers();
+
+  const handleSubmit = useCallback(
+    (newFilters: SwitchFilters) => {
+      setFilters(newFilters);
+      const qs = filtersToParams(newFilters);
+      router.push(qs ? `/switches?${qs}` : '/switches', { scroll: false });
+    },
+    [router],
+  );
+
+  const handleReset = useCallback(() => {
+    setFilters({});
+    router.push('/switches', { scroll: false });
+  }, [router]);
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-8">
@@ -64,7 +100,12 @@ const SwitchesPageContent = () => {
         >
           <div className="sticky top-20">
             <h2 className="font-semibold mb-4">{t('filter.title')}</h2>
-            <SwitchFilter filters={filters} onFilterChange={setFilters} manufacturers={manufacturers} />
+            <SwitchFilter
+              filters={filters}
+              onSubmit={handleSubmit}
+              onReset={handleReset}
+              manufacturers={manufacturers}
+            />
           </div>
         </aside>
 

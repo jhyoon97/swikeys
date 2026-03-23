@@ -72,26 +72,27 @@ function parseMarkdownTables(content) {
     if (inTable && trimmed.startsWith('|') && trimmed.endsWith('|')) {
       const cells = trimmed.split('|').map(c => c.trim()).filter((_, i, arr) => i > 0 && i < arr.length);
 
-      if (cells.length >= 16) {
-        // 새 포맷: 이름 | 한글이름 | 제조사 | 콜라보업체 | 스위치타입 | ... | 출처
+      if (cells.length >= 17) {
+        // 새 포맷: 이름 | 한글이름 | 제조사 | 콜라보업체 | 스위치타입 | 저소음 | ... | 출처
         switches.push({
           name: cells[0],
           nameKo: cells[1],
           manufacturer: cells[2],
           collaborator: cells[3],
           type: cells[4],
-          upperHousingMaterial: cells[5],
-          lowerHousingMaterial: cells[6],
-          stemMaterial: cells[7],
-          factoryLubed: cells[8],
-          springLength: cells[9],
-          mountPins: cells[10],
-          travel: cells[11],
-          actuationPoint: cells[12],
-          actuationForce: cells[13],
-          initialForce: cells[14],
-          bottomForce: cells[15],
-          source: cells[16],
+          silent: cells[5],
+          upperHousingMaterial: cells[6],
+          lowerHousingMaterial: cells[7],
+          stemMaterial: cells[8],
+          factoryLubed: cells[9],
+          springLength: cells[10],
+          mountPins: cells[11],
+          travel: cells[12],
+          actuationPoint: cells[13],
+          actuationForce: cells[14],
+          initialForce: cells[15],
+          bottomForce: cells[16],
+          source: cells[17],
         });
       }
     }
@@ -138,6 +139,11 @@ function buildProperties(sw) {
   }
 
   props['스위치타입'] = { select: { name: parseSwitchType(sw.type) } };
+
+  const silent = parseBoolean(sw.silent);
+  if (silent !== undefined) {
+    props['저소음'] = { checkbox: silent };
+  }
 
   const upperHousing = parseString(sw.upperHousingMaterial);
   if (upperHousing) {

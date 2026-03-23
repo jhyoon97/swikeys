@@ -249,13 +249,23 @@ const SwitchSubmitForm = () => {
             </div>
           </div>
 
-          <div className="flex items-center gap-2">
-            <Checkbox
-              id="factoryLubed"
-              checked={form.factoryLubed ?? false}
-              onCheckedChange={(checked) => updateField('factoryLubed', checked === true)}
-            />
-            <Label htmlFor="factoryLubed">{t('switch.factoryLubed')}</Label>
+          <div className="flex items-center gap-4">
+            <div className="flex items-center gap-2">
+              <Checkbox
+                id="silent"
+                checked={form.silent ?? false}
+                onCheckedChange={(checked) => updateField('silent', checked === true)}
+              />
+              <Label htmlFor="silent">{t('switch.silent')}</Label>
+            </div>
+            <div className="flex items-center gap-2">
+              <Checkbox
+                id="factoryLubed"
+                checked={form.factoryLubed ?? false}
+                onCheckedChange={(checked) => updateField('factoryLubed', checked === true)}
+              />
+              <Label htmlFor="factoryLubed">{t('switch.factoryLubed')}</Label>
+            </div>
           </div>
 
           <Button type="submit" className="w-full" disabled={mutation.isPending}>

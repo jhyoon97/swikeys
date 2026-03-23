@@ -100,6 +100,13 @@ export const searchSwitches = async (filters: SwitchFilters): Promise<KeyboardSw
     });
   }
 
+  if (filters.silent !== undefined) {
+    conditions.push({
+      property: '저소음',
+      checkbox: { equals: filters.silent },
+    });
+  }
+
   if (filters.factoryLubed !== undefined) {
     conditions.push({
       property: '공장윤활',
@@ -188,6 +195,9 @@ export const submitSwitch = async (data: SubmitSwitchData): Promise<string> => {
   }
   if (data.stemMaterial) {
     properties['스템재질'] = { rich_text: [{ text: { content: data.stemMaterial } }] };
+  }
+  if (data.silent !== undefined) {
+    properties['저소음'] = { checkbox: data.silent };
   }
   if (data.factoryLubed !== undefined) {
     properties['공장윤활'] = { checkbox: data.factoryLubed };
