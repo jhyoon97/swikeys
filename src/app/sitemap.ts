@@ -2,7 +2,7 @@ import type { MetadataRoute } from 'next';
 import { getSwitches } from '@/lib/notion/switches';
 
 const sitemap = async (): Promise<MetadataRoute.Sitemap> => {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://swikey.com';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://swikeys.com';
 
   let switches: Awaited<ReturnType<typeof getSwitches>> = [];
   try {

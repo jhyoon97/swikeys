@@ -6,11 +6,11 @@ import Footer from '@/components/layout/Footer';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'SwiKey - 키보드 스위치 위키',
+  title: 'SwiKeys - 키보드 스위치 위키',
   description:
     '키보드 스위치 정보를 위키 형태로 제공하며, 사용자가 제보/댓글/타건음을 공유할 수 있는 커뮤니티 사이트',
   openGraph: {
-    title: 'SwiKey - 키보드 스위치 위키',
+    title: 'SwiKeys - 키보드 스위치 위키',
     description: '모든 키보드 스위치 정보를 한 곳에서. 검색하고, 비교하고, 공유하세요.',
     type: 'website',
   },
