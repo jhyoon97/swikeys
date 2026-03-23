@@ -10,9 +10,36 @@ user_invocable: true
 
 ## 절차
 
-1. **웹 리서치**: 해당 제조사의 스위치 정보를 웹에서 수집합니다.
-   - 공식 사이트, 리뷰 블로그, 키보드 커뮤니티 등을 참고합니다.
-   - 가능한 모든 스위치 모델을 빠짐없이 수집합니다.
+1. **웹 리서치 (다단계 수집)**: 아래 소스들을 **모두** 체크하여 최대한 빠짐없이 수집합니다. 한 소스에서만 검색하면 누락이 발생하므로, 반드시 여러 소스를 교차 확인해야 합니다.
+
+   **1단계: 스위치 데이터베이스/카탈로그 사이트** (가장 포괄적인 목록 확보)
+   - [kbd.news](https://kbd.news) — 제조사별 스위치 목록 검색
+   - [keeb-finder.com](https://keeb-finder.com) — 스위치 카탈로그 검색
+   - [theremingoat.com](https://theremingoat.com) — 스위치 리뷰 아카이브
+   - [switches.mx](https://switches.mx) — 스위치 스펙 DB (있을 경우)
+
+   **2단계: 주요 해외 리테일러** (판매 목록에서 누락분 보충)
+   - [divinikey.com](https://divinikey.com) — `{제조사}` 검색
+   - [kineticlabs.com](https://kineticlabs.com) — `{제조사}` 검색
+   - [milktooth.com](https://milktooth.com) — `{제조사}` 검색
+   - [unikeyboards.com](https://unikeyboards.com) — `{제조사}` 컬렉션 페이지
+   - [mechanicalkeyboards.com](https://mechanicalkeyboards.com) — `{제조사}` 검색
+   - [cannonkeys.com](https://cannonkeys.com) — `{제조사}` 검색
+   - [zkeebs.com](https://zkeebs.com) — `{제조사}` 검색
+
+   **3단계: 한국 리테일러** (국내 유통 제품 확인)
+   - 스웨그키, 펀키스, 폼포키, 지온웍스 등 국내 판매처 검색
+
+   **4단계: 커뮤니티/포럼** (신제품, 마이너 제품 보충)
+   - Reddit r/MechanicalKeyboards, r/switchmodders
+   - Geekhack, Deskthority
+   - DC인사이드 기계식키보드 갤러리
+
+   **5단계: 교차검증 및 누락 확인**
+   - 1~4단계에서 수집한 전체 스위치 이름 목록을 정리
+   - `"{제조사} switches"`, `"{제조사} new switch 2025"`, `"{제조사} new switch 2026"` 등으로 추가 웹 검색하여 누락 여부 최종 확인
+   - 콜라보 제품은 콜라보 파트너명으로도 검색 (예: `"Sillyworks x HMX"`, `"XL Lab HMX"`)
+   - 수집된 스위치 수가 해당 제조사 규모 대비 적다고 판단되면 추가 검색 수행
 
 2. **결과 정리**: `docs/{제조사명}-switches-research.md` 파일에 아래 포맷으로 정리합니다.
 
