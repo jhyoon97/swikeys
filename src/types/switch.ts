@@ -58,23 +58,5 @@ export interface SwitchFilters {
 
 export interface SubmitSwitchData {
   name: string;
-  nameKo?: string;
-  manufacturer?: string;
-  collaborator?: string;
-  type?: SwitchType;
-  upperHousingMaterial?: string;
-  lowerHousingMaterial?: string;
-  stemMaterial?: string;
-  silent?: boolean;
-  factoryLubed?: boolean;
-  springLength?: number;
-  mountPins?: MountPins;
-  travel?: number;
-  actuationPoint?: number;
-  actuationForce?: number;
-  initialForce?: number;
-  bottomForce?: number;
-  imageUrl?: string;
-  soundUrl?: string;
   source?: string;
 }

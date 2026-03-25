@@ -1,8 +1,7 @@
 import type { PageObjectResponse } from '@notionhq/client/build/src/api-endpoints';
 import { getNotionClient, SWITCHES_DB_ID } from './client';
 import { mapPageToSwitch } from './types';
-import type { KeyboardSwitch, SwitchFilters, SubmitSwitchData } from '@/types/switch';
-import { nameToSlug } from '@/lib/utils';
+import type { KeyboardSwitch, SwitchFilters } from '@/types/switch';
 
 export const getSwitches = async (pageSize = 50): Promise<KeyboardSwitch[]> => {
   const notion = getNotionClient();
@@ -166,80 +165,3 @@ export const getManufacturers = async (): Promise<string[]> => {
   return Array.from(manufacturers).sort();
 };
 
-export const submitSwitch = async (data: SubmitSwitchData): Promise<string> => {
-  const notion = getNotionClient();
-
-  const properties: Record<string, unknown> = {
-    '이름': { title: [{ text: { content: data.name } }] },
-    '상태': { status: { name: '제보(대기중)' } },
-    'slug': { rich_text: [{ text: { content: nameToSlug(data.name) } }] },
-  };
-
-  if (data.nameKo) {
-    properties['한글이름'] = { rich_text: [{ text: { content: data.nameKo } }] };
-  }
-  if (data.manufacturer) {
-    properties['제조사'] = { rich_text: [{ text: { content: data.manufacturer } }] };
-  }
-  if (data.collaborator) {
-    properties['콜라보업체'] = { rich_text: [{ text: { content: data.collaborator } }] };
-  }
-  if (data.type) {
-    properties['스위치타입'] = { select: { name: data.type } };
-  }
-  if (data.upperHousingMaterial) {
-    properties['상부하우징재질'] = { rich_text: [{ text: { content: data.upperHousingMaterial } }] };
-  }
-  if (data.lowerHousingMaterial) {
-    properties['하부하우징재질'] = { rich_text: [{ text: { content: data.lowerHousingMaterial } }] };
-  }
-  if (data.stemMaterial) {
-    properties['스템재질'] = { rich_text: [{ text: { content: data.stemMaterial } }] };
-  }
-  if (data.silent !== undefined) {
-    properties['저소음'] = { checkbox: data.silent };
-  }
-  if (data.factoryLubed !== undefined) {
-    properties['공장윤활'] = { checkbox: data.factoryLubed };
-  }
-  if (data.springLength !== undefined) {
-    properties['스프링길이'] = { number: data.springLength };
-  }
-  if (data.mountPins !== undefined) {
-    const pinValue = data.mountPins === 0 ? '없음' : String(data.mountPins);
-    properties['마운트핀'] = { select: { name: pinValue } };
-  }
-  if (data.travel !== undefined) {
-    properties['트래블'] = { number: data.travel };
-  }
-  if (data.actuationPoint !== undefined) {
-    properties['입력지점'] = { number: data.actuationPoint };
-  }
-  if (data.actuationForce !== undefined) {
-    properties['입력압'] = { number: data.actuationForce };
-  }
-  if (data.initialForce !== undefined) {
-    properties['초기압'] = { number: data.initialForce };
-  }
-  if (data.bottomForce !== undefined) {
-    properties['바닥압'] = { number: data.bottomForce };
-  }
-  if (data.imageUrl) {
-    properties['이미지'] = {
-      files: [{ type: 'external', name: 'switch-image', external: { url: data.imageUrl } }],
-    };
-  }
-  if (data.soundUrl) {
-    properties['타건음URL'] = { url: data.soundUrl };
-  }
-  if (data.source) {
-    properties['출처'] = { url: data.source };
-  }
-
-  const page = await notion.pages.create({
-    parent: { database_id: SWITCHES_DB_ID },
-    properties: properties as never,
-  });
-
-  return page.id;
-};

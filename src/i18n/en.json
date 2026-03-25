@@ -67,11 +67,12 @@
     "title": "Submit a Switch",
     "description": "Share switch info you know. It will be published after admin review.",
     "switchName": "Switch Name",
-    "switchNameKo": "Switch Name (Korean)",
     "switchNameRequired": "Switch name is required.",
+    "source": "Source",
+    "sourcePlaceholder": "URL or source where you found this switch",
     "submitButton": "Submit",
     "submitting": "Submitting...",
-    "success": "Your submission has been received. It will be published after review.",
+    "success": "Your submission has been received. Thank you!",
     "error": "An error occurred. Please try again."
   },
   "comment": {

@@ -1,6 +1,6 @@
 import type { NextRequest } from 'next/server';
 import { NextResponse } from 'next/server';
-import { submitSwitch } from '@/lib/notion/switches';
+import { submitReport } from '@/lib/notion/reports';
 import type { SubmitSwitchData } from '@/types/switch';
 
 export const POST = async (request: NextRequest) => {
@@ -11,10 +11,10 @@ export const POST = async (request: NextRequest) => {
       return NextResponse.json({ error: 'Switch name is required' }, { status: 400 });
     }
 
-    const pageId = await submitSwitch(data);
+    const pageId = await submitReport(data);
     return NextResponse.json({ id: pageId, success: true });
   } catch (error) {
-    console.error('Failed to submit switch:', error);
-    return NextResponse.json({ error: 'Failed to submit switch' }, { status: 500 });
+    console.error('Failed to submit report:', error);
+    return NextResponse.json({ error: 'Failed to submit report' }, { status: 500 });
   }
 };
