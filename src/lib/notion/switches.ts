@@ -60,7 +60,17 @@ export const getSwitchBySlug = async (slug: string): Promise<KeyboardSwitch | nu
   return allSwitches.find((sw) => sw.slug === decodedSlug) ?? null;
 };
 
-export const searchSwitches = async (filters: SwitchFilters): Promise<KeyboardSwitch[]> => {
+export interface PaginatedSwitches {
+  switches: KeyboardSwitch[];
+  nextCursor: string | null;
+  hasMore: boolean;
+}
+
+export const searchSwitches = async (
+  filters: SwitchFilters,
+  cursor?: string,
+  pageSize = 20,
+): Promise<PaginatedSwitches> => {
   const notion = getNotionClient();
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -146,22 +156,43 @@ export const searchSwitches = async (filters: SwitchFilters): Promise<KeyboardSw
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     filter: (conditions.length > 1 ? { and: conditions } : conditions[0]) as any,
     sorts: [{ timestamp: 'created_time', direction: 'descending' }],
-    page_size: 100,
+    page_size: pageSize,
+    ...(cursor ? { start_cursor: cursor } : {}),
   });
 
-  return response.results
+  const switches = response.results
     .filter((page): page is PageObjectResponse => 'properties' in page)
     .map(mapPageToSwitch);
+
+  return {
+    switches,
+    nextCursor: response.next_cursor ?? null,
+    hasMore: response.has_more,
+  };
 };
 
 export const getManufacturers = async (): Promise<string[]> => {
-  const switches = await getSwitches(100);
+  const notion = getNotionClient();
   const manufacturers = new Set<string>();
-  for (const sw of switches) {
-    if (sw.manufacturer) {
-      manufacturers.add(sw.manufacturer);
+  let cursor: string | undefined;
+
+  do {
+    const response = await notion.databases.query({
+      database_id: SWITCHES_DB_ID,
+      filter: { property: '상태', status: { equals: '게시됨' } },
+      page_size: 100,
+      ...(cursor ? { start_cursor: cursor } : {}),
+    });
+
+    for (const page of response.results) {
+      if (!('properties' in page)) continue;
+      const sw = mapPageToSwitch(page as PageObjectResponse);
+      if (sw.manufacturer) manufacturers.add(sw.manufacturer);
     }
-  }
+
+    cursor = response.has_more ? (response.next_cursor ?? undefined) : undefined;
+  } while (cursor);
+
   return Array.from(manufacturers).sort();
 };
 

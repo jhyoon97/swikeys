@@ -36,8 +36,10 @@ export const GET = async (request: NextRequest) => {
         : undefined,
     };
 
-    const switches = await searchSwitches(filters);
-    return NextResponse.json(switches);
+    const cursor = searchParams.get('cursor') || undefined;
+    const result = await searchSwitches(filters, cursor);
+
+    return NextResponse.json(result);
   } catch (error) {
     console.error('Failed to search switches:', error);
     return NextResponse.json({ error: 'Failed to search switches' }, { status: 500 });

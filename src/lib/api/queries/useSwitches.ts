@@ -1,8 +1,9 @@
 'use client';
 
-import { useQuery } from '@tanstack/react-query';
+import { useQuery, useInfiniteQuery } from '@tanstack/react-query';
 import api from '../axios';
 import type { KeyboardSwitch, SwitchFilters } from '@/types/switch';
+import type { PaginatedSwitches } from '@/lib/notion/switches';
 
 export const useSwitches = () => {
   return useQuery<KeyboardSwitch[]>({
@@ -38,13 +39,17 @@ export const useSearchSwitches = (filters: SwitchFilters) => {
   if (filters.travelMin !== undefined) params.set('travelMin', String(filters.travelMin));
   if (filters.travelMax !== undefined) params.set('travelMax', String(filters.travelMax));
 
-  const queryString = params.toString();
+  const filterString = params.toString();
 
-  return useQuery<KeyboardSwitch[]>({
-    queryKey: ['switches', 'search', queryString],
-    queryFn: async () => {
-      const { data } = await api.get(`/switches/search?${queryString}`);
+  return useInfiniteQuery<PaginatedSwitches>({
+    queryKey: ['switches', 'search', filterString],
+    queryFn: async ({ pageParam }) => {
+      const sep = filterString ? '&' : '';
+      const cursorParam = pageParam ? `${sep}cursor=${pageParam}` : '';
+      const { data } = await api.get(`/switches/search?${filterString}${cursorParam}`);
       return data;
     },
+    initialPageParam: undefined as string | undefined,
+    getNextPageParam: (lastPage) => lastPage.hasMore ? lastPage.nextCursor : undefined,
   });
 };

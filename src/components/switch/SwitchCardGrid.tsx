@@ -1,9 +1,44 @@
 'use client';
 
+import { useEffect, useRef } from 'react';
 import SwitchCard from './SwitchCard';
+import { Loader2 } from 'lucide-react';
 import type { KeyboardSwitch } from '@/types/switch';
 
-const SwitchCardGrid = ({ switches }: { switches: KeyboardSwitch[] }) => {
+interface SwitchCardGridProps {
+  switches: KeyboardSwitch[];
+  hasNextPage?: boolean;
+  isFetchingNextPage?: boolean;
+  onLoadMore?: () => void;
+}
+
+const SwitchCardGrid = ({
+  switches,
+  hasNextPage,
+  isFetchingNextPage,
+  onLoadMore,
+}: SwitchCardGridProps) => {
+  const sentinelRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (!hasNextPage || !onLoadMore) return;
+
+    const sentinel = sentinelRef.current;
+    if (!sentinel) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting && !isFetchingNextPage) {
+          onLoadMore();
+        }
+      },
+      { rootMargin: '200px' },
+    );
+
+    observer.observe(sentinel);
+    return () => observer.disconnect();
+  }, [hasNextPage, isFetchingNextPage, onLoadMore]);
+
   if (switches.length === 0) {
     return (
       <div className="text-center py-16 text-muted-foreground">
@@ -13,11 +48,19 @@ const SwitchCardGrid = ({ switches }: { switches: KeyboardSwitch[] }) => {
   }
 
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-      {switches.map((sw) => (
-        <SwitchCard key={sw.id} sw={sw} />
-      ))}
-    </div>
+    <>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        {switches.map((sw) => (
+          <SwitchCard key={sw.id} sw={sw} />
+        ))}
+      </div>
+
+      <div ref={sentinelRef} className="flex justify-center py-8">
+        {isFetchingNextPage && (
+          <Loader2 className="h-6 w-6 animate-spin text-muted-foreground" />
+        )}
+      </div>
+    </>
   );
 };
 

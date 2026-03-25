@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useCallback, Suspense } from 'react';
+import { useState, useCallback, useMemo, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { Filter } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -62,8 +62,19 @@ const SwitchesPageContent = () => {
 
   const [filters, setFilters] = useState<SwitchFilters>(() => parseFiltersFromParams(searchParams));
 
-  const { data: switches, isLoading } = useSearchSwitches(filters);
+  const {
+    data,
+    isLoading,
+    hasNextPage,
+    isFetchingNextPage,
+    fetchNextPage,
+  } = useSearchSwitches(filters);
   const { data: manufacturers } = useManufacturers();
+
+  const switches = useMemo(
+    () => data?.pages.flatMap((page) => page.switches) ?? [],
+    [data],
+  );
 
   const handleSubmit = useCallback(
     (newFilters: SwitchFilters) => {
@@ -113,7 +124,12 @@ const SwitchesPageContent = () => {
           {isLoading ? (
             <div className="text-center py-16 text-muted-foreground">{t('common.loading')}</div>
           ) : (
-            <SwitchCardGrid switches={switches ?? []} />
+            <SwitchCardGrid
+              switches={switches}
+              hasNextPage={hasNextPage}
+              isFetchingNextPage={isFetchingNextPage}
+              onLoadMore={() => fetchNextPage()}
+            />
           )}
         </div>
       </div>
