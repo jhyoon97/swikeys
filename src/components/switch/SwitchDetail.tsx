@@ -6,24 +6,13 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Separator } from '@/components/ui/separator';
 import { useTranslation } from '@/i18n/useTranslation';
 import SoundPlayer from '@/components/sound/SoundPlayer';
+import { switchTypeColor, switchTypeLabelKey } from '@/lib/utils';
 import type { KeyboardSwitch } from '@/types/switch';
-
-const typeColorMap = {
-  '리니어': 'bg-[var(--color-switch-linear)] text-white',
-  '택타일': 'bg-[var(--color-switch-tactile)] text-white',
-  'hall effect': 'bg-[var(--color-switch-hall)] text-white',
-} as const;
 
 const SwitchDetail = ({ sw }: { sw: KeyboardSwitch }) => {
   const { t, locale } = useTranslation();
   const displayName = locale === 'ko' && sw.nameKo ? sw.nameKo : sw.name;
-
-  const typeLabel =
-    sw.type === '리니어'
-      ? t('switch.linear')
-      : sw.type === '택타일'
-        ? t('switch.tactile')
-        : t('switch.hallEffect');
+  const typeLabel = t(switchTypeLabelKey[sw.type]);
 
   const na = t('common.noInfo');
 
@@ -106,7 +95,7 @@ const SwitchDetail = ({ sw }: { sw: KeyboardSwitch }) => {
           <div className="mb-4">
             <div className="flex items-center gap-3">
               <h1 className="text-3xl font-bold">{displayName}</h1>
-              <Badge className={typeColorMap[sw.type]}>{typeLabel}</Badge>
+              <Badge className={switchTypeColor[sw.type]}>{typeLabel}</Badge>
             </div>
           </div>
 

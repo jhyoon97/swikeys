@@ -88,6 +88,7 @@ export const mapPageToSwitch = (page: PageObjectResponse): KeyboardSwitch => {
   const typeRaw = getSelect(props['스위치타입']);
   let type: SwitchType = '리니어';
   if (typeRaw === '택타일') type = '택타일';
+  else if (typeRaw === '클릭키') type = '클릭키';
   else if (typeRaw === 'hall effect') type = 'hall effect';
 
   const name = getTitle(props['이름']);

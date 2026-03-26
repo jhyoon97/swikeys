@@ -92,5 +92,5 @@
 
 | 이름 | 한글이름 | 제조사 | 콜라보업체 | 스위치타입 | 저소음 | 상부하우징재질 | 하부하우징재질 | 스템재질 | 공장윤활 | 스프링길이(mm) | 마운트핀 | 트래블(mm) | 입력지점(mm) | 입력압(g) | 초기압(g) | 바닥압(g) | 출처 |
 |------|----------|--------|-----------|-----------|--------|-------------|-------------|---------|---------|--------------|---------|-----------|------------|----------|----------|----------|------|
-| BSUN Blue | - | BSUN | - | 클릭 | No | - | - | - | No | - | - | 4.0 | 2.1 | 38 | - | 65 | https://switchoddities.com/products/bsun-blue |
-| BSUN Dustproof Blue | - | BSUN | - | 클릭 | No | PC | Nylon | - | No | - | - | 4.0 | - | 50 | - | 65 | https://switchoddities.com/products/bsun-dustproof-blue |
+| BSUN Blue | - | BSUN | - | 클릭키 | No | - | - | - | No | - | - | 4.0 | 2.1 | 38 | - | 65 | https://switchoddities.com/products/bsun-blue |
+| BSUN Dustproof Blue | - | BSUN | - | 클릭키 | No | PC | Nylon | - | No | - | - | 4.0 | - | 50 | - | 65 | https://switchoddities.com/products/bsun-dustproof-blue |

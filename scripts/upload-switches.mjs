@@ -38,6 +38,7 @@ function parseSwitchType(val) {
   if (!val) return '리니어';
   const v = val.trim();
   if (v.includes('택타일')) return '택타일';
+  if (v.includes('클릭키')) return '클릭키';
   if (v.includes('리니어')) return '리니어';
   if (v.includes('hall effect')) return 'hall effect';
   return '리니어';

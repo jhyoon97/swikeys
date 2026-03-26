@@ -75,5 +75,5 @@
 
 | 이름 | 한글이름 | 제조사 | 콜라보업체 | 스위치타입 | 저소음 | 상부하우징재질 | 하부하우징재질 | 스템재질 | 공장윤활 | 스프링길이(mm) | 마운트핀 | 트래블(mm) | 입력지점(mm) | 입력압(g) | 초기압(g) | 바닥압(g) | 출처 |
 |------|----------|--------|-----------|-----------|--------|-------------|-------------|---------|---------|--------------|---------|-----------|------------|----------|----------|----------|------|
-| TTC Gold Blue (Brother) | - | TTC | - | 클릭 | No | PC | Nylon | POM | Yes | - | 3 | 3.5 | 2.2 | 37 | - | - | https://keebworks.com/ttc-gold-blue/ |
-| TTC x Helix Lab Skylar | - | TTC | Helix Lab | 클릭 | No | - | - | - | Yes | - | 3 | 4.0 | 2.0 | 45 | - | 60 | https://keybumps.com/switches/ttc-x-helix-lab-skylar.html |
+| TTC Gold Blue (Brother) | - | TTC | - | 클릭키 | No | PC | Nylon | POM | Yes | - | 3 | 3.5 | 2.2 | 37 | - | - | https://keebworks.com/ttc-gold-blue/ |
+| TTC x Helix Lab Skylar | - | TTC | Helix Lab | 클릭키 | No | - | - | - | Yes | - | 3 | 4.0 | 2.0 | 45 | - | 60 | https://keybumps.com/switches/ttc-x-helix-lab-skylar.html |

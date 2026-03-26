@@ -85,7 +85,7 @@
 
 | 이름 | 한글이름 | 제조사 | 콜라보업체 | 스위치타입 | 저소음 | 상부하우징재질 | 하부하우징재질 | 스템재질 | 공장윤활 | 스프링길이(mm) | 마운트핀 | 트래블(mm) | 입력지점(mm) | 입력압(g) | 초기압(g) | 바닥압(g) | 출처 |
 |------|----------|--------|-----------|-----------|--------|-------------|-------------|---------|---------|--------------|---------|-----------|------------|----------|----------|----------|------|
-| Gateron Melodic | - | Gateron | - | 클릭 | No | PC | Nylon | POM | Yes | - | 5 | 4.0 | 2.0 | 60 | - | 72 | https://divinikey.com/products/gateron-melodic-clicky-switches |
-| Gateron Harmonic | - | Gateron | - | 클릭 | No | PC | Nylon PA66 | POM | Yes | - | 5 | 4.0 | 2.0 | 65 | - | - | https://divinikey.com/products/gateron-harmonic-clicky-switches |
-| Gateron G Pro 3.0 Blue | - | Gateron | - | 클릭 | No | PC | Nylon | POM | Yes | 15.4 | 3 | 4.0 | 2.3 | 60 | - | 75 | https://www.gateron.co/products/gateron-g-pro-3-0-switch-set |
-| Gateron Ink V2 Blue | - | Gateron | - | 클릭 | No | Ink Material | Ink Material | POM | No | - | 5 | 4.0 | 2.3 | 75 | - | 85 | https://mechanicalkeyboards.com/products/gateron-ink-blue-v2-75g-clicky-pcb-mount |
+| Gateron Melodic | - | Gateron | - | 클릭키 | No | PC | Nylon | POM | Yes | - | 5 | 4.0 | 2.0 | 60 | - | 72 | https://divinikey.com/products/gateron-melodic-clicky-switches |
+| Gateron Harmonic | - | Gateron | - | 클릭키 | No | PC | Nylon PA66 | POM | Yes | - | 5 | 4.0 | 2.0 | 65 | - | - | https://divinikey.com/products/gateron-harmonic-clicky-switches |
+| Gateron G Pro 3.0 Blue | - | Gateron | - | 클릭키 | No | PC | Nylon | POM | Yes | 15.4 | 3 | 4.0 | 2.3 | 60 | - | 75 | https://www.gateron.co/products/gateron-g-pro-3-0-switch-set |
+| Gateron Ink V2 Blue | - | Gateron | - | 클릭키 | No | Ink Material | Ink Material | POM | No | - | 5 | 4.0 | 2.3 | 75 | - | 85 | https://mechanicalkeyboards.com/products/gateron-ink-blue-v2-75g-clicky-pcb-mount |

@@ -52,6 +52,7 @@
   /* Foundation colors */
   --color-switch-linear: oklch(0.588 0.158 241.966);
   --color-switch-tactile: oklch(0.553 0.195 301.924);
+  --color-switch-clicky: oklch(0.577 0.174 29.234);
   --color-switch-hall: oklch(0.577 0.174 149.642);
 }
 

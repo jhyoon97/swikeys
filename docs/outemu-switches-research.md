@@ -76,15 +76,15 @@
 
 | 이름 | 한글이름 | 제조사 | 콜라보업체 | 스위치타입 | 저소음 | 상부하우징재질 | 하부하우징재질 | 스템재질 | 공장윤활 | 스프링길이(mm) | 마운트핀 | 트래블(mm) | 입력지점(mm) | 입력압(g) | 초기압(g) | 바닥압(g) | 출처 |
 |------|----------|--------|-----------|-----------|--------|-------------|-------------|---------|---------|--------------|---------|-----------|------------|----------|----------|----------|------|
-| Outemu Blue | - | Outemu | - | 클릭 | No | PC | Nylon | POM | Yes | - | 3 | 4.0 | 2.2 | 50 | - | 60 | https://milktooth.com/products/switches/outemu-blue |
-| Outemu Dustproof Blue | - | Outemu | - | 클릭 | No | PC | Nylon | POM | Yes | - | 3 | 4.0 | 2.2 | 60 | - | - | https://keybumps.com/switches/outemu-dustproof-blue.html |
-| Outemu Green | - | Outemu | - | 클릭 | No | PC | Nylon | POM | Yes | - | 3 | 4.0 | 2.2 | 65 | - | 80 | https://milktooth.com/products/switches/outemu-green |
-| Outemu Dustproof Green | - | Outemu | - | 클릭 | No | PC | Nylon | POM | Yes | - | 3 | 4.0 | 2.2 | 70 | - | - | https://keybumps.com/switches/outemu-dustproof-green.html |
-| Outemu Teal | - | Outemu | - | 클릭 | No | PC | Nylon | POM | No | - | 3 | 4.0 | 2.2 | 70 | - | 80 | https://keybumps.com/switch-type/outemu.html |
-| Outemu Gold | - | Outemu | - | 클릭 | No | PC | Nylon | POM | Yes | - | 3 | 4.0 | 2.2 | 45 | - | 60 | https://milktooth.com/products/outemu-gold |
-| Outemu Spring Breeze | - | Outemu | - | 클릭 | No | Nylon | Nylon | POM | Yes | - | 3 | 4.0 | 2.2 | 40 | - | 60 | https://milktooth.com/products/outemu-spring-breeze |
-| Outemu Milk Blue | - | Outemu | - | 클릭 | No | PC | Nylon | POM | Yes | - | 3 | 4.0 | 2.2 | 50 | - | 65 | https://milktooth.com/products/outemu-milk-blue |
-| Outemu Cream Blue | - | Outemu | - | 클릭 | No | Nylon | Nylon | POM | No | - | 5 | 4.0 | 2.2 | 50 | - | 65 | https://milktooth.com/products/outemu-cream-blue |
-| Outemu Blue Jade | - | Outemu | - | 클릭 | No | Nylon | Nylon | POM | Yes | - | 3 | 4.0 | 2.2 | 50 | - | 65 | https://milktooth.com/products/switches/outemu-blue-jade |
-| Outemu Phoenix 62g | - | Outemu | - | 클릭 | No | PC | PC | POM | Yes | - | 5 | 3.3 | - | - | - | 62 | https://milktooth.com/products/phoenix |
-| Outemu Phoenix 68g | - | Outemu | - | 클릭 | No | PC | PC | POM | Yes | - | 5 | 3.3 | - | - | - | 68 | https://1upkeyboards.com/shop/switches/set-packs/outemu-phoenix-clicky-switches/ |
+| Outemu Blue | - | Outemu | - | 클릭키 | No | PC | Nylon | POM | Yes | - | 3 | 4.0 | 2.2 | 50 | - | 60 | https://milktooth.com/products/switches/outemu-blue |
+| Outemu Dustproof Blue | - | Outemu | - | 클릭키 | No | PC | Nylon | POM | Yes | - | 3 | 4.0 | 2.2 | 60 | - | - | https://keybumps.com/switches/outemu-dustproof-blue.html |
+| Outemu Green | - | Outemu | - | 클릭키 | No | PC | Nylon | POM | Yes | - | 3 | 4.0 | 2.2 | 65 | - | 80 | https://milktooth.com/products/switches/outemu-green |
+| Outemu Dustproof Green | - | Outemu | - | 클릭키 | No | PC | Nylon | POM | Yes | - | 3 | 4.0 | 2.2 | 70 | - | - | https://keybumps.com/switches/outemu-dustproof-green.html |
+| Outemu Teal | - | Outemu | - | 클릭키 | No | PC | Nylon | POM | No | - | 3 | 4.0 | 2.2 | 70 | - | 80 | https://keybumps.com/switch-type/outemu.html |
+| Outemu Gold | - | Outemu | - | 클릭키 | No | PC | Nylon | POM | Yes | - | 3 | 4.0 | 2.2 | 45 | - | 60 | https://milktooth.com/products/outemu-gold |
+| Outemu Spring Breeze | - | Outemu | - | 클릭키 | No | Nylon | Nylon | POM | Yes | - | 3 | 4.0 | 2.2 | 40 | - | 60 | https://milktooth.com/products/outemu-spring-breeze |
+| Outemu Milk Blue | - | Outemu | - | 클릭키 | No | PC | Nylon | POM | Yes | - | 3 | 4.0 | 2.2 | 50 | - | 65 | https://milktooth.com/products/outemu-milk-blue |
+| Outemu Cream Blue | - | Outemu | - | 클릭키 | No | Nylon | Nylon | POM | No | - | 5 | 4.0 | 2.2 | 50 | - | 65 | https://milktooth.com/products/outemu-cream-blue |
+| Outemu Blue Jade | - | Outemu | - | 클릭키 | No | Nylon | Nylon | POM | Yes | - | 3 | 4.0 | 2.2 | 50 | - | 65 | https://milktooth.com/products/switches/outemu-blue-jade |
+| Outemu Phoenix 62g | - | Outemu | - | 클릭키 | No | PC | PC | POM | Yes | - | 5 | 3.3 | - | - | - | 62 | https://milktooth.com/products/phoenix |
+| Outemu Phoenix 68g | - | Outemu | - | 클릭키 | No | PC | PC | POM | Yes | - | 5 | 3.3 | - | - | - | 68 | https://1upkeyboards.com/shop/switches/set-packs/outemu-phoenix-clicky-switches/ |

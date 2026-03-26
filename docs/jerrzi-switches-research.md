@@ -56,6 +56,6 @@
 
 | 이름 | 한글이름 | 제조사 | 콜라보업체 | 스위치타입 | 저소음 | 상부하우징재질 | 하부하우징재질 | 스템재질 | 공장윤활 | 스프링길이(mm) | 마운트핀 | 트래블(mm) | 입력지점(mm) | 입력압(g) | 초기압(g) | 바닥압(g) | 출처 |
 |------|----------|--------|-----------|-----------|--------|-------------|-------------|---------|---------|--------------|---------|-----------|------------|----------|----------|----------|------|
-| Jerrzi XCJZ Lotus Stem | - | Jerrzi | XCJZ | 클릭 | No | POM | POM | POM | Yes | 16 | 5 | 4.0 | 1.9 | 45 | - | 60 | https://kprepublic.com/products/jerrzi-xcjz-lotus-stem-switch-60g-rgb-smd-click-tactile-switches-for-mechanical-keyboard-mx-stem-5pin-pre-lubed-pom |
-| LTC Jerrzi Similar Blue | - | Jerrzi | LTC | 클릭 | No | PC | PC | POM | Yes | 15.4 | 5 | 4.0 | 2.0 | 45 | - | - | https://ltcofficial.com/products/ltc-jerrzi-similar-blue-switches-for-mechanical-keyboard-diy70pcs |
-| Jerrzi MX Blue | - | Jerrzi | - | 클릭 | No | PC | PC | POM | No | 15 | 3 | 4.0 | 2.0 | - | - | - | https://kprepublic.com/products/jerrzi-switch-3pin-smd-rgb-mx-stem-switch-for-mechanical-keyboard-brown-yellow-red-black-blue |
+| Jerrzi XCJZ Lotus Stem | - | Jerrzi | XCJZ | 클릭키 | No | POM | POM | POM | Yes | 16 | 5 | 4.0 | 1.9 | 45 | - | 60 | https://kprepublic.com/products/jerrzi-xcjz-lotus-stem-switch-60g-rgb-smd-click-tactile-switches-for-mechanical-keyboard-mx-stem-5pin-pre-lubed-pom |
+| LTC Jerrzi Similar Blue | - | Jerrzi | LTC | 클릭키 | No | PC | PC | POM | Yes | 15.4 | 5 | 4.0 | 2.0 | 45 | - | - | https://ltcofficial.com/products/ltc-jerrzi-similar-blue-switches-for-mechanical-keyboard-diy70pcs |
+| Jerrzi MX Blue | - | Jerrzi | - | 클릭키 | No | PC | PC | POM | No | 15 | 3 | 4.0 | 2.0 | - | - | - | https://kprepublic.com/products/jerrzi-switch-3pin-smd-rgb-mx-stem-switch-for-mechanical-keyboard-brown-yellow-red-black-blue |

@@ -70,7 +70,7 @@
 
 | 이름 | 한글이름 | 제조사 | 콜라보업체 | 스위치타입 | 저소음 | 상부하우징재질 | 하부하우징재질 | 스템재질 | 공장윤활 | 스프링길이(mm) | 마운트핀 | 트래블(mm) | 입력지점(mm) | 입력압(g) | 초기압(g) | 바닥압(g) | 출처 |
 |------|----------|--------|-----------|-----------|--------|-------------|-------------|---------|---------|--------------|---------|-----------|------------|----------|----------|----------|------|
-| KTT Purple Click | - | KTT | - | 클릭 | No | PC | Nylon | POM | Yes | 18 | 3 | 4.0 | 1.9 | 40 | - | 55 | https://mechanicalkeyboards.com/products/ktt-purple-click-40g-clicky-plate-mount-switch |
+| KTT Purple Click | - | KTT | - | 클릭키 | No | PC | Nylon | POM | Yes | 18 | 3 | 4.0 | 1.9 | 40 | - | 55 | https://mechanicalkeyboards.com/products/ktt-purple-click-40g-clicky-plate-mount-switch |
 
 ## 마그네틱 (홀이펙트) 스위치
 

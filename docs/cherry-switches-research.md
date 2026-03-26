@@ -51,7 +51,7 @@
 
 | 이름 | 한글이름 | 제조사 | 콜라보업체 | 스위치타입 | 저소음 | 상부하우징재질 | 하부하우징재질 | 스템재질 | 공장윤활 | 스프링길이(mm) | 마운트핀 | 트래블(mm) | 입력지점(mm) | 입력압(g) | 초기압(g) | 바닥압(g) | 출처 |
 |------|----------|--------|-----------|-----------|--------|-------------|-------------|---------|---------|--------------|---------|-----------|------------|----------|----------|----------|------|
-| Cherry MX Blue | - | Cherry | - | 클릭 | No | Nylon | Nylon+GF | POM | No | - | 5 | 4.0 | 2.2 | 60 | 25 | 60 | https://keebworks.com/cherry-mx-blue/ |
-| Cherry MX Green | - | Cherry | - | 클릭 | No | Nylon | Nylon+GF | POM | No | - | 5 | 4.0 | 2.2 | 80 | - | 90 | https://www.cherry.de/en-us/product/mx-green |
-| Cherry MX White | - | Cherry | - | 클릭 | No | Nylon | Nylon+GF | POM | No | - | 5 | 4.0 | 2.0 | 80 | - | 90 | https://keybumps.com/switches/cherry-mx-white.html |
-| Cherry MX2A Blue | - | Cherry | - | 클릭 | No | Nylon | Nylon+GF | POM | No | - | 5 | 4.0 | 2.2 | 50 | 25 | - | https://www.cherry.de/en-us/product/mx2a-blue |
+| Cherry MX Blue | - | Cherry | - | 클릭키 | No | Nylon | Nylon+GF | POM | No | - | 5 | 4.0 | 2.2 | 60 | 25 | 60 | https://keebworks.com/cherry-mx-blue/ |
+| Cherry MX Green | - | Cherry | - | 클릭키 | No | Nylon | Nylon+GF | POM | No | - | 5 | 4.0 | 2.2 | 80 | - | 90 | https://www.cherry.de/en-us/product/mx-green |
+| Cherry MX White | - | Cherry | - | 클릭키 | No | Nylon | Nylon+GF | POM | No | - | 5 | 4.0 | 2.0 | 80 | - | 90 | https://keybumps.com/switches/cherry-mx-white.html |
+| Cherry MX2A Blue | - | Cherry | - | 클릭키 | No | Nylon | Nylon+GF | POM | No | - | 5 | 4.0 | 2.2 | 50 | 25 | - | https://www.cherry.de/en-us/product/mx2a-blue |
