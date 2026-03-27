@@ -10,7 +10,8 @@
     "anonymous": "Anonymous",
     "viewAll": "View All",
     "home": "Home",
-    "language": "Language"
+    "language": "Language",
+    "save": "Save"
   },
   "nav": {
     "home": "Home",
@@ -29,6 +30,7 @@
     "clicky": "Clicky",
     "hallEffect": "Hall Effect",
     "manufacturer": "Manufacturer",
+    "collaborator": "Collaborator",
     "image": "Image",
     "upperHousing": "Upper Housing Material",
     "lowerHousing": "Lower Housing Material",
@@ -95,6 +97,10 @@
     "uploading": "Uploading...",
     "fileTooLarge": "File size must not exceed 10MB.",
     "invalidFormat": "Only MP3, WAV, and OGG formats are supported."
+  },
+  "settings": {
+    "cardDisplay": "Card Display Settings",
+    "cardDisplayDescription": "Select which properties to show on cards and reorder them."
   },
   "footer": {
     "copyright": "SwiKeys - Keyboard Switch Wiki",

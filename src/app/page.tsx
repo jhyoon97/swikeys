@@ -4,6 +4,7 @@ import { getSwitches } from '@/lib/notion/switches';
 import { getTranslation } from '@/i18n/getTranslation';
 import HomeSearchBar from '@/components/switch/HomeSearchBar';
 import SwitchCardGrid from '@/components/switch/SwitchCardGrid';
+import SwitchCardSettingsModal from '@/components/switch/SwitchCardSettingsModal';
 
 export const revalidate = 300;
 
@@ -31,13 +32,16 @@ const HomePage = async () => {
       <section className="mx-auto max-w-7xl px-4 py-16">
         <div className="flex items-center justify-between mb-8">
           <h2 className="text-2xl font-bold">{t('switch.recentSwitches')}</h2>
-          <Link
-            href="/switches"
-            className="flex items-center gap-1 text-sm text-primary hover:underline"
-          >
-            {t('common.viewAll')}
-            <ArrowRight className="h-4 w-4" />
-          </Link>
+          <div className="flex items-center gap-2">
+            <SwitchCardSettingsModal />
+            <Link
+              href="/switches"
+              className="flex items-center gap-1 text-sm text-primary hover:underline"
+            >
+              {t('common.viewAll')}
+              <ArrowRight className="h-4 w-4" />
+            </Link>
+          </div>
         </div>
         <SwitchCardGrid switches={switches} />
       </section>

@@ -6,6 +6,7 @@ import { ChevronDown, ChevronUp } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import SwitchFilter from '@/components/switch/SwitchFilter';
 import SwitchCardGrid from '@/components/switch/SwitchCardGrid';
+import SwitchCardSettingsModal from '@/components/switch/SwitchCardSettingsModal';
 import { useSearchSwitches } from '@/lib/api/queries/useSwitches';
 import { useTranslation } from '@/i18n/useTranslation';
 import { MANUFACTURERS } from '@/lib/utils';
@@ -95,14 +96,17 @@ const SwitchesPageContent = () => {
     <div className="mx-auto max-w-7xl px-4 py-8">
       <div className="flex items-center justify-between mb-4">
         <h1 className="text-2xl font-bold">{t('nav.switches')}</h1>
-        <Button
-          variant="ghost"
-          size="sm"
-          onClick={() => setShowFilter(!showFilter)}
-        >
-          {t('filter.title')}
-          {showFilter ? <ChevronUp className="h-4 w-4 ml-1" /> : <ChevronDown className="h-4 w-4 ml-1" />}
-        </Button>
+        <div className="flex items-center gap-1">
+          <SwitchCardSettingsModal />
+          <Button
+            variant="ghost"
+            size="sm"
+            onClick={() => setShowFilter(!showFilter)}
+          >
+            {t('filter.title')}
+            {showFilter ? <ChevronUp className="h-4 w-4 ml-1" /> : <ChevronDown className="h-4 w-4 ml-1" />}
+          </Button>
+        </div>
       </div>
 
       {showFilter && (

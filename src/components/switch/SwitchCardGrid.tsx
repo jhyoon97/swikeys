@@ -1,9 +1,13 @@
 'use client';
 
 import { useEffect, useRef } from 'react';
-import SwitchCard from './SwitchCard';
+
 import { Loader2 } from 'lucide-react';
+
+import { useSwitchCardSettings } from '@/hooks/useSwitchCardSettings';
 import type { KeyboardSwitch } from '@/types/switch';
+
+import SwitchCard from './SwitchCard';
 
 interface SwitchCardGridProps {
   switches: KeyboardSwitch[];
@@ -19,6 +23,7 @@ const SwitchCardGrid = ({
   onLoadMore,
 }: SwitchCardGridProps) => {
   const sentinelRef = useRef<HTMLDivElement>(null);
+  const cardProperties = useSwitchCardSettings();
 
   useEffect(() => {
     if (!hasNextPage || !onLoadMore) return;
@@ -36,6 +41,7 @@ const SwitchCardGrid = ({
     );
 
     observer.observe(sentinel);
+
     return () => observer.disconnect();
   }, [hasNextPage, isFetchingNextPage, onLoadMore]);
 
@@ -51,7 +57,7 @@ const SwitchCardGrid = ({
     <>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {switches.map((sw) => (
-          <SwitchCard key={sw.id} sw={sw} />
+          <SwitchCard key={sw.id} sw={sw} properties={cardProperties} />
         ))}
       </div>
 

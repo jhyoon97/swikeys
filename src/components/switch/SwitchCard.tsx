@@ -7,11 +7,86 @@ import { Card, CardContent } from '@/components/ui/card';
 import { useTranslation } from '@/i18n/useTranslation';
 import { switchTypeColor, switchTypeLabelKey } from '@/lib/utils';
 import type { KeyboardSwitch } from '@/types/switch';
+import type { SwitchCardProperty } from '@/hooks/useSwitchCardSettings';
 
-const SwitchCard = ({ sw }: { sw: KeyboardSwitch }) => {
+function renderProperty(
+  sw: KeyboardSwitch,
+  key: string,
+  t: (k: string) => string,
+): string | null {
+  switch (key) {
+    case 'type':
+      return t(switchTypeLabelKey[sw.type]);
+    case 'manufacturer':
+      return sw.manufacturer || null;
+    case 'collaborator':
+      return sw.collaborator || null;
+    case 'upperHousingMaterial':
+      return sw.upperHousingMaterial
+        ? `${t('switch.upperHousing')}: ${sw.upperHousingMaterial}`
+        : null;
+    case 'lowerHousingMaterial':
+      return sw.lowerHousingMaterial
+        ? `${t('switch.lowerHousing')}: ${sw.lowerHousingMaterial}`
+        : null;
+    case 'stemMaterial':
+      return sw.stemMaterial
+        ? `${t('switch.stemMaterial')}: ${sw.stemMaterial}`
+        : null;
+    case 'silent':
+      return `${t('switch.silent')}: ${sw.silent ? t('switch.yes') : t('switch.no')}`;
+    case 'factoryLubed':
+      return `${t('switch.factoryLubed')}: ${sw.factoryLubed ? t('switch.yes') : t('switch.no')}`;
+    case 'springLength':
+      return sw.springLength !== undefined
+        ? `${t('switch.springLength')}: ${sw.springLength}${t('switch.mm')}`
+        : null;
+    case 'mountPins': {
+      const pinLabel =
+        sw.mountPins === 5
+          ? t('switch.pin5')
+          : sw.mountPins === 3
+            ? t('switch.pin3')
+            : t('switch.pinNone');
+      return `${t('switch.mountPins')}: ${pinLabel}`;
+    }
+    case 'travel':
+      return sw.travel !== undefined
+        ? `${t('switch.travel')}: ${sw.travel}${t('switch.mm')}`
+        : null;
+    case 'actuationPoint':
+      return sw.actuationPoint !== undefined
+        ? `${t('switch.actuationPoint')}: ${sw.actuationPoint}${t('switch.mm')}`
+        : null;
+    case 'pressure.actuation':
+      return sw.pressure.actuation !== undefined
+        ? `${t('switch.actuationForce')}: ${sw.pressure.actuation}${t('switch.g')}`
+        : null;
+    case 'pressure.initial':
+      return sw.pressure.initial !== undefined
+        ? `${t('switch.initialForce')}: ${sw.pressure.initial}${t('switch.g')}`
+        : null;
+    case 'pressure.bottom':
+      return sw.pressure.bottom !== undefined
+        ? `${t('switch.bottomForce')}: ${sw.pressure.bottom}${t('switch.g')}`
+        : null;
+    default:
+      return null;
+  }
+}
+
+interface SwitchCardProps {
+  sw: KeyboardSwitch;
+  properties?: SwitchCardProperty[];
+}
+
+const SwitchCard = ({ sw, properties }: SwitchCardProps) => {
   const { t, locale } = useTranslation();
   const displayName = locale === 'ko' && sw.nameKo ? sw.nameKo : sw.name;
-  const typeLabel = t(switchTypeLabelKey[sw.type]);
+
+  const enabledProperties = properties
+    ? properties.filter((p) => p.enabled)
+    : [];
 
   return (
     <Link href={`/switches/${sw.slug}`} prefetch={false}>
@@ -32,27 +107,28 @@ const SwitchCard = ({ sw }: { sw: KeyboardSwitch }) => {
           )}
         </div>
         <CardContent className="p-4">
-          <div className="flex items-start justify-between gap-2 mb-2">
-            <Badge className={switchTypeColor[sw.type]}>{typeLabel}</Badge>
-          </div>
-          {sw.manufacturer && (
-            <p className="text-xs text-muted-foreground mb-1">{sw.manufacturer}</p>
+          <h3 className="font-semibold text-sm line-clamp-2 mb-2">{displayName}</h3>
+          {enabledProperties.length > 0 && (
+            <div className="flex flex-wrap gap-1">
+              {enabledProperties.map((prop) => {
+                const value = renderProperty(sw, prop.key, t);
+                if (!value) return null;
+                return prop.key === 'type' ? (
+                  <Badge key={prop.key} className={switchTypeColor[sw.type]}>
+                    {value}
+                  </Badge>
+                ) : (
+                  <Badge
+                    key={prop.key}
+                    variant="secondary"
+                    className="font-normal"
+                  >
+                    {value}
+                  </Badge>
+                );
+              })}
+            </div>
           )}
-          <h3 className="font-semibold text-sm line-clamp-2 mb-1">{displayName}</h3>
-          <div className="flex gap-3 text-xs text-muted-foreground">
-            {sw.pressure.actuation !== undefined && (
-              <span>
-                {t('switch.actuationForce')}: {sw.pressure.actuation}
-                {t('switch.g')}
-              </span>
-            )}
-            {sw.travel !== undefined && (
-              <span>
-                {t('switch.travel')}: {sw.travel}
-                {t('switch.mm')}
-              </span>
-            )}
-          </div>
         </CardContent>
       </Card>
     </Link>

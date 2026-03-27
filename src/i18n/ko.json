@@ -10,7 +10,8 @@
     "anonymous": "익명",
     "viewAll": "전체 보기",
     "home": "홈",
-    "language": "언어"
+    "language": "언어",
+    "save": "저장"
   },
   "nav": {
     "home": "홈",
@@ -29,6 +30,7 @@
     "clicky": "클릭키",
     "hallEffect": "Hall Effect",
     "manufacturer": "제조사",
+    "collaborator": "협력사",
     "image": "이미지",
     "upperHousing": "상부 하우징 재질",
     "lowerHousing": "하부 하우징 재질",
@@ -95,6 +97,10 @@
     "uploading": "업로드 중...",
     "fileTooLarge": "파일 크기는 10MB를 초과할 수 없습니다.",
     "invalidFormat": "MP3, WAV, OGG 형식만 지원합니다."
+  },
+  "settings": {
+    "cardDisplay": "카드 표시 설정",
+    "cardDisplayDescription": "카드에 표시할 항목을 선택하고 순서를 변경하세요."
   },
   "footer": {
     "copyright": "SwiKeys - 키보드 스위치 위키",
