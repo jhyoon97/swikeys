@@ -36,7 +36,26 @@ user_invocable: true
    - **기본 다운로드 경로**: `C:\Users\jecgd\Downloads`
    - 사용자가 다른 경로를 지정하면 해당 경로를 사용합니다.
 
-5. **검증**: `ls -la`로 다운로드된 파일의 존재 여부와 크기를 확인합니다.
+5. **이미지 최적화**: 다운로드 완료 후 sharp(프로젝트 devDependencies에 설치됨)로 일괄 변환합니다.
+   - 포맷: **webp** (quality: 90)
+   - 최대 크기: **800x800px** (비율 유지, `fit: "inside"`, 확대 없음)
+   - 최종 파일명: `{slug}.webp`
+   - 파일 잠금 방지를 위해 `fs.readFileSync`로 버퍼를 먼저 읽은 뒤 sharp 처리:
+     ```js
+     const inputBuf = fs.readFileSync(src);
+     const outBuf = await sharp(inputBuf)
+       .resize(800, 800, { fit: "inside", withoutEnlargement: true })
+       .webp({ quality: 90 })
+       .toBuffer();
+     fs.writeFileSync(dest, outBuf);
+     ```
+
+6. **tmp 파일 정리**: 최적화 과정에서 생성된 `.tmp` 파일이 남아있을 수 있으므로 삭제합니다.
+   ```bash
+   rm "{다운로드경로}"/*.tmp 2>/dev/null
+   ```
+
+7. **검증**: `ls -la`로 다운로드된 파일의 존재 여부와 크기를 확인합니다.
 
 ## 브랜드별 CDN 패턴
 
@@ -52,6 +71,6 @@ user_invocable: true
 ## 주의사항
 
 - 하나의 스위치에 대해 **대표 이미지 1개만** 다운로드합니다.
-- 이미지 포맷은 원본 그대로 유지합니다 (webp, jpg, png 등 변환하지 않음).
+- 다운로드 후 반드시 webp 400px 최적화를 수행합니다.
 - 같은 파일명이 이미 존재하면 덮어씁니다.
 - 다운로드 완료 후 결과를 표로 정리하여 사용자에게 보고합니다.

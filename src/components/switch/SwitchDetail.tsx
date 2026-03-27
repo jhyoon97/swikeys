@@ -1,5 +1,7 @@
 'use client';
 
+import { useState } from 'react';
+
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { useTranslation } from '@/i18n/useTranslation';
@@ -7,6 +9,7 @@ import { switchTypeColor, switchTypeLabelKey } from '@/lib/utils';
 import type { KeyboardSwitch } from '@/types/switch';
 
 const SwitchDetail = ({ sw }: { sw: KeyboardSwitch }) => {
+  const [imgError, setImgError] = useState(false);
   const { t, locale } = useTranslation();
   const displayName = locale === 'ko' && sw.nameKo ? sw.nameKo : sw.name;
   const typeLabel = t(switchTypeLabelKey[sw.type]);
@@ -81,9 +84,18 @@ const SwitchDetail = ({ sw }: { sw: KeyboardSwitch }) => {
       <div className="flex flex-col md:flex-row gap-8">
         <div className="w-full md:w-80 shrink-0">
           <div className="relative aspect-square bg-muted rounded-lg overflow-hidden">
-            <div className="flex items-center justify-center h-full text-muted-foreground">
-              No Image
-            </div>
+            {!imgError ? (
+              <img // eslint-disable-line @next/next/no-img-element
+                src={`/images/switches/${sw.slug}.webp`}
+                alt={sw.name}
+                className="absolute inset-0 w-full h-full object-cover"
+                onError={() => setImgError(true)}
+              />
+            ) : (
+              <div className="flex items-center justify-center h-full text-muted-foreground">
+                No Image
+              </div>
+            )}
           </div>
         </div>
 
