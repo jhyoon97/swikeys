@@ -1,7 +1,5 @@
 'use client';
 
-import { useState } from 'react';
-
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { useTranslation } from '@/i18n/useTranslation';
@@ -9,7 +7,6 @@ import { switchTypeColor, switchTypeLabelKey } from '@/lib/utils';
 import type { KeyboardSwitch } from '@/types/switch';
 
 const SwitchDetail = ({ sw }: { sw: KeyboardSwitch }) => {
-  const [imgError, setImgError] = useState(false);
   const { t, locale } = useTranslation();
   const displayName = locale === 'ko' && sw.nameKo ? sw.nameKo : sw.name;
   const typeLabel = t(switchTypeLabelKey[sw.type]);
@@ -81,37 +78,17 @@ const SwitchDetail = ({ sw }: { sw: KeyboardSwitch }) => {
 
   return (
     <div className="space-y-8">
-      <div className="flex flex-col md:flex-row gap-8">
-        <div className="w-full md:w-80 shrink-0">
-          <div className="relative aspect-square bg-muted rounded-lg overflow-hidden">
-            {!imgError ? (
-              <img // eslint-disable-line @next/next/no-img-element
-                src={`/images/switches/${sw.slug}.webp`}
-                alt={sw.name}
-                className="absolute inset-0 w-full h-full object-cover"
-                onError={() => setImgError(true)}
-              />
-            ) : (
-              <div className="flex items-center justify-center h-full text-muted-foreground">
-                No Image
-              </div>
-            )}
+      <div>
+        <div className="mb-4">
+          <div className="flex items-center gap-3">
+            <h1 className="text-3xl font-bold">{displayName}</h1>
+            <Badge className={switchTypeColor[sw.type]}>{typeLabel}</Badge>
           </div>
         </div>
 
-        <div className="flex-1">
-          <div className="mb-4">
-            <div className="flex items-center gap-3">
-              <h1 className="text-3xl font-bold">{displayName}</h1>
-              <Badge className={switchTypeColor[sw.type]}>{typeLabel}</Badge>
-            </div>
-          </div>
-
-          {sw.manufacturer && (
-            <p className="text-muted-foreground mb-6">{sw.manufacturer}</p>
-          )}
-
-        </div>
+        {sw.manufacturer && (
+          <p className="text-muted-foreground mb-6">{sw.manufacturer}</p>
+        )}
       </div>
 
       <Card>
@@ -134,6 +111,24 @@ const SwitchDetail = ({ sw }: { sw: KeyboardSwitch }) => {
           </div>
         </CardContent>
       </Card>
+
+      {sw.source && (
+        <Card>
+          <CardHeader>
+            <CardTitle>{t('switch.source')}</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <a
+              href={sw.source}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm text-blue-500 hover:underline break-all"
+            >
+              {sw.source}
+            </a>
+          </CardContent>
+        </Card>
+      )}
     </div>
   );
 };

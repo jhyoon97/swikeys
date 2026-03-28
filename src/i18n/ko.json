@@ -37,6 +37,7 @@
     "initialForce": "초기압",
     "bottomForce": "바닥압",
     "specs": "스펙",
+    "source": "출처",
     "yes": "예",
     "no": "아니오",
     "all": "전체",

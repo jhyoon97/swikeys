@@ -1,7 +1,6 @@
 'use client';
 
 import Link from 'next/link';
-import { useState } from 'react';
 
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent } from '@/components/ui/card';
@@ -84,7 +83,6 @@ interface SwitchCardProps {
 const SwitchCard = ({ sw, properties }: SwitchCardProps) => {
   const { t, locale } = useTranslation();
   const displayName = locale === 'ko' && sw.nameKo ? sw.nameKo : sw.name;
-  const [imgError, setImgError] = useState(false);
 
   const enabledProperties = properties
     ? properties.filter((p) => p.enabled)
@@ -93,20 +91,6 @@ const SwitchCard = ({ sw, properties }: SwitchCardProps) => {
   return (
     <Link href={`/switches/${sw.slug}`} prefetch={false}>
       <Card className="group overflow-hidden transition-shadow hover:shadow-lg cursor-pointer h-full">
-        <div className="relative aspect-square bg-muted overflow-hidden">
-          {!imgError ? (
-            <img // eslint-disable-line @next/next/no-img-element
-              src={`/images/switches/${sw.slug}.webp`}
-              alt={sw.name}
-              className="absolute inset-0 w-full h-full object-cover transition-transform group-hover:scale-105"
-              onError={() => setImgError(true)}
-            />
-          ) : (
-            <div className="flex items-center justify-center h-full text-muted-foreground text-sm">
-              No Image
-            </div>
-          )}
-        </div>
         <CardContent className="p-4">
           <h3 className="font-semibold text-sm line-clamp-2 mb-2">
             {displayName}

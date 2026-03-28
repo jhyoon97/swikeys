@@ -37,6 +37,7 @@
     "initialForce": "Initial Force",
     "bottomForce": "Bottom-out Force",
     "specs": "Specs",
+    "source": "Source",
     "yes": "Yes",
     "no": "No",
     "all": "All",
