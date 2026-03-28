@@ -19,6 +19,10 @@ export const GET = async (request: NextRequest) => {
         searchParams.get('silent') !== null
           ? searchParams.get('silent') === 'true'
           : undefined,
+      lowProfile:
+        searchParams.get('lowProfile') !== null
+          ? searchParams.get('lowProfile') === 'true'
+          : undefined,
       factoryLubed:
         searchParams.get('factoryLubed') !== null
           ? searchParams.get('factoryLubed') === 'true'

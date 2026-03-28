@@ -123,6 +123,13 @@ export const searchSwitches = async (
     });
   }
 
+  if (filters.lowProfile !== undefined) {
+    conditions.push({
+      property: '로우프로파일',
+      checkbox: { equals: filters.lowProfile },
+    });
+  }
+
   if (filters.factoryLubed !== undefined) {
     conditions.push({
       property: '공장윤활',

@@ -58,6 +58,7 @@ type FilterCategory =
   | 'type'
   | 'mountPins'
   | 'silent'
+  | 'lowProfile'
   | 'factoryLubed'
   | 'manufacturer'
   | 'actuation'
@@ -93,6 +94,7 @@ const SwitchFilter = ({
     draft.manufacturer ||
     draft.mountPins !== undefined ||
     draft.silent !== undefined ||
+    draft.lowProfile !== undefined ||
     draft.factoryLubed !== undefined ||
     draft.actuationMin ||
     draft.actuationMax ||
@@ -115,6 +117,8 @@ const SwitchFilter = ({
         return draft.mountPins !== undefined;
       case 'silent':
         return draft.silent !== undefined;
+      case 'lowProfile':
+        return draft.lowProfile !== undefined;
       case 'factoryLubed':
         return draft.factoryLubed !== undefined;
       case 'manufacturer':
@@ -140,6 +144,8 @@ const SwitchFilter = ({
         return t('filter.mountPins');
       case 'silent':
         return t('filter.silent');
+      case 'lowProfile':
+        return t('filter.lowProfile');
       case 'factoryLubed':
         return t('filter.factoryLubed');
       case 'manufacturer':
@@ -161,6 +167,7 @@ const SwitchFilter = ({
     'type',
     'mountPins',
     'silent',
+    'lowProfile',
     'factoryLubed',
     ...(manufacturers.length > 0 ? (['manufacturer'] as const) : []),
     'actuation',
@@ -223,6 +230,24 @@ const SwitchFilter = ({
                 key={i}
                 selected={draft.silent === value}
                 onClick={() => update({ silent: value })}
+              >
+                {value === undefined
+                  ? t('switch.all')
+                  : value
+                    ? t('switch.yes')
+                    : t('switch.no')}
+              </Tag>
+            ))}
+          </div>
+        );
+      case 'lowProfile':
+        return (
+          <div className="flex flex-wrap gap-1.5">
+            {([undefined, true, false] as const).map((value, i) => (
+              <Tag
+                key={i}
+                selected={draft.lowProfile === value}
+                onClick={() => update({ lowProfile: value })}
               >
                 {value === undefined
                   ? t('switch.all')
@@ -500,6 +525,30 @@ const SwitchFilter = ({
                     key={i}
                     selected={draft.silent === value}
                     onClick={() => update({ silent: value })}
+                  >
+                    {value === undefined
+                      ? t('switch.all')
+                      : value
+                        ? t('switch.yes')
+                        : t('switch.no')}
+                  </Tag>
+                ))}
+              </div>
+            </td>
+          </tr>
+
+          {/* 로우프로파일 */}
+          <tr>
+            <td className="text-sm font-medium text-muted-foreground py-2 pr-4 align-top whitespace-nowrap">
+              {t('filter.lowProfile')}
+            </td>
+            <td className="py-2">
+              <div className="flex flex-wrap gap-1.5">
+                {([undefined, true, false] as const).map((value, i) => (
+                  <Tag
+                    key={i}
+                    selected={draft.lowProfile === value}
+                    onClick={() => update({ lowProfile: value })}
                   >
                     {value === undefined
                       ? t('switch.all')

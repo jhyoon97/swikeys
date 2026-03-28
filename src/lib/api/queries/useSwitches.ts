@@ -26,6 +26,8 @@ export const useSearchSwitches = (filters: SwitchFilters) => {
     params.set('mountPins', String(filters.mountPins));
   if (filters.silent !== undefined)
     params.set('silent', String(filters.silent));
+  if (filters.lowProfile !== undefined)
+    params.set('lowProfile', String(filters.lowProfile));
   if (filters.factoryLubed !== undefined)
     params.set('factoryLubed', String(filters.factoryLubed));
   if (filters.actuationMin !== undefined)

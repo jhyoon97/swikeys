@@ -14,6 +14,7 @@ export interface KeyboardSwitch {
   lowerHousingMaterial?: string;
   stemMaterial?: string;
   silent: boolean;
+  lowProfile: boolean;
   factoryLubed: boolean;
   springLength?: number;
   mountPins: MountPins;
@@ -46,6 +47,7 @@ export interface SwitchFilters {
   manufacturer?: string;
   mountPins?: MountPins;
   silent?: boolean;
+  lowProfile?: boolean;
   factoryLubed?: boolean;
   actuationMin?: number;
   actuationMax?: number;
