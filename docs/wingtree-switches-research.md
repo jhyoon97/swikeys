@@ -32,16 +32,16 @@
 
 ## 택타일 스위치
 
-| 이름 | 한글이름 | 제조사 | 콜라보업체 | 스위치타입 | 저소음 | 로우프로파일 | 상부하우징재질 | 하부하우징재질 | 스템재질 | 공장윤활 | 스프링길이(mm) | 마운트핀 | 트래블(mm) | 입력지점(mm) | 입력압(g) | 초기압(g) | 바닥압(g) | 출처 |
-|------|----------|--------|-----------|-----------|--------|----------|-------------|-------------|---------|---------|--------------|---------|-----------|------------|----------|----------|----------|------|
-| Wingtree Yuying Light Tactile | - | Wingtree | - | 택타일 | No | No | PA66 | PA66 | POM | Yes | - | 5 | 3.7 | 2.4 | 45 | - | 58 | https://unikeyboards.com/products/wingtree-yuying-light-tactile-switch-factory-lubed-10pcs |
-| Wingtree Yunie Tactile 60g | - | Wingtree | - | 택타일 | No | No | PC | PC | UPE | Yes | - | 5 | 3.2 | 2.2 | 50 | - | 60 | https://unikeyboards.com/products/wingtree-yunie-tactile-switch-factory-lubed-10pcs |
-| Wingtree Yunie Tactile 63.5g | - | Wingtree | - | 택타일 | No | No | PC | PC | UPE | Yes | - | 5 | 3.2 | 2.2 | 57 | - | 63.5 | https://unikeyboards.com/products/wingtree-yunie-tactile-switch-factory-lubed-10pcs |
-| Wingtree Qingyan | - | Wingtree | - | 택타일 | No | No | PC | PC | UPE | Yes | 21 | 5 | 3.3 | 2.4 | 38 | - | 56 | https://divinikey.com/products/wingtree-qingyan-tactile-switches |
-| Wingtree BM10 | - | Wingtree | - | 택타일 | No | No | PC | PA66 | UPE | Yes | - | 5 | - | - | - | - | - | https://unikeyboards.com/products/wingtree-bm10-tactile-switch-factory-lubed-10pcs |
-| Wingtree BM11 | - | Wingtree | - | 택타일 | No | No | PC | PC+Fiberglass | Modified UPE | Yes | 20 | 5 | 2.9 | 2.2 | 50 | - | 56 | https://divinikey.com/products/wingtree-bm-11-tactile-switches |
-| Wingtree Puer Tea 48g | - | Wingtree | - | 택타일 | No | No | Nylon+10%GF | Nylon+30%GF | POM | Yes | - | 5 | 4.0 | 2.4 | - | - | 48 | https://unikeyboards.com/products/wingtree-puer-tea-light-tactile-switch-factory-lubed-10pcs |
-| Wingtree Puer Tea 52g | - | Wingtree | - | 택타일 | No | No | Nylon+10%GF | Nylon+30%GF | POM | Yes | - | 5 | 4.0 | 2.4 | 42 | - | 52 | https://unikeyboards.com/products/wingtree-puer-tea-light-tactile-switch-factory-lubed-10pcs |
-| Wingtree Puer Tea 58g | - | Wingtree | - | 택타일 | No | No | Nylon+10%GF | Nylon+30%GF | POM | Yes | - | 5 | 4.0 | 2.4 | - | - | 58 | https://unikeyboards.com/products/wingtree-puer-tea-light-tactile-switch-factory-lubed-10pcs |
-| Wingtree x Lichicx Yamatake Silent 42g | - | Wingtree | Lichicx | 택타일 | Yes | No | PC | PA66 | POM+Silicone | Yes | - | 5 | - | - | - | - | 42 | https://unikeyboards.com/collections/wingtree |
-| Wingtree x Lichicx Yamatake Silent 53g | - | Wingtree | Lichicx | 택타일 | Yes | No | PC | PA66 | POM+Silicone | Yes | - | 5 | - | - | - | - | 53 | https://unikeyboards.com/collections/wingtree |
+| 이름 | 한글이름 | 제조사 | 콜라보업체 | 스위치타입 | 저소음 | 로우프로파일 | 상부하우징재질 | 하부하우징재질 | 스템재질 | 공장윤활 | 스프링길이(mm) | 마운트핀 | 트래블(mm) | 입력지점(mm) | 입력압(g) | 초기압(g) | 바닥압(g) | 걸림압(g) | 출처 |
+|------|----------|--------|-----------|-----------|--------|----------|-------------|-------------|---------|---------|--------------|---------|-----------|------------|----------|----------|----------|----------|------|
+| Wingtree Yuying Light Tactile | - | Wingtree | - | 택타일 | No | No | PA66 | PA66 | POM | Yes | - | 5 | 3.7 | 2.4 | 45 | - | 58 | - | https://unikeyboards.com/products/wingtree-yuying-light-tactile-switch-factory-lubed-10pcs |
+| Wingtree Yunie Tactile 60g | - | Wingtree | - | 택타일 | No | No | PC | PC | UPE | Yes | - | 5 | 3.2 | 2.2 | 50 | - | 60 | - | https://unikeyboards.com/products/wingtree-yunie-tactile-switch-factory-lubed-10pcs |
+| Wingtree Yunie Tactile 63.5g | - | Wingtree | - | 택타일 | No | No | PC | PC | UPE | Yes | - | 5 | 3.2 | 2.2 | 57 | - | 63.5 | - | https://unikeyboards.com/products/wingtree-yunie-tactile-switch-factory-lubed-10pcs |
+| Wingtree Qingyan | - | Wingtree | - | 택타일 | No | No | PC | PC | UPE | Yes | 21 | 5 | 3.3 | 2.4 | 38 | - | 56 | - | https://divinikey.com/products/wingtree-qingyan-tactile-switches |
+| Wingtree BM10 | - | Wingtree | - | 택타일 | No | No | PC | PA66 | UPE | Yes | - | 5 | - | - | - | - | - | - | https://unikeyboards.com/products/wingtree-bm10-tactile-switch-factory-lubed-10pcs |
+| Wingtree BM11 | - | Wingtree | - | 택타일 | No | No | PC | PC+Fiberglass | Modified UPE | Yes | 20 | 5 | 2.9 | 2.2 | 50 | - | 56 | - | https://divinikey.com/products/wingtree-bm-11-tactile-switches |
+| Wingtree Puer Tea 48g | - | Wingtree | - | 택타일 | No | No | Nylon+10%GF | Nylon+30%GF | POM | Yes | - | 5 | 4.0 | 2.4 | - | - | 48 | - | https://unikeyboards.com/products/wingtree-puer-tea-light-tactile-switch-factory-lubed-10pcs |
+| Wingtree Puer Tea 52g | - | Wingtree | - | 택타일 | No | No | Nylon+10%GF | Nylon+30%GF | POM | Yes | - | 5 | 4.0 | 2.4 | 42 | - | 52 | - | https://unikeyboards.com/products/wingtree-puer-tea-light-tactile-switch-factory-lubed-10pcs |
+| Wingtree Puer Tea 58g | - | Wingtree | - | 택타일 | No | No | Nylon+10%GF | Nylon+30%GF | POM | Yes | - | 5 | 4.0 | 2.4 | - | - | 58 | - | https://unikeyboards.com/products/wingtree-puer-tea-light-tactile-switch-factory-lubed-10pcs |
+| Wingtree x Lichicx Yamatake Silent 42g | - | Wingtree | Lichicx | 택타일 | Yes | No | PC | PA66 | POM+Silicone | Yes | - | 5 | - | - | - | - | 42 | - | https://unikeyboards.com/collections/wingtree |
+| Wingtree x Lichicx Yamatake Silent 53g | - | Wingtree | Lichicx | 택타일 | Yes | No | PC | PA66 | POM+Silicone | Yes | - | 5 | - | - | - | - | 53 | - | https://unikeyboards.com/collections/wingtree |

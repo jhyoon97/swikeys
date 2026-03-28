@@ -83,33 +83,33 @@
 
 ## 택타일 스위치
 
-| 이름 | 한글이름 | 제조사 | 콜라보업체 | 스위치타입 | 저소음 | 로우프로파일 | 상부하우징재질 | 하부하우징재질 | 스템재질 | 공장윤활 | 스프링길이(mm) | 마운트핀 | 트래블(mm) | 입력지점(mm) | 입력압(g) | 초기압(g) | 바닥압(g) | 출처 |
-|------|----------|--------|-----------|-----------|--------|----------|-------------|-------------|---------|---------|--------------|---------|-----------|------------|----------|----------|----------|------|
-| Jwick T1 (Black) | - | JWK | - | 택타일 | No | No | Nylon PA66 | Nylon PA66 | POM | Yes | - | 5 | 4.0 | 2.0 | 55 | - | 67 | https://kineticlabs.com/switches/jwk/jwick-t1-tactile-switches |
-| Jwick Taro | - | JWK | - | 택타일 | No | No | PC | Nylon | POM (Box) | Yes | - | 5 | 3.7 | 2.0 | - | - | 67 | https://kineticlabs.com/switches/jwk/jwick-taro-tactile |
-| JWK Ice Jade | - | JWK | - | 택타일 | No | No | PC | Polymer Nylon | POM | Yes | - | 5 | 3.8 | 2.0 | 48 | - | 62 | https://kprepublic.com/products/jwick-ice-jade-pre-advanced-tactile-switch-5pin-rgb-smd-62g-mx-switch-for-mechanical-keyboard-50m-pom-nylon-long-spring-blue |
-| JWK Okomochi | - | JWK | dailyclack | 택타일 | No | No | PC | Nylon | POM | No | - | 5 | 3.9 | 2.2 | 35 | - | 67 | https://dailyclack.com/products/okomochi-pinoko-switches |
-| Penguin V2 | - | JWK | Kinetic Labs | 택타일 | No | No | UHMWPE + PC Blend | Nylon | POM | Yes | - | 5 | 4.0 | 2.0 | - | - | 63.5 | https://kineticlabs.com/switches/kinetic/penguins |
-| Durock T1 67g | - | JWK | Durock | 택타일 | No | No | PC | Nylon PA | POM | Yes | - | 5 | 4.0 | 2.0 | - | - | 67 | https://divinikey.com/products/durock-t1-tactile-switch |
-| Durock Koala 62g | - | JWK | Durock | 택타일 | No | No | PC | Nylon | POM | Yes | - | 5 | 4.0 | 2.0 | - | - | 62 | https://divinikey.com/products/koala-tactile-switches |
-| Durock Koala 67g | - | JWK | Durock | 택타일 | No | No | PC | Nylon | POM | Yes | - | 5 | 4.0 | 2.0 | 52 | - | 67 | https://divinikey.com/products/koala-tactile-switches |
-| Durock Light Tactile | - | JWK | Durock | 택타일 | No | No | PC | Nylon PA | POM | Yes | - | 5 | 4.0 | 2.0 | 52 | - | 67 | https://divinikey.com/products/durock-light-tactile-switches |
-| Durock Medium Tactile | - | JWK | Durock | 택타일 | No | No | PC | Nylon PA | POM | Yes | - | 5 | 4.0 | 2.0 | - | - | 65 | https://milktooth.com/comparisons/medium-tactile-vs-t1 |
-| Durock Sunflower POM T1 | - | JWK | Durock | 택타일 | No | No | POM | POM | P3 (Long Pole) | Yes | - | 5 | 4.0 | 2.0 | - | - | 67 | https://divinikey.com/products/durock-sunflower-pom-t1-tactile-switches |
-| Durock Shrimp Silent T1 | - | JWK | Durock | 택타일 | Yes | No | PC | Nylon PA | POM + Silicone | Yes | 14 | 5 | 3.8 | 2.0 | 52 | - | 67 | https://divinikey.com/products/durock-shrimp-silent-tactile-switches |
-| Durock White Lotus | - | JWK | Durock | 택타일 | No | No | Modified PC + UPE Blend | Nylon | Modified POM (Long Pole) | Yes | - | 5 | 4.0 | 2.0 | 46 | - | 56 | https://milktooth.com/products/white-lotus |
-| Durock Blue Lotus | - | JWK | Durock | 택타일 | No | No | PC + UPE Blend | Nylon | Modified POM | Yes | - | 5 | 3.7 | 2.0 | 55 | - | 65 | https://milktooth.com/products/blue-lotus |
-| Durock Ice King Tactile 58g | - | JWK | Durock | 택타일 | No | No | Polymer Nylon | Polymer Nylon | Modified Nylon (Long Pole) | Yes | - | 5 | 3.5 | 2.0 | 58 | - | 68 | https://lumekeebs.com/blogs/blog/in-progress-durock-ice-king-linear-and-tactile-switch-review |
-| Durock Mocha T1 | - | JWK | Durock | 택타일 | No | No | POK | POK | POM | Yes | - | 3 | 3.8 | 2.0 | 55 | - | 62 | https://mechanicalkeyboards.com/products/durock-mocha-t1-55g-tactile-plate-mount-switch |
-| Durock Mocha Chocolate T1 | - | JWK | Durock | 택타일 | No | No | POK | POK | POM (Long Pole) | Yes | - | 5 | 3.8 | 2.0 | 55 | - | 62 | https://lumekeebs.com/blogs/blog/durock-mocha-chocolate-t1-tactile-switch-review |
-| C3 Equalz x TKC Kiwi | - | JWK | C3 Equalz, TKC | 택타일 | No | No | UHMWPE | UHMWPE | POM (T1) | Yes | - | 5 | 4.0 | 2.0 | - | - | 67 | https://ilumkb.com/products/c-equalz-x-tkc-kiwi-switches |
-| C3 Equalz x TKC Dragon Fruit | - | JWK | C3 Equalz, TKC | 택타일 | No | No | UHMWPE | UHMWPE | POM (T1) | Yes | - | 5 | 4.0 | 2.0 | - | - | 63.5 | https://divinikey.com/products/c-equalz-x-tkc-dragon-fruit-tactile-switches |
-| Everglide Crystal Violet | - | JWK | Everglide | 택타일 | No | No | ABS | ABS | POM | - | - | 5 | 4.0 | 2.0 | 55 | 45 | - | https://everglide.co/products/everglide-crystal-violet-switches |
-| Everglide Dark Jade Black | - | JWK | Everglide | 택타일 | No | No | PBT | PBT | POM | - | - | 5 | 4.0 | 2.0 | 50 | - | 67 | https://everglide.co/products/everglide-dark-jade-black-tactile-switches |
-| Everglide Oreo | - | JWK | Everglide | 택타일 | No | No | PC | PC | POM | Yes | - | 5 | 4.0 | 2.0 | 45 | - | 55 | https://drop.com/buy/everglide-oreo-mechanical-switches |
-| Everglide Jade Green | - | JWK | Everglide | 택타일 | No | No | PC | PC | POM | - | - | 5 | 4.0 | 2.0 | 58 | 45 | - | https://kprepublic.com/products/everglide-switch-sakura-pink-jade-green-coral-red-amber-oran-mx-stem-with-transparent-clear-housing-for-mechanical-keyboard-5pin |
-| Everglide Bamboo Green | - | JWK | Everglide | 택타일 | No | No | Nylon | Nylon | POM | - | - | 5 | 4.0 | 2.0 | 43 | - | 62 | https://kprepublic.com/products/everglide-bamboo-green-tactile-switch-4pin-5pin-rgb-62g-force-mx-clone-switch-for-mechanical-keyboard-50m-like-holy-panda |
-| Everglide Pansy V2 | - | JWK | Everglide | 택타일 | No | No | PC | PC | POM | Yes | 22 | 5 | 3.8 | 2.0 | 40 | - | 48 | https://kprepublic.com/products/everglide-pansy-v2-switch-rgb-smd-pre-advanced-tactile-48g-switches-for-mechanical-keyboard-mx-stem-5pin-long-spring-pre-lubed |
+| 이름 | 한글이름 | 제조사 | 콜라보업체 | 스위치타입 | 저소음 | 로우프로파일 | 상부하우징재질 | 하부하우징재질 | 스템재질 | 공장윤활 | 스프링길이(mm) | 마운트핀 | 트래블(mm) | 입력지점(mm) | 입력압(g) | 초기압(g) | 바닥압(g) | 걸림압(g) | 출처 |
+|------|----------|--------|-----------|-----------|--------|----------|-------------|-------------|---------|---------|--------------|---------|-----------|------------|----------|----------|----------|----------|------|
+| Jwick T1 (Black) | - | JWK | - | 택타일 | No | No | Nylon PA66 | Nylon PA66 | POM | Yes | - | 5 | 4.0 | 2.0 | 55 | - | 67 | 67 | https://kineticlabs.com/switches/jwk/jwick-t1-tactile-switches |
+| Jwick Taro | - | JWK | - | 택타일 | No | No | PC | Nylon | POM (Box) | Yes | - | 5 | 3.7 | 2.0 | - | - | 67 | 67 | https://kineticlabs.com/switches/jwk/jwick-taro-tactile |
+| JWK Ice Jade | - | JWK | - | 택타일 | No | No | PC | Polymer Nylon | POM | Yes | - | 5 | 3.8 | 2.0 | 48 | - | 62 | 62 | https://kprepublic.com/products/jwick-ice-jade-pre-advanced-tactile-switch-5pin-rgb-smd-62g-mx-switch-for-mechanical-keyboard-50m-pom-nylon-long-spring-blue |
+| JWK Okomochi | - | JWK | dailyclack | 택타일 | No | No | PC | Nylon | POM | No | - | 5 | 3.9 | 2.2 | 35 | - | 67 | 67 | https://dailyclack.com/products/okomochi-pinoko-switches |
+| Penguin V2 | - | JWK | Kinetic Labs | 택타일 | No | No | UHMWPE + PC Blend | Nylon | POM | Yes | - | 5 | 4.0 | 2.0 | - | - | 63.5 | - | https://kineticlabs.com/switches/kinetic/penguins |
+| Durock T1 67g | - | JWK | Durock | 택타일 | No | No | PC | Nylon PA | POM | Yes | - | 5 | 4.0 | 2.0 | - | - | 67 | 67 | https://divinikey.com/products/durock-t1-tactile-switch |
+| Durock Koala 62g | - | JWK | Durock | 택타일 | No | No | PC | Nylon | POM | Yes | - | 5 | 4.0 | 2.0 | - | - | 62 | 62 | https://divinikey.com/products/koala-tactile-switches |
+| Durock Koala 67g | - | JWK | Durock | 택타일 | No | No | PC | Nylon | POM | Yes | - | 5 | 4.0 | 2.0 | 52 | - | 67 | 67 | https://divinikey.com/products/koala-tactile-switches |
+| Durock Light Tactile | - | JWK | Durock | 택타일 | No | No | PC | Nylon PA | POM | Yes | - | 5 | 4.0 | 2.0 | 52 | - | 67 | 67 | https://divinikey.com/products/durock-light-tactile-switches |
+| Durock Medium Tactile | - | JWK | Durock | 택타일 | No | No | PC | Nylon PA | POM | Yes | - | 5 | 4.0 | 2.0 | - | - | 65 | 65 | https://milktooth.com/comparisons/medium-tactile-vs-t1 |
+| Durock Sunflower POM T1 | - | JWK | Durock | 택타일 | No | No | POM | POM | P3 (Long Pole) | Yes | - | 5 | 4.0 | 2.0 | - | - | 67 | 67 | https://divinikey.com/products/durock-sunflower-pom-t1-tactile-switches |
+| Durock Shrimp Silent T1 | - | JWK | Durock | 택타일 | Yes | No | PC | Nylon PA | POM + Silicone | Yes | 14 | 5 | 3.8 | 2.0 | 52 | - | 67 | 67 | https://divinikey.com/products/durock-shrimp-silent-tactile-switches |
+| Durock White Lotus | - | JWK | Durock | 택타일 | No | No | Modified PC + UPE Blend | Nylon | Modified POM (Long Pole) | Yes | - | 5 | 4.0 | 2.0 | 46 | - | 56 | 46 | https://milktooth.com/products/white-lotus |
+| Durock Blue Lotus | - | JWK | Durock | 택타일 | No | No | PC + UPE Blend | Nylon | Modified POM | Yes | - | 5 | 3.7 | 2.0 | 55 | - | 65 | 55 | https://milktooth.com/products/blue-lotus |
+| Durock Ice King Tactile 58g | - | JWK | Durock | 택타일 | No | No | Polymer Nylon | Polymer Nylon | Modified Nylon (Long Pole) | Yes | - | 5 | 3.5 | 2.0 | 58 | - | 68 | 58 | https://lumekeebs.com/blogs/blog/in-progress-durock-ice-king-linear-and-tactile-switch-review |
+| Durock Mocha T1 | - | JWK | Durock | 택타일 | No | No | POK | POK | POM | Yes | - | 3 | 3.8 | 2.0 | 55 | - | 62 | 55 | https://mechanicalkeyboards.com/products/durock-mocha-t1-55g-tactile-plate-mount-switch |
+| Durock Mocha Chocolate T1 | - | JWK | Durock | 택타일 | No | No | POK | POK | POM (Long Pole) | Yes | - | 5 | 3.8 | 2.0 | 55 | - | 62 | 55 | https://lumekeebs.com/blogs/blog/durock-mocha-chocolate-t1-tactile-switch-review |
+| C3 Equalz x TKC Kiwi | - | JWK | C3 Equalz, TKC | 택타일 | No | No | UHMWPE | UHMWPE | POM (T1) | Yes | - | 5 | 4.0 | 2.0 | - | - | 67 | 67 | https://ilumkb.com/products/c-equalz-x-tkc-kiwi-switches |
+| C3 Equalz x TKC Dragon Fruit | - | JWK | C3 Equalz, TKC | 택타일 | No | No | UHMWPE | UHMWPE | POM (T1) | Yes | - | 5 | 4.0 | 2.0 | - | - | 63.5 | 63.5 | https://divinikey.com/products/c-equalz-x-tkc-dragon-fruit-tactile-switches |
+| Everglide Crystal Violet | - | JWK | Everglide | 택타일 | No | No | ABS | ABS | POM | - | - | 5 | 4.0 | 2.0 | 55 | 45 | - | 55 | https://everglide.co/products/everglide-crystal-violet-switches |
+| Everglide Dark Jade Black | - | JWK | Everglide | 택타일 | No | No | PBT | PBT | POM | - | - | 5 | 4.0 | 2.0 | 50 | - | 67 | 50 | https://everglide.co/products/everglide-dark-jade-black-tactile-switches |
+| Everglide Oreo | - | JWK | Everglide | 택타일 | No | No | PC | PC | POM | Yes | - | 5 | 4.0 | 2.0 | 45 | - | 55 | 55 | https://drop.com/buy/everglide-oreo-mechanical-switches |
+| Everglide Jade Green | - | JWK | Everglide | 택타일 | No | No | PC | PC | POM | - | - | 5 | 4.0 | 2.0 | 58 | 45 | - | 58 | https://kprepublic.com/products/everglide-switch-sakura-pink-jade-green-coral-red-amber-oran-mx-stem-with-transparent-clear-housing-for-mechanical-keyboard-5pin |
+| Everglide Bamboo Green | - | JWK | Everglide | 택타일 | No | No | Nylon | Nylon | POM | - | - | 5 | 4.0 | 2.0 | 43 | - | 62 | 62 | https://kprepublic.com/products/everglide-bamboo-green-tactile-switch-4pin-5pin-rgb-62g-force-mx-clone-switch-for-mechanical-keyboard-50m-like-holy-panda |
+| Everglide Pansy V2 | - | JWK | Everglide | 택타일 | No | No | PC | PC | POM | Yes | 22 | 5 | 3.8 | 2.0 | 40 | - | 48 | 48 | https://kprepublic.com/products/everglide-pansy-v2-switch-rgb-smd-pre-advanced-tactile-48g-switches-for-mechanical-keyboard-mx-stem-5pin-long-spring-pre-lubed |
 
 ---
 

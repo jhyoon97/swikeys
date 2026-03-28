@@ -24,6 +24,7 @@ export interface KeyboardSwitch {
     actuation?: number;
     initial?: number;
     bottom?: number;
+    tactile?: number;
   };
   status: SwitchStatus;
   source?: string;

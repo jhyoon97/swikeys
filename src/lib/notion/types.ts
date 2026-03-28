@@ -114,6 +114,7 @@ export const mapPageToSwitch = (page: PageObjectResponse): KeyboardSwitch => {
       actuation: getNumber(props['입력압']),
       initial: getNumber(props['초기압']),
       bottom: getNumber(props['바닥압']),
+      tactile: getNumber(props['걸림압']),
     },
     status: (getStatus(props['상태']) as KeyboardSwitch['status']) ?? '게시됨',
     source: getUrl(props['출처']),

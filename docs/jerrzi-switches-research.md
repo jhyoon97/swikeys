@@ -41,21 +41,21 @@
 
 ## 택타일 스위치
 
-| 이름 | 한글이름 | 제조사 | 콜라보업체 | 스위치타입 | 저소음 | 로우프로파일 | 상부하우징재질 | 하부하우징재질 | 스템재질 | 공장윤활 | 스프링길이(mm) | 마운트핀 | 트래블(mm) | 입력지점(mm) | 입력압(g) | 초기압(g) | 바닥압(g) | 출처 |
-|------|----------|--------|-----------|-----------|--------|----------|-------------|-------------|---------|---------|--------------|---------|-----------|------------|----------|----------|----------|------|
-| Jerrzi Violet | - | Jerrzi | - | 택타일 | No | No | PC | Nylon | POM | Yes | 17 | 5 | 3.7 | 2.0 | 45 | - | 60 | https://milktooth.com/products/switches/violet |
-| Jerrzi Blueberry Mousse | - | Jerrzi | - | 택타일 | No | No | PC | PA66 | LY | Yes | 22 | 5 | 3.4 | 2.5 | 40 | - | 55 | https://milktooth.com/products/blueberry-mousse |
-| Jerrzi Frosty China | - | Jerrzi | - | 택타일 | No | No | PC | PC | LY | Yes | 22 | 5 | 3.4 | 2.5 | 48 | - | 58 | https://keeb-finder.com/switches/jerrzi-frosty-china-tactile-switches-10-pack |
-| Jerrzi Glacier | - | Jerrzi | - | 택타일 | No | No | PC | PC | LY | Yes | 22 | 5 | 3.4 | - | 48 | - | 58 | https://ktechs.store/products/jerrzi-glacier-tactile-switch |
-| Jerrzi Kyria Brown | - | Jerrzi | - | 택타일 | No | No | - | - | - | No | - | 5 | 3.4 | 2.0 | 40 | - | 60 | https://switchoddities.com/products/jerrzi-kyria-brown |
-| LTC Jerrzi Lava (Similar Panda) | - | Jerrzi | LTC | 택타일 | No | No | PC | PC | PA | Yes | 20.5 | 5 | 3.4 | 2.5 | 40 | - | 50 | https://ltcofficial.com/products/ltc-jerrzi-tactile-switches-for-mechanical-keyboard-70pcs |
-| Jerrzi MX Brown | - | Jerrzi | - | 택타일 | No | No | PC | PC | POM | No | 15 | 3 | 4.0 | 2.0 | - | - | - | https://kprepublic.com/products/jerrzi-switch-3pin-smd-rgb-mx-stem-switch-for-mechanical-keyboard-brown-yellow-red-black-blue |
-| Jerrzi MX Green | - | Jerrzi | - | 택타일 | No | No | PC | PC | POM | No | 15 | 3 | 4.0 | 2.2 | 50 | - | 60 | https://en.jerrzi.com/Products_detail/21.html |
+| 이름 | 한글이름 | 제조사 | 콜라보업체 | 스위치타입 | 저소음 | 로우프로파일 | 상부하우징재질 | 하부하우징재질 | 스템재질 | 공장윤활 | 스프링길이(mm) | 마운트핀 | 트래블(mm) | 입력지점(mm) | 입력압(g) | 초기압(g) | 바닥압(g) | 걸림압(g) | 출처 |
+|------|----------|--------|-----------|-----------|--------|----------|-------------|-------------|---------|---------|--------------|---------|-----------|------------|----------|----------|----------|----------|------|
+| Jerrzi Violet | - | Jerrzi | - | 택타일 | No | No | PC | Nylon | POM | Yes | 17 | 5 | 3.7 | 2.0 | 45 | - | 60 | 60 | https://milktooth.com/products/switches/violet |
+| Jerrzi Blueberry Mousse | - | Jerrzi | - | 택타일 | No | No | PC | PA66 | LY | Yes | 22 | 5 | 3.4 | 2.5 | 40 | - | 55 | 50 | https://milktooth.com/products/blueberry-mousse |
+| Jerrzi Frosty China | - | Jerrzi | - | 택타일 | No | No | PC | PC | LY | Yes | 22 | 5 | 3.4 | 2.5 | 48 | - | 58 | 58 | https://keeb-finder.com/switches/jerrzi-frosty-china-tactile-switches-10-pack |
+| Jerrzi Glacier | - | Jerrzi | - | 택타일 | No | No | PC | PC | LY | Yes | 22 | 5 | 3.4 | - | 48 | - | 58 | 48 | https://ktechs.store/products/jerrzi-glacier-tactile-switch |
+| Jerrzi Kyria Brown | - | Jerrzi | - | 택타일 | No | No | - | - | - | No | - | 5 | 3.4 | 2.0 | 40 | - | 60 | 60 | https://switchoddities.com/products/jerrzi-kyria-brown |
+| LTC Jerrzi Lava (Similar Panda) | - | Jerrzi | LTC | 택타일 | No | No | PC | PC | PA | Yes | 20.5 | 5 | 3.4 | 2.5 | 40 | - | 50 | - | https://ltcofficial.com/products/ltc-jerrzi-tactile-switches-for-mechanical-keyboard-70pcs |
+| Jerrzi MX Brown | - | Jerrzi | - | 택타일 | No | No | PC | PC | POM | No | 15 | 3 | 4.0 | 2.0 | - | - | - | - | https://kprepublic.com/products/jerrzi-switch-3pin-smd-rgb-mx-stem-switch-for-mechanical-keyboard-brown-yellow-red-black-blue |
+| Jerrzi MX Green | - | Jerrzi | - | 택타일 | No | No | PC | PC | POM | No | 15 | 3 | 4.0 | 2.2 | 50 | - | 60 | 60 | https://en.jerrzi.com/Products_detail/21.html |
 
 ## 클릭 스위치
 
-| 이름 | 한글이름 | 제조사 | 콜라보업체 | 스위치타입 | 저소음 | 로우프로파일 | 상부하우징재질 | 하부하우징재질 | 스템재질 | 공장윤활 | 스프링길이(mm) | 마운트핀 | 트래블(mm) | 입력지점(mm) | 입력압(g) | 초기압(g) | 바닥압(g) | 출처 |
-|------|----------|--------|-----------|-----------|--------|----------|-------------|-------------|---------|---------|--------------|---------|-----------|------------|----------|----------|----------|------|
-| Jerrzi XCJZ Lotus Stem | - | Jerrzi | XCJZ | 클릭키 | No | No | POM | POM | POM | Yes | 16 | 5 | 4.0 | 1.9 | 45 | - | 60 | https://kprepublic.com/products/jerrzi-xcjz-lotus-stem-switch-60g-rgb-smd-click-tactile-switches-for-mechanical-keyboard-mx-stem-5pin-pre-lubed-pom |
-| LTC Jerrzi Similar Blue | - | Jerrzi | LTC | 클릭키 | No | No | PC | PC | POM | Yes | 15.4 | 5 | 4.0 | 2.0 | 45 | - | - | https://ltcofficial.com/products/ltc-jerrzi-similar-blue-switches-for-mechanical-keyboard-diy70pcs |
-| Jerrzi MX Blue | - | Jerrzi | - | 클릭키 | No | No | PC | PC | POM | No | 15 | 3 | 4.0 | 2.0 | - | - | - | https://kprepublic.com/products/jerrzi-switch-3pin-smd-rgb-mx-stem-switch-for-mechanical-keyboard-brown-yellow-red-black-blue |
+| 이름 | 한글이름 | 제조사 | 콜라보업체 | 스위치타입 | 저소음 | 로우프로파일 | 상부하우징재질 | 하부하우징재질 | 스템재질 | 공장윤활 | 스프링길이(mm) | 마운트핀 | 트래블(mm) | 입력지점(mm) | 입력압(g) | 초기압(g) | 바닥압(g) | 걸림압(g) | 출처 |
+|------|----------|--------|-----------|-----------|--------|----------|-------------|-------------|---------|---------|--------------|---------|-----------|------------|----------|----------|----------|----------|------|
+| Jerrzi XCJZ Lotus Stem | - | Jerrzi | XCJZ | 클릭키 | No | No | POM | POM | POM | Yes | 16 | 5 | 4.0 | 1.9 | 45 | - | 60 | 45 | https://kprepublic.com/products/jerrzi-xcjz-lotus-stem-switch-60g-rgb-smd-click-tactile-switches-for-mechanical-keyboard-mx-stem-5pin-pre-lubed-pom |
+| LTC Jerrzi Similar Blue | - | Jerrzi | LTC | 클릭키 | No | No | PC | PC | POM | Yes | 15.4 | 5 | 4.0 | 2.0 | 45 | - | - | - | https://ltcofficial.com/products/ltc-jerrzi-similar-blue-switches-for-mechanical-keyboard-diy70pcs |
+| Jerrzi MX Blue | - | Jerrzi | - | 클릭키 | No | No | PC | PC | POM | No | 15 | 3 | 4.0 | 2.0 | - | - | - | - | https://kprepublic.com/products/jerrzi-switch-3pin-smd-rgb-mx-stem-switch-for-mechanical-keyboard-brown-yellow-red-black-blue |

@@ -48,6 +48,7 @@ user_invocable: true
 | 입력압(g) | 입력압 | number |
 | 초기압(g) | 초기압 | number |
 | 바닥압(g) | 바닥압 | number |
+| 걸림압(g) | 걸림압 | number (택타일/클릭키 섹션만) |
 | 출처 | 출처 | url |
 | (자동) | 상태 | status → `게시됨` |
 | (자동) | slug | rich_text → `nameToSlug(이름)` |

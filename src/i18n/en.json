@@ -36,6 +36,7 @@
     "actuationForce": "Actuation Force",
     "initialForce": "Initial Force",
     "bottomForce": "Bottom-out Force",
+    "tactileForce": "Tactile Force",
     "specs": "Specs",
     "source": "Source",
     "yes": "Yes",

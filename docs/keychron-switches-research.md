@@ -18,19 +18,19 @@
 
 ## 택타일 스위치
 
-| 이름 | 한글이름 | 제조사 | 콜라보업체 | 스위치타입 | 저소음 | 로우프로파일 | 상부하우징재질 | 하부하우징재질 | 스템재질 | 공장윤활 | 스프링길이(mm) | 마운트핀 | 트래블(mm) | 입력지점(mm) | 입력압(g) | 초기압(g) | 바닥압(g) | 출처 |
-|------|----------|--------|-----------|-----------|--------|----------|-------------|-------------|---------|---------|--------------|---------|-----------|------------|----------|----------|----------|------|
-| Keychron Low Profile Brown | - | Keychron | - | 택타일 | No | Yes | - | - | - | No | - | 3 | 3.1 | 1.3 | 55 | - | - | https://www.keychron.com/products/keychron-low-profile-switch-set |
-| Keychron Low Profile Banana | - | Keychron | - | 택타일 | No | Yes | - | - | - | No | - | 3 | 3.1 | 1.4 | 55 | - | - | https://www.keychron.com/products/keychron-low-profile-switch-set |
-| Keychron Low Profile Mint | - | Keychron | - | 택타일 | No | Yes | - | - | - | No | - | 3 | 3.1 | 1.4 | 67 | - | - | https://www.keychron.com/products/keychron-low-profile-switch-set |
-| Keychron Low Profile Optical Brown | - | Keychron | - | 택타일 | No | Yes | - | - | - | No | - | 없음 | 2.5 | 1.1 | 30 | - | - | https://www.keychron.com/products/low-profile-keychron-optical-switch-set-87-pcs |
-| Keychron Low Profile Optical Banana | - | Keychron | - | 택타일 | No | Yes | - | - | - | No | - | 없음 | 2.5 | 1.1 | 55 | - | - | https://www.keychron.com/products/low-profile-keychron-optical-switch-set-87-pcs |
-| Keychron Low Profile Optical Mint | - | Keychron | - | 택타일 | No | Yes | - | - | - | No | - | 없음 | 2.5 | 1.1 | 67 | - | - | https://www.keychron.com/products/low-profile-keychron-optical-switch-set-87-pcs |
+| 이름 | 한글이름 | 제조사 | 콜라보업체 | 스위치타입 | 저소음 | 로우프로파일 | 상부하우징재질 | 하부하우징재질 | 스템재질 | 공장윤활 | 스프링길이(mm) | 마운트핀 | 트래블(mm) | 입력지점(mm) | 입력압(g) | 초기압(g) | 바닥압(g) | 걸림압(g) | 출처 |
+|------|----------|--------|-----------|-----------|--------|----------|-------------|-------------|---------|---------|--------------|---------|-----------|------------|----------|----------|----------|----------|------|
+| Keychron Low Profile Brown | - | Keychron | - | 택타일 | No | Yes | - | - | - | No | - | 3 | 3.1 | 1.3 | 55 | - | - | - | https://www.keychron.com/products/keychron-low-profile-switch-set |
+| Keychron Low Profile Banana | - | Keychron | - | 택타일 | No | Yes | - | - | - | No | - | 3 | 3.1 | 1.4 | 55 | - | - | - | https://www.keychron.com/products/keychron-low-profile-switch-set |
+| Keychron Low Profile Mint | - | Keychron | - | 택타일 | No | Yes | - | - | - | No | - | 3 | 3.1 | 1.4 | 67 | - | - | - | https://www.keychron.com/products/keychron-low-profile-switch-set |
+| Keychron Low Profile Optical Brown | - | Keychron | - | 택타일 | No | Yes | - | - | - | No | - | 없음 | 2.5 | 1.1 | 30 | - | - | - | https://www.keychron.com/products/low-profile-keychron-optical-switch-set-87-pcs |
+| Keychron Low Profile Optical Banana | - | Keychron | - | 택타일 | No | Yes | - | - | - | No | - | 없음 | 2.5 | 1.1 | 55 | - | - | - | https://www.keychron.com/products/low-profile-keychron-optical-switch-set-87-pcs |
+| Keychron Low Profile Optical Mint | - | Keychron | - | 택타일 | No | Yes | - | - | - | No | - | 없음 | 2.5 | 1.1 | 67 | - | - | - | https://www.keychron.com/products/low-profile-keychron-optical-switch-set-87-pcs |
 
 ## 클릭키 스위치
 
-| 이름 | 한글이름 | 제조사 | 콜라보업체 | 스위치타입 | 저소음 | 로우프로파일 | 상부하우징재질 | 하부하우징재질 | 스템재질 | 공장윤활 | 스프링길이(mm) | 마운트핀 | 트래블(mm) | 입력지점(mm) | 입력압(g) | 초기압(g) | 바닥압(g) | 출처 |
-|------|----------|--------|-----------|-----------|--------|----------|-------------|-------------|---------|---------|--------------|---------|-----------|------------|----------|----------|----------|------|
-| Keychron Low Profile Blue | - | Keychron | - | 클릭키 | No | Yes | - | - | - | No | - | 3 | 3.1 | 1.3 | 55 | - | - | https://www.keychron.com/products/keychron-low-profile-switch-set |
-| Keychron Low Profile Optical Blue | - | Keychron | - | 클릭키 | No | Yes | - | - | - | No | - | 없음 | 2.5 | 1.1 | 48 | - | - | https://www.keychron.com/products/low-profile-keychron-optical-switch-set-87-pcs |
-| Keychron Low Profile Optical Orange | - | Keychron | - | 클릭키 | No | Yes | - | - | - | No | - | 없음 | 2.5 | 1.1 | 50 | - | - | https://www.keychron.com/products/low-profile-keychron-optical-switch-set-87-pcs |
+| 이름 | 한글이름 | 제조사 | 콜라보업체 | 스위치타입 | 저소음 | 로우프로파일 | 상부하우징재질 | 하부하우징재질 | 스템재질 | 공장윤활 | 스프링길이(mm) | 마운트핀 | 트래블(mm) | 입력지점(mm) | 입력압(g) | 초기압(g) | 바닥압(g) | 걸림압(g) | 출처 |
+|------|----------|--------|-----------|-----------|--------|----------|-------------|-------------|---------|---------|--------------|---------|-----------|------------|----------|----------|----------|----------|------|
+| Keychron Low Profile Blue | - | Keychron | - | 클릭키 | No | Yes | - | - | - | No | - | 3 | 3.1 | 1.3 | 55 | - | - | - | https://www.keychron.com/products/keychron-low-profile-switch-set |
+| Keychron Low Profile Optical Blue | - | Keychron | - | 클릭키 | No | Yes | - | - | - | No | - | 없음 | 2.5 | 1.1 | 48 | - | - | - | https://www.keychron.com/products/low-profile-keychron-optical-switch-set-87-pcs |
+| Keychron Low Profile Optical Orange | - | Keychron | - | 클릭키 | No | Yes | - | - | - | No | - | 없음 | 2.5 | 1.1 | 50 | - | - | - | https://www.keychron.com/products/low-profile-keychron-optical-switch-set-87-pcs |

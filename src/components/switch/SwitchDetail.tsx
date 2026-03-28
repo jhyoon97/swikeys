@@ -1,12 +1,14 @@
 'use client';
 
+import { useState } from 'react';
+
+import { Check, Copy } from 'lucide-react';
+
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { useTranslation } from '@/i18n/useTranslation';
 import { switchTypeColor, switchTypeLabelKey } from '@/lib/utils';
 import type { KeyboardSwitch } from '@/types/switch';
-import { useState } from 'react';
-import { Copy, Check } from 'lucide-react';
 
 const SwitchDetail = ({ sw }: { sw: KeyboardSwitch }) => {
   const { t, locale } = useTranslation();
@@ -83,6 +85,17 @@ const SwitchDetail = ({ sw }: { sw: KeyboardSwitch }) => {
           ? `${sw.pressure.bottom}${t('switch.g')}`
           : undefined,
     },
+    ...(sw.type === '택타일' || sw.type === '클릭키'
+      ? [
+          {
+            label: t('switch.tactileForce'),
+            value:
+              sw.pressure.tactile !== undefined
+                ? `${sw.pressure.tactile}${t('switch.g')}`
+                : undefined,
+          },
+        ]
+      : []),
   ];
 
   return (
@@ -91,6 +104,7 @@ const SwitchDetail = ({ sw }: { sw: KeyboardSwitch }) => {
         <div className="mb-4">
           <div className="flex items-center gap-3">
             <button
+              type="button"
               onClick={handleCopy}
               className="text-muted-foreground hover:text-foreground transition-colors cursor-pointer"
               aria-label="Copy name"
@@ -116,7 +130,7 @@ const SwitchDetail = ({ sw }: { sw: KeyboardSwitch }) => {
             {specs.map((spec) => (
               <div
                 key={spec.label}
-                className="flex justify-between py-2 border-b border-border last:border-0"
+                className="flex justify-between py-2 border-b border-border"
               >
                 <span className="text-sm text-muted-foreground">
                   {spec.label}
@@ -128,6 +142,23 @@ const SwitchDetail = ({ sw }: { sw: KeyboardSwitch }) => {
         </CardContent>
       </Card>
 
+      {process.env.NODE_ENV === 'development' && sw.source && (
+        <Card>
+          <CardHeader>
+            <CardTitle className="text-sm">{t('switch.source')}</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <a
+              href={sw.source}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm text-muted-foreground hover:text-foreground break-all transition-colors"
+            >
+              {sw.source}
+            </a>
+          </CardContent>
+        </Card>
+      )}
     </div>
   );
 };

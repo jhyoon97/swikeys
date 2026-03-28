@@ -36,6 +36,7 @@
     "actuationForce": "입력압",
     "initialForce": "초기압",
     "bottomForce": "바닥압",
+    "tactileForce": "걸림압",
     "specs": "스펙",
     "source": "출처",
     "yes": "예",

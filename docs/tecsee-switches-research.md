@@ -37,17 +37,17 @@
 
 ## 택타일 스위치
 
-| 이름 | 한글이름 | 제조사 | 콜라보업체 | 스위치타입 | 저소음 | 로우프로파일 | 상부하우징재질 | 하부하우징재질 | 스템재질 | 공장윤활 | 스프링길이(mm) | 마운트핀 | 트래블(mm) | 입력지점(mm) | 입력압(g) | 초기압(g) | 바닥압(g) | 출처 |
-|------|----------|--------|-----------|-----------|--------|----------|-------------|-------------|---------|---------|--------------|---------|-----------|------------|----------|----------|----------|------|
-| Tecsee Coral | - | Tecsee | - | 택타일 | No | No | Nylon | PME | Nylon | Yes | 14 | 5 | 3.0 | 1.8 | 55 | - | 68 | https://divinikey.com/products/tecsee-coral-tactile-switches |
-| Tecsee Purple Panda | - | Tecsee | - | 택타일 | No | No | PME | PME | POM | No | - | 5 | 3.0 | 2.0 | 55 | - | 67 | https://divinikey.com/products/tecsee-purple-panda-tactile-switches |
-| Tecsee Sapphire (Tactile) | - | Tecsee | - | 택타일 | No | No | PC Mix | PC Mix | POM | Yes | - | 5 | 3.9 | 2.0 | - | - | 63.5 | https://thocstock.com/switches/tecsee-sapphire |
-| Tecsee Sapphire V2 | - | Tecsee | - | 택타일 | No | No | PC Mix | PC Mix | UHMWPE | Yes | - | 5 | 3.8 | 1.9 | 55 | - | 63.5 | https://divinikey.com/products/tecsee-sapphire-v2-tactile-switches |
-| Tecsee Mango Ice | - | Tecsee | - | 택타일 | No | No | UPE | Nylon | UPE | Yes | 22 | 5 | 3.8 | 1.9 | 52 | - | 63.5 | https://divinikey.com/products/tecsee-mango-ice-tactile-switches |
-| Tecsee Ice Milk | - | Tecsee | - | 택타일 | No | No | UHMWPE | Nylon | UPE | Yes | - | 5 | 3.8 | 1.9 | - | - | 63.5 | https://divinikey.com/products/tecsee-ice-milk-tactile-switches |
-| Tecsee Blue Sky Tactile | - | Tecsee | - | 택타일 | No | No | UHMWPE | HPE | POM | Yes | 22 | 5 | 4.0 | 2.0 | 63.5 | - | 64 | https://keeb-finder.com/switches/tecsee-blue-sky-tactile |
-| Tecsee Medium Tactile | - | Tecsee | - | 택타일 | No | No | HPE | PC | POM | Yes | - | 5 | 2.2 | 1.3 | 50 | - | 63.5 | https://divinikey.com/products/tecsee-medium-switches |
-| Tecsee Salmon | - | Tecsee | Kinetic Labs | 택타일 | No | No | PC | PC | POM | Yes | - | 5 | 3.5 | 2.0 | 55 | - | 63.5 | https://kineticlabs.com/switches/tecsee/tecsee-salmon-switches |
+| 이름 | 한글이름 | 제조사 | 콜라보업체 | 스위치타입 | 저소음 | 로우프로파일 | 상부하우징재질 | 하부하우징재질 | 스템재질 | 공장윤활 | 스프링길이(mm) | 마운트핀 | 트래블(mm) | 입력지점(mm) | 입력압(g) | 초기압(g) | 바닥압(g) | 걸림압(g) | 출처 |
+|------|----------|--------|-----------|-----------|--------|----------|-------------|-------------|---------|---------|--------------|---------|-----------|------------|----------|----------|----------|----------|------|
+| Tecsee Coral | - | Tecsee | - | 택타일 | No | No | Nylon | PME | Nylon | Yes | 14 | 5 | 3.0 | 1.8 | 55 | - | 68 | - | https://divinikey.com/products/tecsee-coral-tactile-switches |
+| Tecsee Purple Panda | - | Tecsee | - | 택타일 | No | No | PME | PME | POM | No | - | 5 | 3.0 | 2.0 | 55 | - | 67 | - | https://divinikey.com/products/tecsee-purple-panda-tactile-switches |
+| Tecsee Sapphire (Tactile) | - | Tecsee | - | 택타일 | No | No | PC Mix | PC Mix | POM | Yes | - | 5 | 3.9 | 2.0 | - | - | 63.5 | - | https://thocstock.com/switches/tecsee-sapphire |
+| Tecsee Sapphire V2 | - | Tecsee | - | 택타일 | No | No | PC Mix | PC Mix | UHMWPE | Yes | - | 5 | 3.8 | 1.9 | 55 | - | 63.5 | - | https://divinikey.com/products/tecsee-sapphire-v2-tactile-switches |
+| Tecsee Mango Ice | - | Tecsee | - | 택타일 | No | No | UPE | Nylon | UPE | Yes | 22 | 5 | 3.8 | 1.9 | 52 | - | 63.5 | - | https://divinikey.com/products/tecsee-mango-ice-tactile-switches |
+| Tecsee Ice Milk | - | Tecsee | - | 택타일 | No | No | UHMWPE | Nylon | UPE | Yes | - | 5 | 3.8 | 1.9 | - | - | 63.5 | - | https://divinikey.com/products/tecsee-ice-milk-tactile-switches |
+| Tecsee Blue Sky Tactile | - | Tecsee | - | 택타일 | No | No | UHMWPE | HPE | POM | Yes | 22 | 5 | 4.0 | 2.0 | 63.5 | - | 64 | - | https://keeb-finder.com/switches/tecsee-blue-sky-tactile |
+| Tecsee Medium Tactile | - | Tecsee | - | 택타일 | No | No | HPE | PC | POM | Yes | - | 5 | 2.2 | 1.3 | 50 | - | 63.5 | - | https://divinikey.com/products/tecsee-medium-switches |
+| Tecsee Salmon | - | Tecsee | Kinetic Labs | 택타일 | No | No | PC | PC | POM | Yes | - | 5 | 3.5 | 2.0 | 55 | - | 63.5 | - | https://kineticlabs.com/switches/tecsee/tecsee-salmon-switches |
 
 ---
 

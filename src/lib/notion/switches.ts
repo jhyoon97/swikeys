@@ -200,6 +200,25 @@ export const searchSwitches = async (
     바닥압: '바닥압',
   };
 
+  const pressureProperties = new Set(['입력압', '초기압', '바닥압']);
+
+  if (filters.sortBy && pressureProperties.has(filters.sortBy)) {
+    conditions.push({
+      property: notionPropertyMap[filters.sortBy],
+      number: { is_not_empty: true },
+    });
+  }
+
+  if (filters.actuationMin !== undefined || filters.actuationMax !== undefined) {
+    conditions.push({ property: '입력압', number: { is_not_empty: true } });
+  }
+  if (filters.initialMin !== undefined || filters.initialMax !== undefined) {
+    conditions.push({ property: '초기압', number: { is_not_empty: true } });
+  }
+  if (filters.bottomMin !== undefined || filters.bottomMax !== undefined) {
+    conditions.push({ property: '바닥압', number: { is_not_empty: true } });
+  }
+
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const sorts: any[] = filters.sortBy
     ? [

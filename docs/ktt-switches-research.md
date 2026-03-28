@@ -56,21 +56,21 @@
 
 ## 택타일 스위치
 
-| 이름 | 한글이름 | 제조사 | 콜라보업체 | 스위치타입 | 저소음 | 로우프로파일 | 상부하우징재질 | 하부하우징재질 | 스템재질 | 공장윤활 | 스프링길이(mm) | 마운트핀 | 트래블(mm) | 입력지점(mm) | 입력압(g) | 초기압(g) | 바닥압(g) | 출처 |
-|------|----------|--------|-----------|-----------|--------|----------|-------------|-------------|---------|---------|--------------|---------|-----------|------------|----------|----------|----------|------|
-| KTT Matcha | - | KTT | - | 택타일 | No | No | PC | PC | POM | Yes | 15 | 5 | 4.0 | 1.9 | 40 | - | 45 | https://hippokeys.com/products/ktt-matcha-switch-sample |
-| KTT Ash Grey | - | KTT | - | 택타일 | No | No | PC | Nylon | POM | Yes | - | 5 | 3.5 | 2.0 | 38 | - | 50 | https://hippokeys.com/products/ktt-ash-grey-switch-sample |
-| KTT Baby Blue | - | KTT | - | 택타일 | No | No | PC | PA Nylon | POM | Yes | 18 | 5 | 3.5 | 2.0 | 38 | - | - | https://mechanicalkeyboards.com/products/ktt-baby-blue-38g-tactile-pcb-mount-switch |
-| KTT Macaron Blue | - | KTT | - | 택타일 | No | No | PC | PA | POM | Yes | 18 | - | 4.0 | - | 40 | - | 50 | https://kprepublic.com/products/ktt-macaron-switch-linear-tactile-mx-switch-43g-48g-55g-63g-for-mechanical-keyboard-macaron-red-pink-yellow-purple-green-blue |
-| KTT Macaron Orange | - | KTT | - | 택타일 | No | No | PC | PA | POM | Yes | 18 | - | 4.0 | - | 38 | - | 50 | https://kprepublic.com/products/ktt-macaron-switch-linear-tactile-mx-switch-43g-48g-55g-63g-for-mechanical-keyboard-macaron-red-pink-yellow-purple-green-blue |
-| KTT Phalaenopsis | - | KTT | - | 택타일 | No | No | PC | PC | POM | Yes | 22 | 3 | 4.0 | 2.0 | 37 | - | 50 | https://mechanicalkeyboards.com/products/ktt-phalaenopsis-37g-tactile-plate-mount-switch |
-| KTT ZenCha Silent | - | KTT | - | 택타일 | Yes | No | PC | PA66 | POM+TPE | Yes | - | 5 | 4.0 | 1.9 | 40 | - | 50 | https://mechanicalkeyboards.com/products/ktt-zencha-silent-40g-tactile-pcb-mount-switch |
+| 이름 | 한글이름 | 제조사 | 콜라보업체 | 스위치타입 | 저소음 | 로우프로파일 | 상부하우징재질 | 하부하우징재질 | 스템재질 | 공장윤활 | 스프링길이(mm) | 마운트핀 | 트래블(mm) | 입력지점(mm) | 입력압(g) | 초기압(g) | 바닥압(g) | 걸림압(g) | 출처 |
+|------|----------|--------|-----------|-----------|--------|----------|-------------|-------------|---------|---------|--------------|---------|-----------|------------|----------|----------|----------|----------|------|
+| KTT Matcha | - | KTT | - | 택타일 | No | No | PC | PC | POM | Yes | 15 | 5 | 4.0 | 1.9 | 40 | - | 45 | - | https://hippokeys.com/products/ktt-matcha-switch-sample |
+| KTT Ash Grey | - | KTT | - | 택타일 | No | No | PC | Nylon | POM | Yes | - | 5 | 3.5 | 2.0 | 38 | - | 50 | 53 | https://hippokeys.com/products/ktt-ash-grey-switch-sample |
+| KTT Baby Blue | - | KTT | - | 택타일 | No | No | PC | PA Nylon | POM | Yes | 18 | 5 | 3.5 | 2.0 | 38 | - | - | 53 | https://mechanicalkeyboards.com/products/ktt-baby-blue-38g-tactile-pcb-mount-switch |
+| KTT Macaron Blue | - | KTT | - | 택타일 | No | No | PC | PA | POM | Yes | 18 | - | 4.0 | - | 40 | - | 50 | - | https://kprepublic.com/products/ktt-macaron-switch-linear-tactile-mx-switch-43g-48g-55g-63g-for-mechanical-keyboard-macaron-red-pink-yellow-purple-green-blue |
+| KTT Macaron Orange | - | KTT | - | 택타일 | No | No | PC | PA | POM | Yes | 18 | - | 4.0 | - | 38 | - | 50 | - | https://kprepublic.com/products/ktt-macaron-switch-linear-tactile-mx-switch-43g-48g-55g-63g-for-mechanical-keyboard-macaron-red-pink-yellow-purple-green-blue |
+| KTT Phalaenopsis | - | KTT | - | 택타일 | No | No | PC | PC | POM | Yes | 22 | 3 | 4.0 | 2.0 | 37 | - | 50 | 50 | https://mechanicalkeyboards.com/products/ktt-phalaenopsis-37g-tactile-plate-mount-switch |
+| KTT ZenCha Silent | - | KTT | - | 택타일 | Yes | No | PC | PA66 | POM+TPE | Yes | - | 5 | 4.0 | 1.9 | 40 | - | 50 | - | https://mechanicalkeyboards.com/products/ktt-zencha-silent-40g-tactile-pcb-mount-switch |
 
 ## 클릭 스위치
 
-| 이름 | 한글이름 | 제조사 | 콜라보업체 | 스위치타입 | 저소음 | 로우프로파일 | 상부하우징재질 | 하부하우징재질 | 스템재질 | 공장윤활 | 스프링길이(mm) | 마운트핀 | 트래블(mm) | 입력지점(mm) | 입력압(g) | 초기압(g) | 바닥압(g) | 출처 |
-|------|----------|--------|-----------|-----------|--------|----------|-------------|-------------|---------|---------|--------------|---------|-----------|------------|----------|----------|----------|------|
-| KTT Purple Click | - | KTT | - | 클릭키 | No | No | PC | Nylon | POM | Yes | 18 | 3 | 4.0 | 1.9 | 40 | - | 55 | https://mechanicalkeyboards.com/products/ktt-purple-click-40g-clicky-plate-mount-switch |
+| 이름 | 한글이름 | 제조사 | 콜라보업체 | 스위치타입 | 저소음 | 로우프로파일 | 상부하우징재질 | 하부하우징재질 | 스템재질 | 공장윤활 | 스프링길이(mm) | 마운트핀 | 트래블(mm) | 입력지점(mm) | 입력압(g) | 초기압(g) | 바닥압(g) | 걸림압(g) | 출처 |
+|------|----------|--------|-----------|-----------|--------|----------|-------------|-------------|---------|---------|--------------|---------|-----------|------------|----------|----------|----------|----------|------|
+| KTT Purple Click | - | KTT | - | 클릭키 | No | No | PC | Nylon | POM | Yes | 18 | 3 | 4.0 | 1.9 | 40 | - | 55 | - | https://mechanicalkeyboards.com/products/ktt-purple-click-40g-clicky-plate-mount-switch |
 
 ## 마그네틱 (홀이펙트) 스위치
 

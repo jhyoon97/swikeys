@@ -74,8 +74,32 @@ function parseMarkdownTables(content) {
     if (inTable && trimmed.startsWith('|') && trimmed.endsWith('|')) {
       const cells = trimmed.split('|').map(c => c.trim()).filter((_, i, arr) => i > 0 && i < arr.length);
 
-      if (cells.length >= 18) {
-        // 새 포맷: 이름 | 한글이름 | 제조사 | 콜라보업체 | 스위치타입 | 저소음 | 로우프로파일 | ... | 출처
+      if (cells.length >= 19) {
+        // 걸림압 포함 포맷(20컬럼): 이름 | 한글이름 | 제조사 | 콜라보업체 | 스위치타입 | 저소음 | 로우프로파일 | ... | 바닥압(g) | 걸림압(g) | 출처
+        switches.push({
+          name: cells[0],
+          nameKo: cells[1],
+          manufacturer: cells[2],
+          collaborator: cells[3],
+          type: cells[4],
+          silent: cells[5],
+          lowProfile: cells[6],
+          upperHousingMaterial: cells[7],
+          lowerHousingMaterial: cells[8],
+          stemMaterial: cells[9],
+          factoryLubed: cells[10],
+          springLength: cells[11],
+          mountPins: cells[12],
+          travel: cells[13],
+          actuationPoint: cells[14],
+          actuationForce: cells[15],
+          initialForce: cells[16],
+          bottomForce: cells[17],
+          tactileForce: cells[18],
+          source: cells[19],
+        });
+      } else if (cells.length >= 18) {
+        // 기존 포맷(19컬럼): 걸림압 없음
         switches.push({
           name: cells[0],
           nameKo: cells[1],
@@ -203,6 +227,11 @@ function buildProperties(sw) {
   const bottomForce = parseNumber(sw.bottomForce);
   if (bottomForce !== undefined) {
     props['바닥압'] = { number: bottomForce };
+  }
+
+  const tactileForce = parseNumber(sw.tactileForce);
+  if (tactileForce !== undefined) {
+    props['걸림압'] = { number: tactileForce };
   }
 
   const source = parseString(sw.source);

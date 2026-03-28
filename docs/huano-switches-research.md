@@ -41,25 +41,25 @@
 
 ## 택타일 스위치
 
-| 이름 | 한글이름 | 제조사 | 콜라보업체 | 스위치타입 | 저소음 | 로우프로파일 | 상부하우징재질 | 하부하우징재질 | 스템재질 | 공장윤활 | 스프링길이(mm) | 마운트핀 | 트래블(mm) | 입력지점(mm) | 입력압(g) | 초기압(g) | 바닥압(g) | 출처 |
-|------|----------|--------|-----------|-----------|--------|----------|-------------|-------------|---------|---------|--------------|---------|-----------|------------|----------|----------|----------|------|
-| Huano Populus Yellow | - | Huano | - | 택타일 | No | No | POK | Nylon | POM | Yes | - | 5 | 4.0 | 2.0 | 45 | - | - | https://milktooth.com/products/populus-yellow |
-| Huano Holy Tom V1 | - | Huano | - | 택타일 | No | No | - | - | - | - | - | 3 | 4.0 | 2.0 | 60 | - | - | https://keybumps.com/switches/huano-holy-tom.html |
-| Huano Holy Tom V2 | - | Huano | - | 택타일 | No | No | - | - | - | - | - | 3 | 4.0 | 2.0 | 63.5 | - | - | https://keybumps.com/switches/huano-holytom-v2.html |
-| Huano Smoky White | - | Huano | - | 택타일 | No | No | - | - | - | No | - | 3 | 3.3 | 2.0 | 65 | 55 | - | https://kprepublic.com/products/huano-smoky-white-switch-rgb-smd-advance-tactile-65g-switches-for-mechanical-keyboard-mx-stem-3pin-black |
-| Huano Brown | - | Huano | - | 택타일 | No | No | - | - | - | No | - | 3 | 4.0 | 2.0 | 55 | - | - | https://keybumps.com/switches/huano-brown.html |
-| Huano Dustproof Brown | - | Huano | - | 택타일 | No | No | PC | PC | POM | No | - | 5 | 3.9 | 2.0 | 45 | - | 55 | https://joojakkeyboard.com/products/box-winter-tactile-key-switch-%E7%9A%84%E5%89%AF%E6%9C%AC-1 |
-| Huano Swirl Brown | - | Huano | - | 택타일 | No | No | - | - | - | No | - | - | 4.0 | 2.0 | 45 | - | 55 | https://switchoddities.com/products/huano-swirl-brown |
-| Huano Peppermint | - | Huano | - | 택타일 | No | No | - | - | - | - | - | - | - | - | - | - | - | https://drop.com/buy/huano-peppermint-tactile-mechanical-switches |
-| Huano Ice Blue | - | Huano | - | 택타일 | No | No | - | - | - | - | - | 3 | - | - | - | - | 60 | https://www.mechanicalkeyboards.co.id/products/detail/huano-ice-blue-switch-tactile-plate-mount |
-| Ajazz x Huano Banana | - | Huano | Ajazz | 택타일 | No | No | PC | Nylon | Nylon | Yes | 21.5 | 3 | 3.3 | - | - | - | 50 | https://www.theremingoat.com/blog/ajazz-x-huano-banana-switch-review |
-| Ajazz x Huano Kiwi | - | Huano | Ajazz | 택타일 | No | No | PC | Nylon | POM | Yes | - | 3 | 3.3 | 1.9 | 50 | - | 60 | https://www.mechanicalkeyboards.co.id/products/detail/ajazz-x-huano-kiwi-switch-tactile-plate-mount |
+| 이름 | 한글이름 | 제조사 | 콜라보업체 | 스위치타입 | 저소음 | 로우프로파일 | 상부하우징재질 | 하부하우징재질 | 스템재질 | 공장윤활 | 스프링길이(mm) | 마운트핀 | 트래블(mm) | 입력지점(mm) | 입력압(g) | 초기압(g) | 바닥압(g) | 걸림압(g) | 출처 |
+|------|----------|--------|-----------|-----------|--------|----------|-------------|-------------|---------|---------|--------------|---------|-----------|------------|----------|----------|----------|----------|------|
+| Huano Populus Yellow | - | Huano | - | 택타일 | No | No | POK | Nylon | POM | Yes | - | 5 | 4.0 | 2.0 | 45 | - | - | 65 | https://milktooth.com/products/populus-yellow |
+| Huano Holy Tom V1 | - | Huano | - | 택타일 | No | No | - | - | - | - | - | 3 | 4.0 | 2.0 | 60 | - | - | 60 | https://keybumps.com/switches/huano-holy-tom.html |
+| Huano Holy Tom V2 | - | Huano | - | 택타일 | No | No | - | - | - | - | - | 3 | 4.0 | 2.0 | 63.5 | - | - | 63.5 | https://keybumps.com/switches/huano-holytom-v2.html |
+| Huano Smoky White | - | Huano | - | 택타일 | No | No | - | - | - | No | - | 3 | 3.3 | 2.0 | 65 | 55 | - | 65 | https://kprepublic.com/products/huano-smoky-white-switch-rgb-smd-advance-tactile-65g-switches-for-mechanical-keyboard-mx-stem-3pin-black |
+| Huano Brown | - | Huano | - | 택타일 | No | No | - | - | - | No | - | 3 | 4.0 | 2.0 | 55 | - | - | - | https://keybumps.com/switches/huano-brown.html |
+| Huano Dustproof Brown | - | Huano | - | 택타일 | No | No | PC | PC | POM | No | - | 5 | 3.9 | 2.0 | 45 | - | 55 | - | https://joojakkeyboard.com/products/box-winter-tactile-key-switch-%E7%9A%84%E5%89%AF%E6%9C%AC-1 |
+| Huano Swirl Brown | - | Huano | - | 택타일 | No | No | - | - | - | No | - | - | 4.0 | 2.0 | 45 | - | 55 | 55 | https://switchoddities.com/products/huano-swirl-brown |
+| Huano Peppermint | - | Huano | - | 택타일 | No | No | - | - | - | - | - | - | - | - | - | - | - | - | https://drop.com/buy/huano-peppermint-tactile-mechanical-switches |
+| Huano Ice Blue | - | Huano | - | 택타일 | No | No | - | - | - | - | - | 3 | - | - | - | - | 60 | - | https://www.mechanicalkeyboards.co.id/products/detail/huano-ice-blue-switch-tactile-plate-mount |
+| Ajazz x Huano Banana | - | Huano | Ajazz | 택타일 | No | No | PC | Nylon | Nylon | Yes | 21.5 | 3 | 3.3 | - | - | - | 50 | 50 | https://www.theremingoat.com/blog/ajazz-x-huano-banana-switch-review |
+| Ajazz x Huano Kiwi | - | Huano | Ajazz | 택타일 | No | No | PC | Nylon | POM | Yes | - | 3 | 3.3 | 1.9 | 50 | - | 60 | 60 | https://www.mechanicalkeyboards.co.id/products/detail/ajazz-x-huano-kiwi-switch-tactile-plate-mount |
 
 ## 클릭 스위치
 
-| 이름 | 한글이름 | 제조사 | 콜라보업체 | 스위치타입 | 저소음 | 로우프로파일 | 상부하우징재질 | 하부하우징재질 | 스템재질 | 공장윤활 | 스프링길이(mm) | 마운트핀 | 트래블(mm) | 입력지점(mm) | 입력압(g) | 초기압(g) | 바닥압(g) | 출처 |
-|------|----------|--------|-----------|-----------|--------|----------|-------------|-------------|---------|---------|--------------|---------|-----------|------------|----------|----------|----------|------|
-| Huano Blue | - | Huano | - | 클릭키 | No | No | - | - | - | No | - | 3 | 4.0 | - | 60 | - | - | https://keybumps.com/switches/huano-blue.html |
+| 이름 | 한글이름 | 제조사 | 콜라보업체 | 스위치타입 | 저소음 | 로우프로파일 | 상부하우징재질 | 하부하우징재질 | 스템재질 | 공장윤활 | 스프링길이(mm) | 마운트핀 | 트래블(mm) | 입력지점(mm) | 입력압(g) | 초기압(g) | 바닥압(g) | 걸림압(g) | 출처 |
+|------|----------|--------|-----------|-----------|--------|----------|-------------|-------------|---------|---------|--------------|---------|-----------|------------|----------|----------|----------|----------|------|
+| Huano Blue | - | Huano | - | 클릭키 | No | No | - | - | - | No | - | 3 | 4.0 | - | 60 | - | - | - | https://keybumps.com/switches/huano-blue.html |
 
 ## Hall Effect 스위치
 

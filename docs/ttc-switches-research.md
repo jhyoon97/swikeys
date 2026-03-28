@@ -55,28 +55,28 @@
 
 ## 택타일 스위치
 
-| 이름 | 한글이름 | 제조사 | 콜라보업체 | 스위치타입 | 저소음 | 로우프로파일 | 상부하우징재질 | 하부하우징재질 | 스템재질 | 공장윤활 | 스프링길이(mm) | 마운트핀 | 트래블(mm) | 입력지점(mm) | 입력압(g) | 초기압(g) | 바닥압(g) | 출처 |
-|------|----------|--------|-----------|-----------|--------|----------|-------------|-------------|---------|---------|--------------|---------|-----------|------------|----------|----------|----------|------|
-| TTC Gold Brown V1 | - | TTC | - | 택타일 | No | No | PC | Nylon | POM | Yes | - | 3 | 4.0 | 2.0 | 45 | - | - | https://kprepublic.com/products/ttc-gold-brown-switch-3pin-rgb-smd-tactile-45g-force-mx-clone-switch-backlit |
-| TTC Gold Brown V2 | - | TTC | - | 택타일 | No | No | PC | Nylon | POM | Yes | - | 3 | 3.7 | 2.0 | 45 | - | 55 | https://keebworks.com/ttc-gold-v2-brown/ |
-| TTC Gold Brown V3 | - | TTC | - | 택타일 | No | No | PC | Nylon | POM | Yes | - | 3 | 4.0 | 2.0 | 55 | - | 63 | https://mechanicalkeyboards.com/products/ttc-golden-brown-v3-55g-tactile-plate-mount |
-| TTC Gold Brown Pro | - | TTC | - | 택타일 | No | No | PC | Nylon | NPI | Yes | - | 3 | 3.8 | 2.0 | 45 | - | - | https://milktooth.com/products/gold-brown-pro |
-| TTC Bluish White V1 | - | TTC | - | 택타일 | No | No | PC | Nylon | POM | Yes | - | 3 | 3.5 | 2.0 | 42 | - | 50 | https://milktooth.com/products/bluish-white |
-| TTC Bluish White V2 (Silent) | - | TTC | - | 택타일 | Yes | No | PC | Nylon | POM | Yes | - | 3 | 3.5 | 2.0 | 42 | - | 50 | https://milktooth.com/products/switches/silent-bluish-white |
-| TTC Silent Brown V2 | - | TTC | - | 택타일 | Yes | No | PC | Nylon | POM | Yes | - | 3 | 3.7 | 2.0 | 45 | - | 55 | https://chosfox.com/products/ttc-silent-brown-switch |
-| TTC Silent Brown V3 | - | TTC | - | 택타일 | Yes | No | PC | Nylon | POM | Yes | - | 3 | 3.8 | 2.0 | 45 | - | 63.5 | https://ttcswitches.com/products/ttc-silent-brown-keyswitch-v2-mechanical-keyboard-switches-linear-factory-pre-lubed-dust-proof-keyboard-switches |
-| TTC Watermelon Milkshake | - | TTC | Keyfirst | 택타일 | No | No | PC | Nylon | POM | Yes | - | 3 | 4.0 | 2.0 | 55 | - | - | https://dangkeebs.com/products/ttc-watermelon-milkshake |
-| TTC Cyber Panda | - | TTC | - | 택타일 | No | No | PC | Nylon | POM | Yes | - | 5 | 3.4 | 2.0 | 55 | - | - | https://keybumps.com/switches/ttc-cyber-panda.html |
-| TTC Chaotic Panda | - | TTC | - | 택타일 | No | No | PC | Nylon | POM | Yes | - | 5 | 3.4 | 2.0 | 55 | - | - | https://keybumps.com/switches/ttc-chaotic-panda.html |
-| TTC Heroic Panda | - | TTC | - | 택타일 | No | No | PC | Nylon | POM | Yes | - | 5 | 3.4 | 2.0 | 55 | - | - | https://keybumps.com/switches/ttc-heroic-panda.html |
-| TTC Holy Panda | - | TTC | - | 택타일 | No | No | PC | Nylon | POM | Yes | - | 5 | 3.4 | 2.0 | 45 | - | 55 | https://en.ttc9.com/product/177.html |
+| 이름 | 한글이름 | 제조사 | 콜라보업체 | 스위치타입 | 저소음 | 로우프로파일 | 상부하우징재질 | 하부하우징재질 | 스템재질 | 공장윤활 | 스프링길이(mm) | 마운트핀 | 트래블(mm) | 입력지점(mm) | 입력압(g) | 초기압(g) | 바닥압(g) | 걸림압(g) | 출처 |
+|------|----------|--------|-----------|-----------|--------|----------|-------------|-------------|---------|---------|--------------|---------|-----------|------------|----------|----------|----------|----------|------|
+| TTC Gold Brown V1 | - | TTC | - | 택타일 | No | No | PC | Nylon | POM | Yes | - | 3 | 4.0 | 2.0 | 45 | - | - | - | https://kprepublic.com/products/ttc-gold-brown-switch-3pin-rgb-smd-tactile-45g-force-mx-clone-switch-backlit |
+| TTC Gold Brown V2 | - | TTC | - | 택타일 | No | No | PC | Nylon | POM | Yes | - | 3 | 3.7 | 2.0 | 45 | - | 55 | 55 | https://keebworks.com/ttc-gold-v2-brown/ |
+| TTC Gold Brown V3 | - | TTC | - | 택타일 | No | No | PC | Nylon | POM | Yes | - | 3 | 4.0 | 2.0 | 55 | - | 63 | - | https://mechanicalkeyboards.com/products/ttc-golden-brown-v3-55g-tactile-plate-mount |
+| TTC Gold Brown Pro | - | TTC | - | 택타일 | No | No | PC | Nylon | NPI | Yes | - | 3 | 3.8 | 2.0 | 45 | - | - | - | https://milktooth.com/products/gold-brown-pro |
+| TTC Bluish White V1 | - | TTC | - | 택타일 | No | No | PC | Nylon | POM | Yes | - | 3 | 3.5 | 2.0 | 42 | - | 50 | 60 | https://milktooth.com/products/bluish-white |
+| TTC Bluish White V2 (Silent) | - | TTC | - | 택타일 | Yes | No | PC | Nylon | POM | Yes | - | 3 | 3.5 | 2.0 | 42 | - | 50 | 60 | https://milktooth.com/products/switches/silent-bluish-white |
+| TTC Silent Brown V2 | - | TTC | - | 택타일 | Yes | No | PC | Nylon | POM | Yes | - | 3 | 3.7 | 2.0 | 45 | - | 55 | 55 | https://chosfox.com/products/ttc-silent-brown-switch |
+| TTC Silent Brown V3 | - | TTC | - | 택타일 | Yes | No | PC | Nylon | POM | Yes | - | 3 | 3.8 | 2.0 | 45 | - | 63.5 | 55 | https://ttcswitches.com/products/ttc-silent-brown-keyswitch-v2-mechanical-keyboard-switches-linear-factory-pre-lubed-dust-proof-keyboard-switches |
+| TTC Watermelon Milkshake | - | TTC | Keyfirst | 택타일 | No | No | PC | Nylon | POM | Yes | - | 3 | 4.0 | 2.0 | 55 | - | - | - | https://dangkeebs.com/products/ttc-watermelon-milkshake |
+| TTC Cyber Panda | - | TTC | - | 택타일 | No | No | PC | Nylon | POM | Yes | - | 5 | 3.4 | 2.0 | 55 | - | - | 63.5 | https://keybumps.com/switches/ttc-cyber-panda.html |
+| TTC Chaotic Panda | - | TTC | - | 택타일 | No | No | PC | Nylon | POM | Yes | - | 5 | 3.4 | 2.0 | 55 | - | - | 63.5 | https://keybumps.com/switches/ttc-chaotic-panda.html |
+| TTC Heroic Panda | - | TTC | - | 택타일 | No | No | PC | Nylon | POM | Yes | - | 5 | 3.4 | 2.0 | 55 | - | - | 63.5 | https://keybumps.com/switches/ttc-heroic-panda.html |
+| TTC Holy Panda | - | TTC | - | 택타일 | No | No | PC | Nylon | POM | Yes | - | 5 | 3.4 | 2.0 | 45 | - | 55 | 55 | https://en.ttc9.com/product/177.html |
 
 ## 클릭 스위치
 
-| 이름 | 한글이름 | 제조사 | 콜라보업체 | 스위치타입 | 저소음 | 로우프로파일 | 상부하우징재질 | 하부하우징재질 | 스템재질 | 공장윤활 | 스프링길이(mm) | 마운트핀 | 트래블(mm) | 입력지점(mm) | 입력압(g) | 초기압(g) | 바닥압(g) | 출처 |
-|------|----------|--------|-----------|-----------|--------|----------|-------------|-------------|---------|---------|--------------|---------|-----------|------------|----------|----------|----------|------|
-| TTC Gold Blue (Brother) | - | TTC | - | 클릭키 | No | No | PC | Nylon | POM | Yes | - | 3 | 3.5 | 2.2 | 37 | - | - | https://keebworks.com/ttc-gold-blue/ |
-| TTC x Helix Lab Skylar | - | TTC | Helix Lab | 클릭키 | No | No | - | - | - | Yes | - | 3 | 4.0 | 2.0 | 45 | - | 60 | https://keybumps.com/switches/ttc-x-helix-lab-skylar.html |
+| 이름 | 한글이름 | 제조사 | 콜라보업체 | 스위치타입 | 저소음 | 로우프로파일 | 상부하우징재질 | 하부하우징재질 | 스템재질 | 공장윤활 | 스프링길이(mm) | 마운트핀 | 트래블(mm) | 입력지점(mm) | 입력압(g) | 초기압(g) | 바닥압(g) | 걸림압(g) | 출처 |
+|------|----------|--------|-----------|-----------|--------|----------|-------------|-------------|---------|---------|--------------|---------|-----------|------------|----------|----------|----------|----------|------|
+| TTC Gold Blue (Brother) | - | TTC | - | 클릭키 | No | No | PC | Nylon | POM | Yes | - | 3 | 3.5 | 2.2 | 37 | - | - | 58 | https://keebworks.com/ttc-gold-blue/ |
+| TTC x Helix Lab Skylar | - | TTC | Helix Lab | 클릭키 | No | No | - | - | - | Yes | - | 3 | 4.0 | 2.0 | 45 | - | 60 | 60 | https://keybumps.com/switches/ttc-x-helix-lab-skylar.html |
 
 ---
 

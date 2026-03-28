@@ -70,6 +70,10 @@ function renderProperty(
       return sw.pressure.bottom !== undefined
         ? `${t('switch.bottomForce')}: ${sw.pressure.bottom}${t('switch.g')}`
         : null;
+    case 'pressure.tactile':
+      return sw.pressure.tactile !== undefined
+        ? `${t('switch.tactileForce')}: ${sw.pressure.tactile}${t('switch.g')}`
+        : null;
     default:
       return null;
   }

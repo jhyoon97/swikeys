@@ -127,27 +127,27 @@
 
 ## 택타일 스위치
 
-| 이름 | 한글이름 | 제조사 | 콜라보업체 | 스위치타입 | 저소음 | 로우프로파일 | 상부하우징재질 | 하부하우징재질 | 스템재질 | 공장윤활 | 스프링길이(mm) | 마운트핀 | 트래블(mm) | 입력지점(mm) | 입력압(g) | 초기압(g) | 바닥압(g) | 출처 |
-|------|----------|--------|-----------|-----------|--------|----------|-------------|-------------|---------|---------|--------------|---------|-----------|------------|----------|----------|----------|------|
-| HMX Frog | - | HMX | Kinetic Labs | 택타일 | No | No | - | - | - | Yes | - | 5 | 3.62 | - | - | - | 55 | https://kineticlabs.com/switches/hmx/hmx-frog-switches |
-| HMX Yamatake | - | HMX | - | 택타일 | No | No | PC | PA-2 | POM | Yes | 22 | 5 | 3.5 | 2.0 | 40 | - | 52 | https://mechanicalkeyboards.com/products/hmx-yamatake-40g-tactile-pcb-mount-switch |
-| HMX Yamatake Light | - | HMX | - | 택타일 | No | No | - | - | - | Yes | - | 5 | - | - | - | - | - | https://unikeyboards.com/products/hmx-yamatake-light-tactile-switch-factory-lubed-10pcs |
-| HMX Ice Lotus | - | HMX | - | 택타일 | No | No | PA12 | PA66 | Modified POM | Yes | 22 | 3 | 3.5 | 2.5 | 55 | - | 60 | https://mechanicalkeyboards.com/products/hmx-ice-lotus-55g-tactile-plate-mount-switch |
-| HMX Longjing S | - | HMX | - | 택타일 | No | No | PA66 | PA66 | POM | Yes | 22 | 5 | 3.7 | 2.0 | 45 | - | 50 | https://unikeyboards.com/products/hmx-longjing-s-light-tactile-switch-factory-lubed-10pcs |
-| HMX Valerian | - | HMX | - | 택타일 | No | No | - | - | - | Yes | - | 5 | - | - | 48 | - | - | https://keeb-finder.com/switches/filter/brand-HMX |
-| HMX Valerian Light | - | HMX | - | 택타일 | No | No | POM | N1 Nylon | POM | Yes | 22 | 5 | 3.4 | 2.0 | 48 | - | 55 | https://unikeyboards.com/products/hmx-valerian-light-tactile-switch-factory-lubed-10pcs |
-| HMX K01 | - | HMX | - | 택타일 | No | No | PA66 | PA66 | POM | Yes | 18 | 5 | 3.8 | 2.0 | 45 | - | 57 | https://unikeyboards.com/products/hmx-k01-light-tactile-switch-factory-lubed-10pcs |
-| HMX Retro J | - | HMX | 80Retros | 택타일 | No | No | PC | PA66 | POM | Yes | - | 5 | 3.0 | 2.5 | 36 | - | 55 | https://divinikey.com/products/hmx-retro-j-tactile-switches |
-| HMX Hydra | - | HMX | XL Lab | 택타일 | No | No | PC | P2 | POM | Yes | 22 | 5 | 3.1 | 2.3 | 42 | - | 50 | https://unikeyboards.com/products/hmx-hydra-tactile-switch-factory-lubed-edition-10pcs |
-| HMX Jade | - | HMX | - | 택타일 | No | No | PA12 | Nylon | T2 | Yes | - | 5 | 3.1 | 2.3 | 50 | - | 58 | https://keeb-finder.com/switches/filter/brand-HMX |
-| HMX Snowfall | - | HMX | - | 택타일 | No | No | PC | Modified Nylon | POM | Yes | 22 | 5 | 3.0 | 2.0 | 50 | - | - | https://divinikey.com/products/hmx-snowfall-tactile-switches |
-| HMX Sandstorm (Dune) | - | HMX | - | 택타일 | No | No | PC | PA66 | POM | Yes | 22 | 5 | 3.1 | 2.3 | 50 | - | 58 | https://mechanicalkeyboards.com/products/hmx-dune-50g-tactile-pcb-mount-switch |
-| HMX Black Cat | - | HMX | - | 택타일 | No | No | Modified PA12 | P3 | Hardened POM | Yes | 22 | 5 | 3.0 | 2.5 | 35 | - | 48 | https://divinikey.com/products/hmx-black-cat-tactile-switches |
-| HMX Puppy | - | HMX | - | 택타일 | No | No | PA22 | P4 | H2 | Yes | 22 | 5 | 3.5 | 2.5 | 45 | - | 50 | https://keeb-finder.com/switches/hmx-puppy-tactile-switches |
-| HMX Firecracker | - | HMX | - | 택타일 | Yes | No | P3 | P6 | POK | Yes | 22 | 5 | 3.5 | 2.5 | 40 | - | 58 | https://divinikey.com/products/hmx-firecracker-tactile-switches |
-| HMX x Renalabs Yuyu | - | HMX | Renalabs | 택타일 | No | No | PA12 | P4 | T2 | Yes | 20 | 5 | 3.1 | - | 50 | - | 58 | https://keeb-finder.com/switches/filter/brand-HMX |
-| HMX x Sillyworks Waverider V2 | - | HMX | Sillyworks | 택타일 | No | No | PC | PA66 | POM | Yes | - | 5 | 3.8 | 2.0 | 42 | - | 53 | https://unikeyboards.com/collections/hmx-switches |
-| HMX Moksae Silent Tactile | HMX 목새 | HMX | SPM, Soulcat | 택타일 | Yes | No | PC | PA66 | POM+TPE | Yes | 22 | 5 | 3.8 | 2.0 | 45 | - | 53 | https://unikeyboards.com/products/hmx-moksae-silent-tactile-switch-factory-lubed-10pcs |
-| HMX x 80Retros Volume 0-T | - | HMX | 80Retros | 택타일 | Yes | No | PA12 | P4 | POM+TPE | Yes | 22 | 5 | 3.65 | 2.5 | 35 | - | 48 | https://divinikey.com/products/hmx-volume-0-silent-switches |
-| HMX Butter Silent Tactile | - | HMX | - | 택타일 | Yes | No | PA66 | PA66 | POM | Yes | 22 | 5 | 3.7 | 2.5 | 42 | - | 50 | https://lumekeebs.com/products/hmx-butter-silent-tactile-switches-10pcs-pre-order |
-| HMX Longjing | - | HMX | - | 택타일 | No | No | - | - | - | Yes | - | 5 | - | - | - | - | - | https://keeb-finder.com/switches/filter/brand-HMX |
+| 이름 | 한글이름 | 제조사 | 콜라보업체 | 스위치타입 | 저소음 | 로우프로파일 | 상부하우징재질 | 하부하우징재질 | 스템재질 | 공장윤활 | 스프링길이(mm) | 마운트핀 | 트래블(mm) | 입력지점(mm) | 입력압(g) | 초기압(g) | 바닥압(g) | 걸림압(g) | 출처 |
+|------|----------|--------|-----------|-----------|--------|----------|-------------|-------------|---------|---------|--------------|---------|-----------|------------|----------|----------|----------|----------|------|
+| HMX Frog | - | HMX | Kinetic Labs | 택타일 | No | No | - | - | - | Yes | - | 5 | 3.62 | - | - | - | 55 | 62 | https://kineticlabs.com/switches/hmx/hmx-frog-switches |
+| HMX Yamatake | - | HMX | - | 택타일 | No | No | PC | PA-2 | POM | Yes | 22 | 5 | 3.5 | 2.0 | 40 | - | 52 | - | https://mechanicalkeyboards.com/products/hmx-yamatake-40g-tactile-pcb-mount-switch |
+| HMX Yamatake Light | - | HMX | - | 택타일 | No | No | - | - | - | Yes | - | 5 | - | - | - | - | - | - | https://unikeyboards.com/products/hmx-yamatake-light-tactile-switch-factory-lubed-10pcs |
+| HMX Ice Lotus | - | HMX | - | 택타일 | No | No | PA12 | PA66 | Modified POM | Yes | 22 | 3 | 3.5 | 2.5 | 55 | - | 60 | - | https://mechanicalkeyboards.com/products/hmx-ice-lotus-55g-tactile-plate-mount-switch |
+| HMX Longjing S | - | HMX | - | 택타일 | No | No | PA66 | PA66 | POM | Yes | 22 | 5 | 3.7 | 2.0 | 45 | - | 50 | - | https://unikeyboards.com/products/hmx-longjing-s-light-tactile-switch-factory-lubed-10pcs |
+| HMX Valerian | - | HMX | - | 택타일 | No | No | - | - | - | Yes | - | 5 | - | - | 48 | - | - | - | https://keeb-finder.com/switches/filter/brand-HMX |
+| HMX Valerian Light | - | HMX | - | 택타일 | No | No | POM | N1 Nylon | POM | Yes | 22 | 5 | 3.4 | 2.0 | 48 | - | 55 | - | https://unikeyboards.com/products/hmx-valerian-light-tactile-switch-factory-lubed-10pcs |
+| HMX K01 | - | HMX | - | 택타일 | No | No | PA66 | PA66 | POM | Yes | 18 | 5 | 3.8 | 2.0 | 45 | - | 57 | - | https://unikeyboards.com/products/hmx-k01-light-tactile-switch-factory-lubed-10pcs |
+| HMX Retro J | - | HMX | 80Retros | 택타일 | No | No | PC | PA66 | POM | Yes | - | 5 | 3.0 | 2.5 | 36 | - | 55 | 55 | https://divinikey.com/products/hmx-retro-j-tactile-switches |
+| HMX Hydra | - | HMX | XL Lab | 택타일 | No | No | PC | P2 | POM | Yes | 22 | 5 | 3.1 | 2.3 | 42 | - | 50 | 50 | https://unikeyboards.com/products/hmx-hydra-tactile-switch-factory-lubed-edition-10pcs |
+| HMX Jade | - | HMX | - | 택타일 | No | No | PA12 | Nylon | T2 | Yes | - | 5 | 3.1 | 2.3 | 50 | - | 58 | - | https://keeb-finder.com/switches/filter/brand-HMX |
+| HMX Snowfall | - | HMX | - | 택타일 | No | No | PC | Modified Nylon | POM | Yes | 22 | 5 | 3.0 | 2.0 | 50 | - | - | - | https://divinikey.com/products/hmx-snowfall-tactile-switches |
+| HMX Sandstorm (Dune) | - | HMX | - | 택타일 | No | No | PC | PA66 | POM | Yes | 22 | 5 | 3.1 | 2.3 | 50 | - | 58 | 50 | https://mechanicalkeyboards.com/products/hmx-dune-50g-tactile-pcb-mount-switch |
+| HMX Black Cat | - | HMX | - | 택타일 | No | No | Modified PA12 | P3 | Hardened POM | Yes | 22 | 5 | 3.0 | 2.5 | 35 | - | 48 | - | https://divinikey.com/products/hmx-black-cat-tactile-switches |
+| HMX Puppy | - | HMX | - | 택타일 | No | No | PA22 | P4 | H2 | Yes | 22 | 5 | 3.5 | 2.5 | 45 | - | 50 | - | https://keeb-finder.com/switches/hmx-puppy-tactile-switches |
+| HMX Firecracker | - | HMX | - | 택타일 | Yes | No | P3 | P6 | POK | Yes | 22 | 5 | 3.5 | 2.5 | 40 | - | 58 | 58 | https://divinikey.com/products/hmx-firecracker-tactile-switches |
+| HMX x Renalabs Yuyu | - | HMX | Renalabs | 택타일 | No | No | PA12 | P4 | T2 | Yes | 20 | 5 | 3.1 | - | 50 | - | 58 | - | https://keeb-finder.com/switches/filter/brand-HMX |
+| HMX x Sillyworks Waverider V2 | - | HMX | Sillyworks | 택타일 | No | No | PC | PA66 | POM | Yes | - | 5 | 3.8 | 2.0 | 42 | - | 53 | - | https://unikeyboards.com/collections/hmx-switches |
+| HMX Moksae Silent Tactile | HMX 목새 | HMX | SPM, Soulcat | 택타일 | Yes | No | PC | PA66 | POM+TPE | Yes | 22 | 5 | 3.8 | 2.0 | 45 | - | 53 | - | https://unikeyboards.com/products/hmx-moksae-silent-tactile-switch-factory-lubed-10pcs |
+| HMX x 80Retros Volume 0-T | - | HMX | 80Retros | 택타일 | Yes | No | PA12 | P4 | POM+TPE | Yes | 22 | 5 | 3.65 | 2.5 | 35 | - | 48 | 35 | https://divinikey.com/products/hmx-volume-0-silent-switches |
+| HMX Butter Silent Tactile | - | HMX | - | 택타일 | Yes | No | PA66 | PA66 | POM | Yes | 22 | 5 | 3.7 | 2.5 | 42 | - | 50 | - | https://lumekeebs.com/products/hmx-butter-silent-tactile-switches-10pcs-pre-order |
+| HMX Longjing | - | HMX | - | 택타일 | No | No | - | - | - | Yes | - | 5 | - | - | - | - | - | - | https://keeb-finder.com/switches/filter/brand-HMX |

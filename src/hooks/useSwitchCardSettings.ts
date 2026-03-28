@@ -21,6 +21,7 @@ export const SWITCH_CARD_PROPERTY_OPTIONS = [
   'pressure.actuation',
   'pressure.initial',
   'pressure.bottom',
+  'pressure.tactile',
 ] as const;
 
 export const PROPERTY_LABEL_KEYS: Record<string, string> = {
@@ -39,6 +40,7 @@ export const PROPERTY_LABEL_KEYS: Record<string, string> = {
   'pressure.actuation': 'switch.actuationForce',
   'pressure.initial': 'switch.initialForce',
   'pressure.bottom': 'switch.bottomForce',
+  'pressure.tactile': 'switch.tactileForce',
 };
 
 const STORAGE_KEY = 'switchCardProperties';

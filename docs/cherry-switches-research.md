@@ -37,28 +37,28 @@
 
 ## 택타일 스위치
 
-| 이름 | 한글이름 | 제조사 | 콜라보업체 | 스위치타입 | 저소음 | 로우프로파일 | 상부하우징재질 | 하부하우징재질 | 스템재질 | 공장윤활 | 스프링길이(mm) | 마운트핀 | 트래블(mm) | 입력지점(mm) | 입력압(g) | 초기압(g) | 바닥압(g) | 출처 |
-|------|----------|--------|-----------|-----------|--------|----------|-------------|-------------|---------|---------|--------------|---------|-----------|------------|----------|----------|----------|------|
-| Cherry MX Brown | - | Cherry | - | 택타일 | No | No | Nylon | Nylon+GF | POM | No | - | 5 | 4.0 | 2.0 | 55 | - | 60 | https://keybumps.com/switches/cherry-mx-brown.html |
-| Cherry MX Brown Hyperglide | - | Cherry | - | 택타일 | No | No | Nylon | Nylon | POM | No | - | 5 | 4.0 | 2.0 | 45 | - | 60 | https://keebsforall.com/products/cherry-mx-hyperglide-tactile-switches |
-| Cherry MX Clear | - | Cherry | - | 택타일 | No | No | Nylon | Nylon+GF | POM | No | - | 5 | 4.0 | 2.0 | 55 | - | 110 | https://www.cherry.de/en-us/product/mx-clear |
-| Cherry MX Ergo Clear | - | Cherry | - | 택타일 | No | No | Nylon | Nylon+GF | POM | Yes | - | 5 | 4.0 | 2.0 | 55 | - | 78 | https://www.cherry.de/en-us/product/mx2a-ergo-clear |
-| Cherry MX Grey Tactile | - | Cherry | - | 택타일 | No | No | Nylon | Nylon+GF | POM | No | - | 5 | 4.0 | 2.2 | 70 | - | 120 | https://www.cherry.de/en-us/product/mx-grey-tactile |
-| Cherry MX2A Brown | - | Cherry | - | 택타일 | No | No | Nylon | Nylon+GF | POM | Yes | - | 5 | 4.0 | 2.0 | 55 | 30 | 80 | https://www.cherry.de/en-us/product/mx2a-brown |
-| Cherry MX2A Purple | - | Cherry | Glarses | 택타일 | No | No | Nylon | Nylon | POM | Yes | - | 5 | 4.0 | 2.0 | 45 | - | 55 | https://www.cherry.de/en-gb/product/mx-purple |
-| Cherry MX2A Petal | - | Cherry | - | 택타일 | No | No | Nylon | Nylon | POM | Yes | 16 | 5 | 4.0 | 2.0 | 30 | - | 45 | https://divinikey.com/products/cherry-mx2a-petal-light-tactile-switches |
-| Cherry MX2A Honey | - | Cherry | - | 택타일 | Yes | No | Nylon | Nylon+GF | POM | Yes | - | 5 | 3.7 | 1.9 | 45 | - | 110 | https://www.cherry.de/en-us/product/mx2a-honey |
-| Cherry MX Falcon | - | Cherry | - | 택타일 | No | No | Nylon | PA66 | POM | Yes | 15 | 5 | 3.5 | 2.0 | 50 | - | 100 | https://www.cherry.de/en-us/product/mx-falcon |
-| Cherry MX Low Profile 2.0 Clear | - | Cherry | - | 택타일 | No | Yes | Nylon | Nylon | POM | No | - | 3 | 3.2 | 1.2 | 45 | - | - | https://www.cherry.de/en-us/product/mx-low-profile-2-0-clear |
+| 이름 | 한글이름 | 제조사 | 콜라보업체 | 스위치타입 | 저소음 | 로우프로파일 | 상부하우징재질 | 하부하우징재질 | 스템재질 | 공장윤활 | 스프링길이(mm) | 마운트핀 | 트래블(mm) | 입력지점(mm) | 입력압(g) | 초기압(g) | 바닥압(g) | 걸림압(g) | 출처 |
+|------|----------|--------|-----------|-----------|--------|----------|-------------|-------------|---------|---------|--------------|---------|-----------|------------|----------|----------|----------|----------|------|
+| Cherry MX Brown | - | Cherry | - | 택타일 | No | No | Nylon | Nylon+GF | POM | No | - | 5 | 4.0 | 2.0 | 55 | - | 60 | 55 | https://keybumps.com/switches/cherry-mx-brown.html |
+| Cherry MX Brown Hyperglide | - | Cherry | - | 택타일 | No | No | Nylon | Nylon | POM | No | - | 5 | 4.0 | 2.0 | 45 | - | 60 | 55 | https://keebsforall.com/products/cherry-mx-hyperglide-tactile-switches |
+| Cherry MX Clear | - | Cherry | - | 택타일 | No | No | Nylon | Nylon+GF | POM | No | - | 5 | 4.0 | 2.0 | 55 | - | 110 | 65 | https://www.cherry.de/en-us/product/mx-clear |
+| Cherry MX Ergo Clear | - | Cherry | - | 택타일 | No | No | Nylon | Nylon+GF | POM | Yes | - | 5 | 4.0 | 2.0 | 55 | - | 78 | 65 | https://www.cherry.de/en-us/product/mx2a-ergo-clear |
+| Cherry MX Grey Tactile | - | Cherry | - | 택타일 | No | No | Nylon | Nylon+GF | POM | No | - | 5 | 4.0 | 2.2 | 70 | - | 120 | 80 | https://www.cherry.de/en-us/product/mx-grey-tactile |
+| Cherry MX2A Brown | - | Cherry | - | 택타일 | No | No | Nylon | Nylon+GF | POM | Yes | - | 5 | 4.0 | 2.0 | 55 | 30 | 80 | 55 | https://www.cherry.de/en-us/product/mx2a-brown |
+| Cherry MX2A Purple | - | Cherry | Glarses | 택타일 | No | No | Nylon | Nylon | POM | Yes | - | 5 | 4.0 | 2.0 | 45 | - | 55 | 55 | https://www.cherry.de/en-gb/product/mx-purple |
+| Cherry MX2A Petal | - | Cherry | - | 택타일 | No | No | Nylon | Nylon | POM | Yes | 16 | 5 | 4.0 | 2.0 | 30 | - | 45 | 45 | https://divinikey.com/products/cherry-mx2a-petal-light-tactile-switches |
+| Cherry MX2A Honey | - | Cherry | - | 택타일 | Yes | No | Nylon | Nylon+GF | POM | Yes | - | 5 | 3.7 | 1.9 | 45 | - | 110 | 55 | https://www.cherry.de/en-us/product/mx2a-honey |
+| Cherry MX Falcon | - | Cherry | - | 택타일 | No | No | Nylon | PA66 | POM | Yes | 15 | 5 | 3.5 | 2.0 | 50 | - | 100 | 70 | https://www.cherry.de/en-us/product/mx-falcon |
+| Cherry MX Low Profile 2.0 Clear | - | Cherry | - | 택타일 | No | Yes | Nylon | Nylon | POM | No | - | 3 | 3.2 | 1.2 | 45 | - | - | - | https://www.cherry.de/en-us/product/mx-low-profile-2-0-clear |
 
 ## 클릭 스위치
 
-| 이름 | 한글이름 | 제조사 | 콜라보업체 | 스위치타입 | 저소음 | 로우프로파일 | 상부하우징재질 | 하부하우징재질 | 스템재질 | 공장윤활 | 스프링길이(mm) | 마운트핀 | 트래블(mm) | 입력지점(mm) | 입력압(g) | 초기압(g) | 바닥압(g) | 출처 |
-|------|----------|--------|-----------|-----------|--------|----------|-------------|-------------|---------|---------|--------------|---------|-----------|------------|----------|----------|----------|------|
-| Cherry MX Blue | - | Cherry | - | 클릭키 | No | No | Nylon | Nylon+GF | POM | No | - | 5 | 4.0 | 2.2 | 60 | 25 | 60 | https://keebworks.com/cherry-mx-blue/ |
-| Cherry MX Green | - | Cherry | - | 클릭키 | No | No | Nylon | Nylon+GF | POM | No | - | 5 | 4.0 | 2.2 | 80 | - | 90 | https://www.cherry.de/en-us/product/mx-green |
-| Cherry MX White | - | Cherry | - | 클릭키 | No | No | Nylon | Nylon+GF | POM | No | - | 5 | 4.0 | 2.0 | 80 | - | 90 | https://keybumps.com/switches/cherry-mx-white.html |
-| Cherry MX2A Blue | - | Cherry | - | 클릭키 | No | No | Nylon | Nylon+GF | POM | No | - | 5 | 4.0 | 2.2 | 50 | 25 | - | https://www.cherry.de/en-us/product/mx2a-blue |
+| 이름 | 한글이름 | 제조사 | 콜라보업체 | 스위치타입 | 저소음 | 로우프로파일 | 상부하우징재질 | 하부하우징재질 | 스템재질 | 공장윤활 | 스프링길이(mm) | 마운트핀 | 트래블(mm) | 입력지점(mm) | 입력압(g) | 초기압(g) | 바닥압(g) | 걸림압(g) | 출처 |
+|------|----------|--------|-----------|-----------|--------|----------|-------------|-------------|---------|---------|--------------|---------|-----------|------------|----------|----------|----------|----------|------|
+| Cherry MX Blue | - | Cherry | - | 클릭키 | No | No | Nylon | Nylon+GF | POM | No | - | 5 | 4.0 | 2.2 | 60 | 25 | 60 | 60 | https://keebworks.com/cherry-mx-blue/ |
+| Cherry MX Green | - | Cherry | - | 클릭키 | No | No | Nylon | Nylon+GF | POM | No | - | 5 | 4.0 | 2.2 | 80 | - | 90 | 80 | https://www.cherry.de/en-us/product/mx-green |
+| Cherry MX White | - | Cherry | - | 클릭키 | No | No | Nylon | Nylon+GF | POM | No | - | 5 | 4.0 | 2.0 | 80 | - | 90 | 80 | https://keybumps.com/switches/cherry-mx-white.html |
+| Cherry MX2A Blue | - | Cherry | - | 클릭키 | No | No | Nylon | Nylon+GF | POM | No | - | 5 | 4.0 | 2.2 | 50 | 25 | - | 60 | https://www.cherry.de/en-us/product/mx2a-blue |
 
 ---
 

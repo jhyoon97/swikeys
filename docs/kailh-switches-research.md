@@ -68,78 +68,78 @@
 
 ## 택타일 스위치
 
-| 이름 | 한글이름 | 제조사 | 콜라보업체 | 스위치타입 | 저소음 | 로우프로파일 | 상부하우징재질 | 하부하우징재질 | 스템재질 | 공장윤활 | 스프링길이(mm) | 마운트핀 | 트래블(mm) | 입력지점(mm) | 입력압(g) | 초기압(g) | 바닥압(g) | 출처 |
-|------|----------|--------|-----------|-----------|--------|----------|-------------|-------------|---------|---------|--------------|---------|-----------|------------|----------|----------|----------|------|
-| Kailh Brown | - | Kailh | - | 택타일 | No | No | PC | Nylon | POM | No | - | 3 | 4.0 | 1.9 | 50 | - | 60 | https://www.kailhswitch.com/info/kailh-switches-introduction-list-27266403.html |
-| Kailh Box Brown | - | Kailh | - | 택타일 | No | No | PC | Nylon | POM | No | - | 3 | 3.6 | 2.0 | 45 | - | 55 | https://novelkeys.com/products/kailh-box-switches |
-| Kailh Box Burnt Orange | - | Kailh | - | 택타일 | No | No | PC | Nylon | POM | No | - | 3 | 3.6 | 2.0 | 60 | - | 80 | https://novelkeys.com/products/kailh-box-switches |
-| Kailh Box Royal | - | Kailh | - | 택타일 | No | No | PC | Nylon | POM | No | - | 3 | 3.6 | 1.8 | 45 | - | 70 | https://novelkeys.com/products/kailh-box-switches |
-| Kailh Box V2 Brown | - | Kailh | - | 택타일 | No | No | PC | Nylon | POM | Yes | - | 5 | 3.6 | 2.0 | 45 | - | 68 | https://divinikey.com/products/kailh-box-v2-brown-tactile-switches |
-| Kailh Box Winter | - | Kailh | - | 택타일 | No | No | PC | POM | POM | Yes | 20 | 5 | 3.6 | 2.0 | 38 | - | 55 | https://www.keychron.com/products/kailh-box-winter-tactile-switch |
-| Kailh Box Crystal Royal | - | Kailh | - | 택타일 | No | No | PC | PC | POM | No | - | 5 | 3.6 | 1.8 | 40 | - | 70 | https://www.keychron.com/products/kailh-crystal-royal-box-tactile-switch |
-| Kailh Box Crystal Robin | - | Kailh | - | 택타일 | No | No | PC | PC | POM | No | - | 5 | 3.6 | 1.8 | 65 | - | - | https://www.keychron.com/products/kailh-crystal-robin-box-switch |
-| Kailh Crystal Pearlescent Purple | - | Kailh | - | 택타일 | No | No | - | - | - | No | - | - | 3.6 | 1.8 | 45 | - | - | https://mechkeys.com/products/kailh-crystal-pearlescent-purple-mechanical-keyboard-switch |
-| Kailh Box Ice Cream Brown | - | Kailh | - | 택타일 | No | No | POM | POM | POM | No | 19 | 5 | 3.6 | 2.0 | 37 | - | 50 | https://kprepublic.com/products/kailh-box-ice-cream-brown-switch-pre-advanced-tactile-5pin-rgb-smd-37g-mx-switch-for-mechanical-keyboard-50m-all-pom |
-| Kailh Speed Copper | - | Kailh | - | 택타일 | No | No | PC | Nylon | POM | No | - | 3 | 3.5 | 1.1 | 40 | - | 50 | https://www.kailhswitch.com/info/kailh-switches-introduction-list-27266403.html |
-| Kailh Speed Heavy Burnt Orange | - | Kailh | NovelKeys | 택타일 | No | No | PC | Nylon | POM | No | - | 3 | 3.6 | 1.8 | 60 | - | - | https://kprepublic.com/products/kailh-heavy-switch-dark-yellow-burnt-orange-pale-blue-rgb-smd-switches-for-mechanical-keyboard-mx-3pin |
-| Kailh Super Speed Copper | - | Kailh | - | 택타일 | No | No | PC | Nylon | POM | Yes | 18 | 3 | 3.5 | 1.1 | 38 | - | 60 | https://www.kailh.net/products/kailh-super-speed-switch-set |
-| Kailh Pro Purple | - | Kailh | - | 택타일 | No | No | PC | Nylon | POM | No | - | 3 | 3.6 | 1.7 | 50 | - | - | https://www.kailhswitch.com/info/kailh-switches-introduction-list-27266403.html |
-| Kailh Pro Heavy Plum | - | Kailh | NovelKeys | 택타일 | No | No | PC | Nylon | POM | No | - | 3 | 3.6 | 1.7 | 70 | - | - | https://www.kailh.net/products/kailh-speed-pro-heavy-switch-set |
-| Kailh Polia | - | Kailh | - | 택타일 | No | No | PC | PA66 | POM | No | - | 3 | 3.8 | 1.9 | 45 | - | 67 | https://mechanicalkeyboards.com/products/kailh-polia-45g-tactile-plate-mount |
-| Kailh Canary | - | Kailh | Domikey | 택타일 | No | No | POM | POM | POM | No | - | 5 | 4.0 | 2.0 | 42 | - | 60 | https://www.keychron.com/products/kailh-canary-tactile-switch |
-| NovelKeys x Kailh Cream Tactile | - | Kailh | NovelKeys | 택타일 | No | No | POM | POM | POM | Yes | - | 5 | 4.0 | 3.0 | 65 | - | 75 | https://kprepublic.com/products/novelkeys-x-kailh-cream-switch-4pin-5pin-rgb-smd-tactile-65g-75g-force-mx-stem-switch-for-backlit-mechanical-keyboard-pom-lubed |
-| NovelKeys x Kailh Blueberry | - | Kailh | NovelKeys | 택타일 | No | No | POM | POM | POM | No | - | 5 | 4.0 | 3.0 | 55 | - | 80 | https://divinikey.com/products/novelkeys-x-kailh-blueberry-tactile-switches |
-| Kailh Midnight Jade | - | Kailh | - | 택타일 | No | No | PC | PC | POM | No | - | 5 | 3.6 | 1.8 | 50 | - | - | https://mechkeys.com/products/kailh-midnight-jade-switches |
-| Kailh Box Silent Brown | - | Kailh | - | 택타일 | Yes | No | PC | Nylon | POM | No | - | 3 | 3.6 | 2.0 | 45 | - | 57 | https://novelkeys.com/products/kailh-box-switches |
-| Kailh Box Hush Pro Deep Sea Whale | - | Kailh | - | 택타일 | Yes | No | PC | Nylon | PC | Yes | - | 3 | 3.6 | 2.0 | 45 | - | 60 | https://mechanicalkeyboards.com/products/kailh-box-hush-pro-deep-sea-whale-40g-silent-tactile-plate-mount |
-| Kailh Midnight V1 Tactile | - | Kailh | - | 택타일 | Yes | No | PC | PA66 | POM | No | - | 5 | 3.7 | 2.0 | 40 | - | 50 | https://kprepublic.com/products/kailh-midnight-switch-rgb-smd-linear-tactile-50g-switches-for-mechanical-keyboard-mx-stem-5pin-beige-grey-white |
-| Kailh Midnight Pro Tactile | - | Kailh | - | 택타일 | Yes | No | PC | Nylon PA66 | POM | Yes | - | 5 | 3.7 | 2.0 | 40 | - | - | https://mechanicalkeyboards.com/products/kailh-midnight-pro-silent-45g-tactile-plate-mount |
-| Kailh Choc V1 Brown | - | Kailh | - | 택타일 | No | Yes | - | - | POM | No | - | 2 | 3.0 | 1.5 | 50 | - | - | https://lowprokb.ca/products/kailh-choc-brown-low-profile-switches |
-| Kailh Choc V1 Burnt Orange | - | Kailh | - | 택타일 | No | Yes | - | - | POM | No | - | 2 | 3.0 | 1.5 | 70 | - | - | https://lowprokb.ca/products/kailh-choc-burnt-orange-switches |
-| Kailh Choc V1 Sunset | - | Kailh | LowproKB | 택타일 | No | Yes | - | - | POM | No | - | 2 | 3.0 | 1.5 | 40 | - | - | https://lowprokb.ca/products/sunset-tactile-choc-switches |
-| Kailh Choc V2 Brown | - | Kailh | - | 택타일 | No | Yes | PC | - | POM | No | - | 3 | 3.2 | 1.3 | 45 | - | - | https://shop.keyboard.io/products/kailh-choc-v2-brown-tactile-x10 |
-| Kailh Choc V2 Deep Sea Mini Whale | - | Kailh | - | 택타일 | Yes | Yes | PC | - | POM | No | - | 3 | 2.8 | 1.3 | 45 | - | - | https://shop.keyboard.io/products/kailh-choc-v2-deep-sea-mini-whale-silent |
-| Lofree Phantom | - | Kailh | Lofree | 택타일 | No | Yes | POM | POM | POM | Yes | - | 3 | 2.8 | 1.6 | 45 | - | - | https://www.lofree.co/products/lofree-phantom-switches |
+| 이름 | 한글이름 | 제조사 | 콜라보업체 | 스위치타입 | 저소음 | 로우프로파일 | 상부하우징재질 | 하부하우징재질 | 스템재질 | 공장윤활 | 스프링길이(mm) | 마운트핀 | 트래블(mm) | 입력지점(mm) | 입력압(g) | 초기압(g) | 바닥압(g) | 걸림압(g) | 출처 |
+|------|----------|--------|-----------|-----------|--------|----------|-------------|-------------|---------|---------|--------------|---------|-----------|------------|----------|----------|----------|----------|------|
+| Kailh Brown | - | Kailh | - | 택타일 | No | No | PC | Nylon | POM | No | - | 3 | 4.0 | 1.9 | 50 | - | 60 | - | https://www.kailhswitch.com/info/kailh-switches-introduction-list-27266403.html |
+| Kailh Box Brown | - | Kailh | - | 택타일 | No | No | PC | Nylon | POM | No | - | 3 | 3.6 | 2.0 | 45 | - | 55 | 60 | https://novelkeys.com/products/kailh-box-switches |
+| Kailh Box Burnt Orange | - | Kailh | - | 택타일 | No | No | PC | Nylon | POM | No | - | 3 | 3.6 | 2.0 | 60 | - | 80 | - | https://novelkeys.com/products/kailh-box-switches |
+| Kailh Box Royal | - | Kailh | - | 택타일 | No | No | PC | Nylon | POM | No | - | 3 | 3.6 | 1.8 | 45 | - | 70 | 75 | https://novelkeys.com/products/kailh-box-switches |
+| Kailh Box V2 Brown | - | Kailh | - | 택타일 | No | No | PC | Nylon | POM | Yes | - | 5 | 3.6 | 2.0 | 45 | - | 68 | 75 | https://divinikey.com/products/kailh-box-v2-brown-tactile-switches |
+| Kailh Box Winter | - | Kailh | - | 택타일 | No | No | PC | POM | POM | Yes | 20 | 5 | 3.6 | 2.0 | 38 | - | 55 | 55 | https://www.keychron.com/products/kailh-box-winter-tactile-switch |
+| Kailh Box Crystal Royal | - | Kailh | - | 택타일 | No | No | PC | PC | POM | No | - | 5 | 3.6 | 1.8 | 40 | - | 70 | 75 | https://www.keychron.com/products/kailh-crystal-royal-box-tactile-switch |
+| Kailh Box Crystal Robin | - | Kailh | - | 택타일 | No | No | PC | PC | POM | No | - | 5 | 3.6 | 1.8 | 65 | - | - | 65 | https://www.keychron.com/products/kailh-crystal-robin-box-switch |
+| Kailh Crystal Pearlescent Purple | - | Kailh | - | 택타일 | No | No | - | - | - | No | - | - | 3.6 | 1.8 | 45 | - | - | 75 | https://mechkeys.com/products/kailh-crystal-pearlescent-purple-mechanical-keyboard-switch |
+| Kailh Box Ice Cream Brown | - | Kailh | - | 택타일 | No | No | POM | POM | POM | No | 19 | 5 | 3.6 | 2.0 | 37 | - | 50 | 50 | https://kprepublic.com/products/kailh-box-ice-cream-brown-switch-pre-advanced-tactile-5pin-rgb-smd-37g-mx-switch-for-mechanical-keyboard-50m-all-pom |
+| Kailh Speed Copper | - | Kailh | - | 택타일 | No | No | PC | Nylon | POM | No | - | 3 | 3.5 | 1.1 | 40 | - | 50 | 50 | https://www.kailhswitch.com/info/kailh-switches-introduction-list-27266403.html |
+| Kailh Speed Heavy Burnt Orange | - | Kailh | NovelKeys | 택타일 | No | No | PC | Nylon | POM | No | - | 3 | 3.6 | 1.8 | 60 | - | - | 70 | https://kprepublic.com/products/kailh-heavy-switch-dark-yellow-burnt-orange-pale-blue-rgb-smd-switches-for-mechanical-keyboard-mx-3pin |
+| Kailh Super Speed Copper | - | Kailh | - | 택타일 | No | No | PC | Nylon | POM | Yes | 18 | 3 | 3.5 | 1.1 | 38 | - | 60 | 50 | https://www.kailh.net/products/kailh-super-speed-switch-set |
+| Kailh Pro Purple | - | Kailh | - | 택타일 | No | No | PC | Nylon | POM | No | - | 3 | 3.6 | 1.7 | 50 | - | - | - | https://www.kailhswitch.com/info/kailh-switches-introduction-list-27266403.html |
+| Kailh Pro Heavy Plum | - | Kailh | NovelKeys | 택타일 | No | No | PC | Nylon | POM | No | - | 3 | 3.6 | 1.7 | 70 | - | - | - | https://www.kailh.net/products/kailh-speed-pro-heavy-switch-set |
+| Kailh Polia | - | Kailh | - | 택타일 | No | No | PC | PA66 | POM | No | - | 3 | 3.8 | 1.9 | 45 | - | 67 | 60 | https://mechanicalkeyboards.com/products/kailh-polia-45g-tactile-plate-mount |
+| Kailh Canary | - | Kailh | Domikey | 택타일 | No | No | POM | POM | POM | No | - | 5 | 4.0 | 2.0 | 42 | - | 60 | 60 | https://www.keychron.com/products/kailh-canary-tactile-switch |
+| NovelKeys x Kailh Cream Tactile | - | Kailh | NovelKeys | 택타일 | No | No | POM | POM | POM | Yes | - | 5 | 4.0 | 3.0 | 65 | - | 75 | 75 | https://kprepublic.com/products/novelkeys-x-kailh-cream-switch-4pin-5pin-rgb-smd-tactile-65g-75g-force-mx-stem-switch-for-backlit-mechanical-keyboard-pom-lubed |
+| NovelKeys x Kailh Blueberry | - | Kailh | NovelKeys | 택타일 | No | No | POM | POM | POM | No | - | 5 | 4.0 | 3.0 | 55 | - | 80 | 70 | https://divinikey.com/products/novelkeys-x-kailh-blueberry-tactile-switches |
+| Kailh Midnight Jade | - | Kailh | - | 택타일 | No | No | PC | PC | POM | No | - | 5 | 3.6 | 1.8 | 50 | - | - | 85 | https://mechkeys.com/products/kailh-midnight-jade-switches |
+| Kailh Box Silent Brown | - | Kailh | - | 택타일 | Yes | No | PC | Nylon | POM | No | - | 3 | 3.6 | 2.0 | 45 | - | 57 | 65 | https://novelkeys.com/products/kailh-box-switches |
+| Kailh Box Hush Pro Deep Sea Whale | - | Kailh | - | 택타일 | Yes | No | PC | Nylon | PC | Yes | - | 3 | 3.6 | 2.0 | 45 | - | 60 | 60 | https://mechanicalkeyboards.com/products/kailh-box-hush-pro-deep-sea-whale-40g-silent-tactile-plate-mount |
+| Kailh Midnight V1 Tactile | - | Kailh | - | 택타일 | Yes | No | PC | PA66 | POM | No | - | 5 | 3.7 | 2.0 | 40 | - | 50 | 50 | https://kprepublic.com/products/kailh-midnight-switch-rgb-smd-linear-tactile-50g-switches-for-mechanical-keyboard-mx-stem-5pin-beige-grey-white |
+| Kailh Midnight Pro Tactile | - | Kailh | - | 택타일 | Yes | No | PC | Nylon PA66 | POM | Yes | - | 5 | 3.7 | 2.0 | 40 | - | - | 50 | https://mechanicalkeyboards.com/products/kailh-midnight-pro-silent-45g-tactile-plate-mount |
+| Kailh Choc V1 Brown | - | Kailh | - | 택타일 | No | Yes | - | - | POM | No | - | 2 | 3.0 | 1.5 | 50 | - | - | 60 | https://lowprokb.ca/products/kailh-choc-brown-low-profile-switches |
+| Kailh Choc V1 Burnt Orange | - | Kailh | - | 택타일 | No | Yes | - | - | POM | No | - | 2 | 3.0 | 1.5 | 70 | - | - | 70 | https://lowprokb.ca/products/kailh-choc-burnt-orange-switches |
+| Kailh Choc V1 Sunset | - | Kailh | LowproKB | 택타일 | No | Yes | - | - | POM | No | - | 2 | 3.0 | 1.5 | 40 | - | - | 55 | https://lowprokb.ca/products/sunset-tactile-choc-switches |
+| Kailh Choc V2 Brown | - | Kailh | - | 택타일 | No | Yes | PC | - | POM | No | - | 3 | 3.2 | 1.3 | 45 | - | - | 55 | https://shop.keyboard.io/products/kailh-choc-v2-brown-tactile-x10 |
+| Kailh Choc V2 Deep Sea Mini Whale | - | Kailh | - | 택타일 | Yes | Yes | PC | - | POM | No | - | 3 | 2.8 | 1.3 | 45 | - | - | 55 | https://shop.keyboard.io/products/kailh-choc-v2-deep-sea-mini-whale-silent |
+| Lofree Phantom | - | Kailh | Lofree | 택타일 | No | Yes | POM | POM | POM | Yes | - | 3 | 2.8 | 1.6 | 45 | - | - | - | https://www.lofree.co/products/lofree-phantom-switches |
 
 ## 클릭 스위치
 
-| 이름 | 한글이름 | 제조사 | 콜라보업체 | 스위치타입 | 저소음 | 로우프로파일 | 상부하우징재질 | 하부하우징재질 | 스템재질 | 공장윤활 | 스프링길이(mm) | 마운트핀 | 트래블(mm) | 입력지점(mm) | 입력압(g) | 초기압(g) | 바닥압(g) | 출처 |
-|------|----------|--------|-----------|-----------|--------|----------|-------------|-------------|---------|---------|--------------|---------|-----------|------------|----------|----------|----------|------|
-| Kailh Blue | - | Kailh | - | 클릭키 | No | No | PC | Nylon | POM | No | - | 3 | 4.0 | 1.9 | 50 | - | 60 | https://www.kailhswitch.com/info/kailh-switches-introduction-list-27266403.html |
-| Kailh Box White | - | Kailh | - | 클릭키 | No | No | PC | Nylon | POM | No | - | 3 | 3.6 | 1.8 | 45 | - | 55 | https://novelkeys.com/products/kailh-box-switches |
-| Kailh Box Pink | - | Kailh | - | 클릭키 | No | No | PC | Nylon | POM | No | - | 3 | 3.6 | 1.8 | 55 | - | 55 | https://novelkeys.com/products/kailh-box-switches |
-| Kailh Box Jade | - | Kailh | - | 클릭키 | No | No | PC | Nylon | POM | No | - | 3 | 3.6 | 1.8 | 50 | - | 65 | https://novelkeys.com/products/kailh-box-switches |
-| Kailh Box Navy | - | Kailh | - | 클릭키 | No | No | PC | Nylon | POM | No | - | 3 | 3.6 | 1.8 | 75 | - | 90 | https://novelkeys.com/products/kailh-box-switches |
-| Kailh Box Pale Blue | - | Kailh | - | 클릭키 | No | No | PC | Nylon | POM | No | - | 3 | 3.6 | 1.8 | 60 | - | 80 | https://novelkeys.com/products/kailh-box-switches |
-| Kailh Box Noble Yellow | - | Kailh | - | 클릭키 | No | No | PC | Nylon | POM | No | - | 3 | 3.6 | 1.8 | 55 | - | 65 | https://shop.keyboard.io/products/kailh-box-china-noble-yellow-keyswitches-x-10 |
-| Kailh Box Glazed Green | - | Kailh | - | 클릭키 | No | No | PC | Nylon | POM | No | - | 3 | 3.6 | 1.8 | 45 | - | 50 | https://www.amazon.com/Chinese-Dustproof-Mechanical-Keyboard-Waterproof/dp/B08CB9B6PY |
-| Kailh Box V2 White | - | Kailh | - | 클릭키 | No | No | PC | Nylon | POM | No | - | 5 | 3.6 | 1.8 | 45 | - | 50 | https://divinikey.com/products/kailh-box-v2-white-clicky-switches |
-| Kailh Box Summer | - | Kailh | - | 클릭키 | No | No | PC | PC | POM | No | - | 5 | 3.6 | 1.8 | 50 | - | 55 | https://www.thockking.com/products/kailh-box-summer-clicky-switches |
-| Kailh Box Autumn | - | Kailh | - | 클릭키 | No | No | PC | PC | POM | No | 20 | 5 | 3.6 | 1.8 | 50 | - | 55 | https://mechanicalkeyboards.com/products/kailh-box-autumn-50g-clicky-pcb-mount-switch |
-| Kailh Box Sun | - | Kailh | - | 클릭키 | No | No | PC | Nylon | POM | No | - | 3 | 3.5 | 1.8 | 50 | - | 60 | https://mechanicalkeyboards.com/products/kailh-box-sun-50g-clicky-plate-mount |
-| Kailh Box Fireflies | - | Kailh | - | 클릭키 | No | No | PC | - | - | No | - | 3 | 3.6 | 1.8 | 50 | - | - | https://mechkeys.com/products/kailh-box-fireflies-switches |
-| Kailh Box White Owl | - | Kailh | - | 클릭키 | No | No | PC | POM | POM | No | - | 5 | 3.6 | 1.8 | 46 | - | 70 | https://www.keychron.com/products/kailh-white-owl-box-switch |
-| Kailh Box Crystal Jade | - | Kailh | - | 클릭키 | No | No | PC | PC | POM | No | - | 5 | 3.6 | 1.8 | 55 | - | 75 | https://kprepublic.com/products/kailh-box-crystal-navy-jade-pink-royal-switch-smd-clear-mx-switches-for-mechanical-keyboard-5pin-50m-clear-housing |
-| Kailh Box Crystal Navy | - | Kailh | - | 클릭키 | No | No | PC | PC | POM | No | - | 5 | 3.6 | 1.8 | 60 | - | 90 | https://kprepublic.com/products/kailh-box-crystal-navy-jade-pink-royal-switch-smd-clear-mx-switches-for-mechanical-keyboard-5pin-50m-clear-housing |
-| Kailh Box Crystal Pink | - | Kailh | - | 클릭키 | No | No | PC | PC | POM | No | - | 5 | 3.6 | 1.8 | 65 | - | 55 | https://kprepublic.com/products/kailh-box-crystal-navy-jade-pink-royal-switch-smd-clear-mx-switches-for-mechanical-keyboard-5pin-50m-clear-housing |
-| Kailh Box Jellyfish X | - | Kailh | - | 클릭키 | No | No | PC | PC | Nylon | No | 18 | 5 | 3.6 | 1.8 | 47 | - | - | https://shop.keyboard.io/products/kailh-box-jellyfish-crystal-clicky-x10 |
-| Kailh Box Jellyfish Pro (Bixia) | - | Kailh | - | 클릭키 | No | No | PC | PC | PC | Yes | 15.2 | 5 | 3.3 | 1.8 | 47 | - | - | https://diykey.net/products/kailh-box-jellyfish-pro-full-transparent-rgb-bixia-clicky-switches |
-| Kailh Box Mute Jade | - | Kailh | - | 클릭키 | No | No | PC | Nylon | POM | No | - | 5 | 3.6 | 1.8 | 50 | - | 82 | https://novelkeys.com/products/kailh-box-switches |
-| Kailh Speed Pink | - | Kailh | - | 클릭키 | No | No | PC | Nylon PA66 | POM | No | - | 3 | 3.5 | 1.1 | 50 | - | - | https://mechanicalkeyboards.com/products/kailh-speed-pink-50g-clicky-plate-mount-switch |
-| Kailh Speed Gold | - | Kailh | - | 클릭키 | No | No | PC | Nylon | POM | No | - | 3 | 3.5 | 1.4 | 50 | - | 60 | https://www.kailhswitch.com/info/kailh-switches-introduction-list-27266403.html |
-| Kailh Speed Bronze | - | Kailh | - | 클릭키 | No | No | PC | Nylon | POM | No | - | 3 | 3.5 | 1.1 | 50 | - | 65 | https://www.kailhswitch.com/info/kailh-switches-introduction-list-27266403.html |
-| Kailh Speed Heavy Pale Blue | - | Kailh | NovelKeys | 클릭키 | No | No | PC | Nylon | POM | No | - | 3 | 3.6 | 1.8 | 60 | - | - | https://kprepublic.com/products/kailh-heavy-switch-dark-yellow-burnt-orange-pale-blue-rgb-smd-switches-for-mechanical-keyboard-mx-3pin |
-| Kailh Speed Navy | - | Kailh | NovelKeys | 클릭키 | No | No | PC | Nylon | POM | No | - | 3 | 3.6 | 1.7 | 70 | - | - | https://mechbox.co.uk/products/novelkeys-x-kailh-speed-navy-thick-click-switch |
-| Kailh Super Speed Bronze | - | Kailh | - | 클릭키 | No | No | PC | Nylon | POM | Yes | 20.5 | 3 | 3.5 | 1.1 | 48 | - | 45 | https://www.kailh.net/products/kailh-super-speed-switch-set |
-| Kailh Pro Light Green | - | Kailh | - | 클릭키 | No | No | PC | Nylon | POM | No | - | 3 | 3.6 | 1.7 | 50 | - | - | https://www.kailhswitch.com/info/kailh-switches-introduction-list-27266403.html |
-| Kailh Pro Heavy Sage | - | Kailh | NovelKeys | 클릭키 | No | No | PC | Nylon | POM | No | - | 3 | 3.6 | 1.7 | 70 | - | - | https://www.kailh.net/products/kailh-speed-pro-heavy-switch-set |
-| NovelKeys x Kailh Sherbet | - | Kailh | NovelKeys | 클릭키 | No | No | PC | - | UHMWPE | No | - | 3 | 4.0 | - | 45 | - | 70 | https://kprepublic.com/products/novelkeys-x-kailh-sherbet-switch-3pin-2pin-rgb-smd-clickbar-orange-45g-force-mx-stem-switch |
-| Kailh Choc V1 White | - | Kailh | - | 클릭키 | No | Yes | - | - | POM | No | - | 2 | 3.0 | 1.5 | 50 | - | - | https://lowprokb.ca/products/kailh-choc-white-low-profile-switches |
-| Kailh Choc V1 Jade | - | Kailh | - | 클릭키 | No | Yes | - | - | POM | No | - | 2 | 3.0 | 1.5 | 60 | - | - | https://lowprokb.ca/products/kailh-choc-jade-switches |
-| Kailh Choc V1 Navy | - | Kailh | - | 클릭키 | No | Yes | - | - | POM | No | - | 2 | 3.0 | 1.5 | 60 | - | - | https://lowprokb.ca/products/kailh-choc-navy-switches |
-| Kailh Choc V1 Robin | - | Kailh | - | 클릭키 | No | Yes | - | - | POM | No | - | 2 | 3.0 | 1.5 | 47 | - | - | https://lowprokb.ca/products/kailh-choc-robin-switches |
-| Kailh Choc V2 Blue | - | Kailh | - | 클릭키 | No | Yes | PC | - | POM | No | - | 3 | 3.2 | 1.3 | 50 | - | - | https://shop.keyboard.io/products/kailh-choc-v2-blue-clicky-x10 |
-| Lofree Wizard | - | Kailh | Lofree | 클릭키 | No | Yes | POM | POM | POM | Yes | - | 3 | 2.8 | 1.3 | 50 | - | - | https://www.lofree.co/products/lofree-wizard-switches |
+| 이름 | 한글이름 | 제조사 | 콜라보업체 | 스위치타입 | 저소음 | 로우프로파일 | 상부하우징재질 | 하부하우징재질 | 스템재질 | 공장윤활 | 스프링길이(mm) | 마운트핀 | 트래블(mm) | 입력지점(mm) | 입력압(g) | 초기압(g) | 바닥압(g) | 걸림압(g) | 출처 |
+|------|----------|--------|-----------|-----------|--------|----------|-------------|-------------|---------|---------|--------------|---------|-----------|------------|----------|----------|----------|----------|------|
+| Kailh Blue | - | Kailh | - | 클릭키 | No | No | PC | Nylon | POM | No | - | 3 | 4.0 | 1.9 | 50 | - | 60 | - | https://www.kailhswitch.com/info/kailh-switches-introduction-list-27266403.html |
+| Kailh Box White | - | Kailh | - | 클릭키 | No | No | PC | Nylon | POM | No | - | 3 | 3.6 | 1.8 | 45 | - | 55 | 55 | https://novelkeys.com/products/kailh-box-switches |
+| Kailh Box Pink | - | Kailh | - | 클릭키 | No | No | PC | Nylon | POM | No | - | 3 | 3.6 | 1.8 | 55 | - | 55 | 65 | https://novelkeys.com/products/kailh-box-switches |
+| Kailh Box Jade | - | Kailh | - | 클릭키 | No | No | PC | Nylon | POM | No | - | 3 | 3.6 | 1.8 | 50 | - | 65 | 75 | https://novelkeys.com/products/kailh-box-switches |
+| Kailh Box Navy | - | Kailh | - | 클릭키 | No | No | PC | Nylon | POM | No | - | 3 | 3.6 | 1.8 | 75 | - | 90 | 95 | https://novelkeys.com/products/kailh-box-switches |
+| Kailh Box Pale Blue | - | Kailh | - | 클릭키 | No | No | PC | Nylon | POM | No | - | 3 | 3.6 | 1.8 | 60 | - | 80 | - | https://novelkeys.com/products/kailh-box-switches |
+| Kailh Box Noble Yellow | - | Kailh | - | 클릭키 | No | No | PC | Nylon | POM | No | - | 3 | 3.6 | 1.8 | 55 | - | 65 | 65 | https://shop.keyboard.io/products/kailh-box-china-noble-yellow-keyswitches-x-10 |
+| Kailh Box Glazed Green | - | Kailh | - | 클릭키 | No | No | PC | Nylon | POM | No | - | 3 | 3.6 | 1.8 | 45 | - | 50 | - | https://www.amazon.com/Chinese-Dustproof-Mechanical-Keyboard-Waterproof/dp/B08CB9B6PY |
+| Kailh Box V2 White | - | Kailh | - | 클릭키 | No | No | PC | Nylon | POM | No | - | 5 | 3.6 | 1.8 | 45 | - | 50 | 55 | https://divinikey.com/products/kailh-box-v2-white-clicky-switches |
+| Kailh Box Summer | - | Kailh | - | 클릭키 | No | No | PC | PC | POM | No | - | 5 | 3.6 | 1.8 | 50 | - | 55 | 55 | https://www.thockking.com/products/kailh-box-summer-clicky-switches |
+| Kailh Box Autumn | - | Kailh | - | 클릭키 | No | No | PC | PC | POM | No | 20 | 5 | 3.6 | 1.8 | 50 | - | 55 | 55 | https://mechanicalkeyboards.com/products/kailh-box-autumn-50g-clicky-pcb-mount-switch |
+| Kailh Box Sun | - | Kailh | - | 클릭키 | No | No | PC | Nylon | POM | No | - | 3 | 3.5 | 1.8 | 50 | - | 60 | 60 | https://mechanicalkeyboards.com/products/kailh-box-sun-50g-clicky-plate-mount |
+| Kailh Box Fireflies | - | Kailh | - | 클릭키 | No | No | PC | - | - | No | - | 3 | 3.6 | 1.8 | 50 | - | - | 60 | https://mechkeys.com/products/kailh-box-fireflies-switches |
+| Kailh Box White Owl | - | Kailh | - | 클릭키 | No | No | PC | POM | POM | No | - | 5 | 3.6 | 1.8 | 46 | - | 70 | 70 | https://www.keychron.com/products/kailh-white-owl-box-switch |
+| Kailh Box Crystal Jade | - | Kailh | - | 클릭키 | No | No | PC | PC | POM | No | - | 5 | 3.6 | 1.8 | 55 | - | 75 | 55 | https://kprepublic.com/products/kailh-box-crystal-navy-jade-pink-royal-switch-smd-clear-mx-switches-for-mechanical-keyboard-5pin-50m-clear-housing |
+| Kailh Box Crystal Navy | - | Kailh | - | 클릭키 | No | No | PC | PC | POM | No | - | 5 | 3.6 | 1.8 | 60 | - | 90 | 65 | https://kprepublic.com/products/kailh-box-crystal-navy-jade-pink-royal-switch-smd-clear-mx-switches-for-mechanical-keyboard-5pin-50m-clear-housing |
+| Kailh Box Crystal Pink | - | Kailh | - | 클릭키 | No | No | PC | PC | POM | No | - | 5 | 3.6 | 1.8 | 65 | - | 55 | - | https://kprepublic.com/products/kailh-box-crystal-navy-jade-pink-royal-switch-smd-clear-mx-switches-for-mechanical-keyboard-5pin-50m-clear-housing |
+| Kailh Box Jellyfish X | - | Kailh | - | 클릭키 | No | No | PC | PC | Nylon | No | 18 | 5 | 3.6 | 1.8 | 47 | - | - | - | https://shop.keyboard.io/products/kailh-box-jellyfish-crystal-clicky-x10 |
+| Kailh Box Jellyfish Pro (Bixia) | - | Kailh | - | 클릭키 | No | No | PC | PC | PC | Yes | 15.2 | 5 | 3.3 | 1.8 | 47 | - | - | 60 | https://diykey.net/products/kailh-box-jellyfish-pro-full-transparent-rgb-bixia-clicky-switches |
+| Kailh Box Mute Jade | - | Kailh | - | 클릭키 | No | No | PC | Nylon | POM | No | - | 5 | 3.6 | 1.8 | 50 | - | 82 | - | https://novelkeys.com/products/kailh-box-switches |
+| Kailh Speed Pink | - | Kailh | - | 클릭키 | No | No | PC | Nylon PA66 | POM | No | - | 3 | 3.5 | 1.1 | 50 | - | - | - | https://mechanicalkeyboards.com/products/kailh-speed-pink-50g-clicky-plate-mount-switch |
+| Kailh Speed Gold | - | Kailh | - | 클릭키 | No | No | PC | Nylon | POM | No | - | 3 | 3.5 | 1.4 | 50 | - | 60 | 60 | https://www.kailhswitch.com/info/kailh-switches-introduction-list-27266403.html |
+| Kailh Speed Bronze | - | Kailh | - | 클릭키 | No | No | PC | Nylon | POM | No | - | 3 | 3.5 | 1.1 | 50 | - | 65 | 65 | https://www.kailhswitch.com/info/kailh-switches-introduction-list-27266403.html |
+| Kailh Speed Heavy Pale Blue | - | Kailh | NovelKeys | 클릭키 | No | No | PC | Nylon | POM | No | - | 3 | 3.6 | 1.8 | 60 | - | - | - | https://kprepublic.com/products/kailh-heavy-switch-dark-yellow-burnt-orange-pale-blue-rgb-smd-switches-for-mechanical-keyboard-mx-3pin |
+| Kailh Speed Navy | - | Kailh | NovelKeys | 클릭키 | No | No | PC | Nylon | POM | No | - | 3 | 3.6 | 1.7 | 70 | - | - | - | https://mechbox.co.uk/products/novelkeys-x-kailh-speed-navy-thick-click-switch |
+| Kailh Super Speed Bronze | - | Kailh | - | 클릭키 | No | No | PC | Nylon | POM | Yes | 20.5 | 3 | 3.5 | 1.1 | 48 | - | 45 | 65 | https://www.kailh.net/products/kailh-super-speed-switch-set |
+| Kailh Pro Light Green | - | Kailh | - | 클릭키 | No | No | PC | Nylon | POM | No | - | 3 | 3.6 | 1.7 | 50 | - | - | 60 | https://www.kailhswitch.com/info/kailh-switches-introduction-list-27266403.html |
+| Kailh Pro Heavy Sage | - | Kailh | NovelKeys | 클릭키 | No | No | PC | Nylon | POM | No | - | 3 | 3.6 | 1.7 | 70 | - | - | - | https://www.kailh.net/products/kailh-speed-pro-heavy-switch-set |
+| NovelKeys x Kailh Sherbet | - | Kailh | NovelKeys | 클릭키 | No | No | PC | - | UHMWPE | No | - | 3 | 4.0 | - | 45 | - | 70 | 83 | https://kprepublic.com/products/novelkeys-x-kailh-sherbet-switch-3pin-2pin-rgb-smd-clickbar-orange-45g-force-mx-stem-switch |
+| Kailh Choc V1 White | - | Kailh | - | 클릭키 | No | Yes | - | - | POM | No | - | 2 | 3.0 | 1.5 | 50 | - | - | - | https://lowprokb.ca/products/kailh-choc-white-low-profile-switches |
+| Kailh Choc V1 Jade | - | Kailh | - | 클릭키 | No | Yes | - | - | POM | No | - | 2 | 3.0 | 1.5 | 60 | - | - | - | https://lowprokb.ca/products/kailh-choc-jade-switches |
+| Kailh Choc V1 Navy | - | Kailh | - | 클릭키 | No | Yes | - | - | POM | No | - | 2 | 3.0 | 1.5 | 60 | - | - | - | https://lowprokb.ca/products/kailh-choc-navy-switches |
+| Kailh Choc V1 Robin | - | Kailh | - | 클릭키 | No | Yes | - | - | POM | No | - | 2 | 3.0 | 1.5 | 47 | - | - | - | https://lowprokb.ca/products/kailh-choc-robin-switches |
+| Kailh Choc V2 Blue | - | Kailh | - | 클릭키 | No | Yes | PC | - | POM | No | - | 3 | 3.2 | 1.3 | 50 | - | - | 55 | https://shop.keyboard.io/products/kailh-choc-v2-blue-clicky-x10 |
+| Lofree Wizard | - | Kailh | Lofree | 클릭키 | No | Yes | POM | POM | POM | Yes | - | 3 | 2.8 | 1.3 | 50 | - | - | - | https://www.lofree.co/products/lofree-wizard-switches |
 
 ## Hall Effect 스위치
 

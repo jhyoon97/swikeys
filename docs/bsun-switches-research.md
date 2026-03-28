@@ -66,31 +66,31 @@
 
 ## 택타일 스위치
 
-| 이름 | 한글이름 | 제조사 | 콜라보업체 | 스위치타입 | 저소음 | 로우프로파일 | 상부하우징재질 | 하부하우징재질 | 스템재질 | 공장윤활 | 스프링길이(mm) | 마운트핀 | 트래블(mm) | 입력지점(mm) | 입력압(g) | 초기압(g) | 바닥압(g) | 출처 |
-|------|----------|--------|-----------|-----------|--------|----------|-------------|-------------|---------|---------|--------------|---------|-----------|------------|----------|----------|----------|------|
-| BSUN Brown | - | BSUN | - | 택타일 | No | No | - | - | - | No | - | - | 4.0 | 2.2 | 38 | - | 65 | https://switchoddities.com/products/bsun-brown |
-| BSUN Golden Apple | - | BSUN | - | 택타일 | No | No | PC | PEI | LY | Yes | - | 5 | 3.36 | - | - | - | - | https://www.theremingoat.com/blog/bsun-golden-apple-switch-review |
-| BSUN Holy Panda V2 | - | BSUN | - | 택타일 | No | No | POM | POM | POM | No | 15 | 5 | 4.0 | 2.0 | - | - | 60 | https://kbd.news/switch/BSUN-Holy-Panda-V2-switch-243.html |
-| BSUN Pine | - | BSUN | Geon | 택타일 | No | No | PC | PA12 | POM | Yes | 21 | 5 | 3.4 | 2.0 | - | - | 60 | https://divinikey.com/products/bsun-pine-tactile-switches |
-| BSUN Raw Tactile | - | BSUN | Geon | 택타일 | No | No | PC | PA12 | - | Yes | 21 | 5 | - | 2.0 | - | - | 60 | https://keebsforall.com/products/bsun-raw-tactile-switches |
-| BSUN Hutt | - | BSUN | XY Studio | 택타일 | No | No | Modified PC | Modified PA12 | POK | Yes | 20.5 | 5 | 3.5 | 2.0 | 40 | - | 49 | https://unikeyboards.com/products/xy-studio-bsun-hutt-tactile-switch-factory-lubed-10pcs |
-| BSUN Clear | - | BSUN | - | 택타일 | No | No | PC | PA12 | PC | Yes | 21 | 5 | 3.4 | 2.0 | - | - | 55 | https://kprepublic.com/products/bsun-clear-switch-tactile-switch-transparent-rgb-smd-5pin-55g-for-mechanical-keyboard-pc-pa12-factory-pre-lubed-long-spring |
-| BSUN Crystal Purple | - | BSUN | - | 택타일 | No | No | PC | PC | POM | Yes | 14 | 5 | 3.3 | 2.0 | 38 | - | 65 | https://kprepublic.com/products/bsun-crystal-purple-switch-rgb-smd-tactile-switch-for-mechanical-keyboard-38g-65g-purple-pom-80m-purple-crystal-pc-housing |
-| BSUN Ruben Hornet Tactile | - | BSUN | - | 택타일 | No | No | POM | Nylon | POM | Yes | - | 5 | 3.3 | 2.2 | 48 | - | 68 | https://kprepublic.com/products/ruben-bumblebee-switch-tactile-linear-switch-pom-nylon-double-long-spring-new-shell-48g-68g-5pin |
-| BSUN Olive | - | BSUN | - | 택타일 | No | No | POM | POM | LY | Yes | 15 | 5 | 3.3 | 2.4 | 50 | - | 65 | https://mechanicalkeyboards.com/products/bsun-olive-50g-tactile-pcb-mount-switch |
-| BSUN Strawberry Cheesecake | - | BSUN | TORO Studio | 택타일 | No | No | POK | POK | LY | Yes | - | 5 | 3.2 | - | - | - | 58 | https://kukey.studio/products/bsun-strawberry-cheesecake-switch |
-| BSUN Mozzarella Cheese | - | BSUN | Keys in Cheese Studio | 택타일 | No | No | POK | POM | LY | Yes | 20 | 5 | 3.3 | 2.3 | 40 | - | 55 | https://divinikey.com/products/bsun-mozzarella-tactile-switches |
-| BSUN Ocean | - | BSUN | - | 택타일 | No | No | PC | Nylon | LY | Yes | 22 | 5 | 3.3 | 2.0 | 50 | - | 63.5 | https://unikeyboards.com/products/bsun-ocean-tactile-switch-factory-lubed-10pcs |
-| BSUN Sea Fog | - | BSUN | - | 택타일 | No | No | PC | Modified PA66+FG | LY | Yes | - | 5 | 3.4 | 1.9 | 45 | - | 53 | https://unikeyboards.com/products/bsun-sea-fog-tactile-switch-factory-lubed-10pcs |
-| BSUN Cliff | - | BSUN | - | 택타일 | No | No | PC | Nylon | LY | Yes | - | 5 | 3.6 | - | 37 | - | 45 | https://unikeyboards.com/products/bsun-cliff-tactile-switch-factory-lubed-edition-10pcs |
-| BSUN x Zuoce Cheese Grape | - | BSUN | Zuoce Studio | 택타일 | No | No | PC | PA+30%FG | POM | Yes | 21 | 5 | 3.2 | 2.0 | 27 | - | 45 | https://www.keebzncables.com/products/bsun-x-zuoce-studio-cheese-grape-tactile-switches |
-| BSUN Dragon Fruit (Panda V2) | - | BSUN | YOK | 택타일 | No | No | PC | Nylon | POM | Yes | - | 5 | 3.4 | 2.2 | 45 | - | 65 | https://milktooth.com/products/dragon-fruit |
-| YOK BSUN Banana White | - | BSUN | YOK | 택타일 | No | No | - | - | - | Yes | - | 5 | 4.0 | - | 35 | - | 56 | https://www.amazon.com/KPREPUBLIC-Banana-Tactile-Mechanical-Keyboard/dp/B0CKS2PXMP |
-| YOK BSUN Smoky Black | - | BSUN | YOK | 택타일 | No | No | PC | PC | POM | Yes | 15 | 5 | 3.3 | 2.2 | 40 | - | 65 | https://kprepublic.com/products/yok-bsun-smoky-black-switch-rgb-smd-tactile-switch-for-mechanical-keyboard-65g-transparent-black-stem-factory-lubed-80m |
+| 이름 | 한글이름 | 제조사 | 콜라보업체 | 스위치타입 | 저소음 | 로우프로파일 | 상부하우징재질 | 하부하우징재질 | 스템재질 | 공장윤활 | 스프링길이(mm) | 마운트핀 | 트래블(mm) | 입력지점(mm) | 입력압(g) | 초기압(g) | 바닥압(g) | 걸림압(g) | 출처 |
+|------|----------|--------|-----------|-----------|--------|----------|-------------|-------------|---------|---------|--------------|---------|-----------|------------|----------|----------|----------|----------|------|
+| BSUN Brown | - | BSUN | - | 택타일 | No | No | - | - | - | No | - | - | 4.0 | 2.2 | 38 | - | 65 | - | https://switchoddities.com/products/bsun-brown |
+| BSUN Golden Apple | - | BSUN | - | 택타일 | No | No | PC | PEI | LY | Yes | - | 5 | 3.36 | - | - | - | - | - | https://www.theremingoat.com/blog/bsun-golden-apple-switch-review |
+| BSUN Holy Panda V2 | - | BSUN | - | 택타일 | No | No | POM | POM | POM | No | 15 | 5 | 4.0 | 2.0 | - | - | 60 | 67 | https://kbd.news/switch/BSUN-Holy-Panda-V2-switch-243.html |
+| BSUN Pine | - | BSUN | Geon | 택타일 | No | No | PC | PA12 | POM | Yes | 21 | 5 | 3.4 | 2.0 | - | - | 60 | 67 | https://divinikey.com/products/bsun-pine-tactile-switches |
+| BSUN Raw Tactile | - | BSUN | Geon | 택타일 | No | No | PC | PA12 | - | Yes | 21 | 5 | - | 2.0 | - | - | 60 | 67 | https://keebsforall.com/products/bsun-raw-tactile-switches |
+| BSUN Hutt | - | BSUN | XY Studio | 택타일 | No | No | Modified PC | Modified PA12 | POK | Yes | 20.5 | 5 | 3.5 | 2.0 | 40 | - | 49 | - | https://unikeyboards.com/products/xy-studio-bsun-hutt-tactile-switch-factory-lubed-10pcs |
+| BSUN Clear | - | BSUN | - | 택타일 | No | No | PC | PA12 | PC | Yes | 21 | 5 | 3.4 | 2.0 | - | - | 55 | 55 | https://kprepublic.com/products/bsun-clear-switch-tactile-switch-transparent-rgb-smd-5pin-55g-for-mechanical-keyboard-pc-pa12-factory-pre-lubed-long-spring |
+| BSUN Crystal Purple | - | BSUN | - | 택타일 | No | No | PC | PC | POM | Yes | 14 | 5 | 3.3 | 2.0 | 38 | - | 65 | 65 | https://kprepublic.com/products/bsun-crystal-purple-switch-rgb-smd-tactile-switch-for-mechanical-keyboard-38g-65g-purple-pom-80m-purple-crystal-pc-housing |
+| BSUN Ruben Hornet Tactile | - | BSUN | - | 택타일 | No | No | POM | Nylon | POM | Yes | - | 5 | 3.3 | 2.2 | 48 | - | 68 | - | https://kprepublic.com/products/ruben-bumblebee-switch-tactile-linear-switch-pom-nylon-double-long-spring-new-shell-48g-68g-5pin |
+| BSUN Olive | - | BSUN | - | 택타일 | No | No | POM | POM | LY | Yes | 15 | 5 | 3.3 | 2.4 | 50 | - | 65 | 65 | https://mechanicalkeyboards.com/products/bsun-olive-50g-tactile-pcb-mount-switch |
+| BSUN Strawberry Cheesecake | - | BSUN | TORO Studio | 택타일 | No | No | POK | POK | LY | Yes | - | 5 | 3.2 | - | - | - | 58 | - | https://kukey.studio/products/bsun-strawberry-cheesecake-switch |
+| BSUN Mozzarella Cheese | - | BSUN | Keys in Cheese Studio | 택타일 | No | No | POK | POM | LY | Yes | 20 | 5 | 3.3 | 2.3 | 40 | - | 55 | 55 | https://divinikey.com/products/bsun-mozzarella-tactile-switches |
+| BSUN Ocean | - | BSUN | - | 택타일 | No | No | PC | Nylon | LY | Yes | 22 | 5 | 3.3 | 2.0 | 50 | - | 63.5 | - | https://unikeyboards.com/products/bsun-ocean-tactile-switch-factory-lubed-10pcs |
+| BSUN Sea Fog | - | BSUN | - | 택타일 | No | No | PC | Modified PA66+FG | LY | Yes | - | 5 | 3.4 | 1.9 | 45 | - | 53 | - | https://unikeyboards.com/products/bsun-sea-fog-tactile-switch-factory-lubed-10pcs |
+| BSUN Cliff | - | BSUN | - | 택타일 | No | No | PC | Nylon | LY | Yes | - | 5 | 3.6 | - | 37 | - | 45 | - | https://unikeyboards.com/products/bsun-cliff-tactile-switch-factory-lubed-edition-10pcs |
+| BSUN x Zuoce Cheese Grape | - | BSUN | Zuoce Studio | 택타일 | No | No | PC | PA+30%FG | POM | Yes | 21 | 5 | 3.2 | 2.0 | 27 | - | 45 | - | https://www.keebzncables.com/products/bsun-x-zuoce-studio-cheese-grape-tactile-switches |
+| BSUN Dragon Fruit (Panda V2) | - | BSUN | YOK | 택타일 | No | No | PC | Nylon | POM | Yes | - | 5 | 3.4 | 2.2 | 45 | - | 65 | 67 | https://milktooth.com/products/dragon-fruit |
+| YOK BSUN Banana White | - | BSUN | YOK | 택타일 | No | No | - | - | - | Yes | - | 5 | 4.0 | - | 35 | - | 56 | - | https://www.amazon.com/KPREPUBLIC-Banana-Tactile-Mechanical-Keyboard/dp/B0CKS2PXMP |
+| YOK BSUN Smoky Black | - | BSUN | YOK | 택타일 | No | No | PC | PC | POM | Yes | 15 | 5 | 3.3 | 2.2 | 40 | - | 65 | 65 | https://kprepublic.com/products/yok-bsun-smoky-black-switch-rgb-smd-tactile-switch-for-mechanical-keyboard-65g-transparent-black-stem-factory-lubed-80m |
 
 ## 클릭 스위치
 
-| 이름 | 한글이름 | 제조사 | 콜라보업체 | 스위치타입 | 저소음 | 로우프로파일 | 상부하우징재질 | 하부하우징재질 | 스템재질 | 공장윤활 | 스프링길이(mm) | 마운트핀 | 트래블(mm) | 입력지점(mm) | 입력압(g) | 초기압(g) | 바닥압(g) | 출처 |
-|------|----------|--------|-----------|-----------|--------|----------|-------------|-------------|---------|---------|--------------|---------|-----------|------------|----------|----------|----------|------|
-| BSUN Blue | - | BSUN | - | 클릭키 | No | No | - | - | - | No | - | - | 4.0 | 2.1 | 38 | - | 65 | https://switchoddities.com/products/bsun-blue |
-| BSUN Dustproof Blue | - | BSUN | - | 클릭키 | No | No | PC | Nylon | - | No | - | - | 4.0 | - | 50 | - | 65 | https://switchoddities.com/products/bsun-dustproof-blue |
+| 이름 | 한글이름 | 제조사 | 콜라보업체 | 스위치타입 | 저소음 | 로우프로파일 | 상부하우징재질 | 하부하우징재질 | 스템재질 | 공장윤활 | 스프링길이(mm) | 마운트핀 | 트래블(mm) | 입력지점(mm) | 입력압(g) | 초기압(g) | 바닥압(g) | 걸림압(g) | 출처 |
+|------|----------|--------|-----------|-----------|--------|----------|-------------|-------------|---------|---------|--------------|---------|-----------|------------|----------|----------|----------|----------|------|
+| BSUN Blue | - | BSUN | - | 클릭키 | No | No | - | - | - | No | - | - | 4.0 | 2.1 | 38 | - | 65 | - | https://switchoddities.com/products/bsun-blue |
+| BSUN Dustproof Blue | - | BSUN | - | 클릭키 | No | No | PC | Nylon | - | No | - | - | 4.0 | - | 50 | - | 65 | - | https://switchoddities.com/products/bsun-dustproof-blue |
