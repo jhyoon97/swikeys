@@ -520,101 +520,101 @@
 
 ## Jerrzi (39)
 
-- [ ] jerrzi-mx-blue | Jerrzi MX Blue | https://kprepublic.com/products/jerrzi-switch-3pin-smd-rgb-mx-stem-switch-for-mechanical-keyboard-brown-yellow-red-black-blue
+- [x] jerrzi-mx-blue | Jerrzi MX Blue | https://kprepublic.com/products/jerrzi-switch-3pin-smd-rgb-mx-stem-switch-for-mechanical-keyboard-brown-yellow-red-black-blue
 - [ ] ltc-jerrzi-similar-blue | LTC Jerrzi Similar Blue | https://ltcofficial.com/products/ltc-jerrzi-similar-blue-switches-for-mechanical-keyboard-diy70pcs
 - [ ] jerrzi-xcjz-lotus-stem | Jerrzi XCJZ Lotus Stem | https://kprepublic.com/products/jerrzi-xcjz-lotus-stem-switch-60g-rgb-smd-click-tactile-switches-for-mechanical-keyboard-mx-stem-5pin-pre-lubed-pom
 - [ ] jerrzi-mx-green | Jerrzi MX Green | https://en.jerrzi.com/Products_detail/21.html
-- [ ] jerrzi-mx-brown | Jerrzi MX Brown | https://kprepublic.com/products/jerrzi-switch-3pin-smd-rgb-mx-stem-switch-for-mechanical-keyboard-brown-yellow-red-black-blue
+- [x] jerrzi-mx-brown | Jerrzi MX Brown | https://kprepublic.com/products/jerrzi-switch-3pin-smd-rgb-mx-stem-switch-for-mechanical-keyboard-brown-yellow-red-black-blue
 - [ ] ltc-jerrzi-lava-(similar-panda) | LTC Jerrzi Lava (Similar Panda) | https://ltcofficial.com/products/ltc-jerrzi-tactile-switches-for-mechanical-keyboard-70pcs
-- [ ] jerrzi-kyria-brown | Jerrzi Kyria Brown | https://switchoddities.com/products/jerrzi-kyria-brown
+- [x] jerrzi-kyria-brown | Jerrzi Kyria Brown | https://switchoddities.com/products/jerrzi-kyria-brown
 - [ ] jerrzi-glacier | Jerrzi Glacier | https://ktechs.store/products/jerrzi-glacier-tactile-switch
 - [ ] jerrzi-frosty-china | Jerrzi Frosty China | https://keeb-finder.com/switches/jerrzi-frosty-china-tactile-switches-10-pack
-- [ ] jerrzi-blueberry-mousse | Jerrzi Blueberry Mousse | https://milktooth.com/products/blueberry-mousse
-- [ ] jerrzi-violet | Jerrzi Violet | https://milktooth.com/products/switches/violet
-- [ ] jerrzi-mx-yellow | Jerrzi MX Yellow | https://kprepublic.com/products/jerrzi-switch-3pin-smd-rgb-mx-stem-switch-for-mechanical-keyboard-brown-yellow-red-black-blue
-- [ ] jerrzi-mx-black | Jerrzi MX Black | https://kprepublic.com/products/jerrzi-switch-3pin-smd-rgb-mx-stem-switch-for-mechanical-keyboard-brown-yellow-red-black-blue
-- [ ] jerrzi-mx-red | Jerrzi MX Red | https://kprepublic.com/products/jerrzi-switch-3pin-smd-rgb-mx-stem-switch-for-mechanical-keyboard-brown-yellow-red-black-blue
+- [x] jerrzi-blueberry-mousse | Jerrzi Blueberry Mousse | https://milktooth.com/products/blueberry-mousse
+- [x] jerrzi-violet | Jerrzi Violet | https://milktooth.com/products/switches/violet
+- [x] jerrzi-mx-yellow | Jerrzi MX Yellow | https://kprepublic.com/products/jerrzi-switch-3pin-smd-rgb-mx-stem-switch-for-mechanical-keyboard-brown-yellow-red-black-blue
+- [x] jerrzi-mx-black | Jerrzi MX Black | https://kprepublic.com/products/jerrzi-switch-3pin-smd-rgb-mx-stem-switch-for-mechanical-keyboard-brown-yellow-red-black-blue
+- [x] jerrzi-mx-red | Jerrzi MX Red | https://kprepublic.com/products/jerrzi-switch-3pin-smd-rgb-mx-stem-switch-for-mechanical-keyboard-brown-yellow-red-black-blue
 - [ ] ltc-jerrzi-similar-red | LTC Jerrzi Similar Red | https://ltcofficial.com/products/ltc-jerrzi-similar-red-switches-for-mechanical-keyboard-diy-70pcs
 - [ ] jerrzi-kerulean-45g | Jerrzi Kerulean 45g | https://en.jerrzi.com/news_detail/3.html
 - [ ] jerrzi-taro | Jerrzi Taro | https://pompokey.com/products/jerrzi-taro-semi-silent-linear-switches-factory-lubed-10pcs
-- [ ] jerrzi-canneles-(canale) | Jerrzi Canneles (Canale) | https://milktooth.com/products/switches/canale
-- [ ] jerrzi-honey-bean | Jerrzi Honey Bean | https://milktooth.com/products/honey-bean
+- [x] jerrzi-canneles-(canale) | Jerrzi Canneles (Canale) | https://milktooth.com/products/switches/canale
+- [x] jerrzi-honey-bean | Jerrzi Honey Bean | https://milktooth.com/products/honey-bean
 - [ ] jerrzi-misty-lavender-45g | Jerrzi Misty Lavender 45g | https://en.jerrzi.com/news_detail/1.html
 - [ ] jerrzi-misty-lavender-37g | Jerrzi Misty Lavender 37g | https://en.jerrzi.com/news_detail/1.html
 - [ ] jerrzi-mx-orange | Jerrzi MX Orange | https://en.jerrzi.com/Products_detail/17.html
 - [ ] jerrzi-x-rise-dream | Jerrzi x Rise Dream | https://keysfusion.com/product/jerrzi-rise-dream-linear-switches/
-- [ ] jerrzi-tu | Jerrzi TU | https://switchoddities.com/products/jerrzi-tu
-- [ ] jerrzi-kyria-white | Jerrzi Kyria White | https://switchoddities.com/products/jerrzi-kyria-white
-- [ ] jerrzi-kyria-pink | Jerrzi Kyria Pink | https://switchoddities.com/products/jerrzi-kyria-pink
-- [ ] jerrzi-kyria-red | Jerrzi Kyria Red | https://switchoddities.com/products/jerrzi-kyria-red
-- [ ] jerrzi-sea-salt-mousse | Jerrzi Sea Salt Mousse | https://milktooth.com/products/sea-salt-mousse
-- [ ] jerrzi-wind-rain | Jerrzi Wind Rain | https://thoccexchange.com/products/jerzzi-wind-rain
+- [x] jerrzi-tu | Jerrzi TU | https://switchoddities.com/products/jerrzi-tu
+- [x] jerrzi-kyria-white | Jerrzi Kyria White | https://switchoddities.com/products/jerrzi-kyria-white
+- [x] jerrzi-kyria-pink | Jerrzi Kyria Pink | https://switchoddities.com/products/jerrzi-kyria-pink
+- [x] jerrzi-kyria-red | Jerrzi Kyria Red | https://switchoddities.com/products/jerrzi-kyria-red
+- [x] jerrzi-sea-salt-mousse | Jerrzi Sea Salt Mousse | https://milktooth.com/products/sea-salt-mousse
+- [x] jerrzi-wind-rain | Jerrzi Wind Rain | https://thoccexchange.com/products/jerzzi-wind-rain
 - [ ] jerrzi-rainbow | Jerrzi Rainbow | https://thoccexchange.com/products/jerzzi-rainbow-switches-10-per-pack
-- [ ] jerrzi-poseidon | Jerrzi Poseidon | https://milktooth.com/products/switches/poseidon
+- [x] jerrzi-poseidon | Jerrzi Poseidon | https://milktooth.com/products/switches/poseidon
 - [ ] jerrzi-lotus-v2 | Jerrzi Lotus V2 | https://milktooth.com/comparisons/lotus-v2-vs-sunset-gleam
-- [ ] jerrzi-brownie | Jerrzi Brownie | https://thoccexchange.com/products/jerzzi-brownie-switch-10-pack
-- [ ] jerrzi-wisteria-flower | Jerrzi Wisteria Flower | https://pantheonkeys.com/products/jerrzi-wisteria-flower-linear-switches
-- [ ] jerrzi-orange | Jerrzi Orange | https://milktooth.com/products/switches/jerrzi-orange
-- [ ] jerrzi-seashell | Jerrzi Seashell | https://pantheonkeys.com/products/jerrzi-seashell-linear-switches
-- [ ] jerrzi-coral | Jerrzi Coral | https://milktooth.com/products/switches/coral
-- [ ] jerrzi-salt-ice | Jerrzi Salt Ice | https://milktooth.com/products/switches/salt-ice
-- [ ] jerrzi-rouge | Jerrzi Rouge | https://pantheonkeys.com/products/jerrzi-rouge-linear-switches
+- [x] jerrzi-brownie | Jerrzi Brownie | https://thoccexchange.com/products/jerzzi-brownie-switch-10-pack
+- [x] jerrzi-wisteria-flower | Jerrzi Wisteria Flower | https://pantheonkeys.com/products/jerrzi-wisteria-flower-linear-switches
+- [x] jerrzi-orange | Jerrzi Orange | https://milktooth.com/products/switches/jerrzi-orange
+- [x] jerrzi-seashell | Jerrzi Seashell | https://pantheonkeys.com/products/jerrzi-seashell-linear-switches
+- [x] jerrzi-coral | Jerrzi Coral | https://milktooth.com/products/switches/coral
+- [x] jerrzi-salt-ice | Jerrzi Salt Ice | https://milktooth.com/products/switches/salt-ice
+- [x] jerrzi-rouge | Jerrzi Rouge | https://pantheonkeys.com/products/jerrzi-rouge-linear-switches
 
 ## KTT (53)
 
-- [ ] ktt-aqua-prime | KTT Aqua Prime | https://mechanicalkeyboards.com/products/ktt-aqua-prime-magnetic-linear-plate-mount-switch
-- [ ] ktt-nebula-magnetic | KTT Nebula Magnetic | https://mechanicalkeyboards.com/products/ktt-nebula-magnetic-linear-plate-mount-switch
-- [ ] ktt-purple-click | KTT Purple Click | https://mechanicalkeyboards.com/products/ktt-purple-click-40g-clicky-plate-mount-switch
-- [ ] ktt-zencha-silent | KTT ZenCha Silent | https://mechanicalkeyboards.com/products/ktt-zencha-silent-40g-tactile-pcb-mount-switch
-- [ ] ktt-phalaenopsis | KTT Phalaenopsis | https://mechanicalkeyboards.com/products/ktt-phalaenopsis-37g-tactile-plate-mount-switch
-- [ ] ktt-macaron-orange | KTT Macaron Orange | https://kprepublic.com/products/ktt-macaron-switch-linear-tactile-mx-switch-43g-48g-55g-63g-for-mechanical-keyboard-macaron-red-pink-yellow-purple-green-blue
-- [ ] ktt-macaron-blue | KTT Macaron Blue | https://kprepublic.com/products/ktt-macaron-switch-linear-tactile-mx-switch-43g-48g-55g-63g-for-mechanical-keyboard-macaron-red-pink-yellow-purple-green-blue
-- [ ] ktt-baby-blue | KTT Baby Blue | https://mechanicalkeyboards.com/products/ktt-baby-blue-38g-tactile-pcb-mount-switch
+- [x] ktt-aqua-prime | KTT Aqua Prime | https://mechanicalkeyboards.com/products/ktt-aqua-prime-magnetic-linear-plate-mount-switch
+- [x] ktt-nebula-magnetic | KTT Nebula Magnetic | https://mechanicalkeyboards.com/products/ktt-nebula-magnetic-linear-plate-mount-switch
+- [x] ktt-purple-click | KTT Purple Click | https://mechanicalkeyboards.com/products/ktt-purple-click-40g-clicky-plate-mount-switch
+- [x] ktt-zencha-silent | KTT ZenCha Silent | https://mechanicalkeyboards.com/products/ktt-zencha-silent-40g-tactile-pcb-mount-switch
+- [x] ktt-phalaenopsis | KTT Phalaenopsis | https://mechanicalkeyboards.com/products/ktt-phalaenopsis-37g-tactile-plate-mount-switch
+- [x] ktt-macaron-orange | KTT Macaron Orange | https://kprepublic.com/products/ktt-macaron-switch-linear-tactile-mx-switch-43g-48g-55g-63g-for-mechanical-keyboard-macaron-red-pink-yellow-purple-green-blue
+- [x] ktt-macaron-blue | KTT Macaron Blue | https://kprepublic.com/products/ktt-macaron-switch-linear-tactile-mx-switch-43g-48g-55g-63g-for-mechanical-keyboard-macaron-red-pink-yellow-purple-green-blue
+- [x] ktt-baby-blue | KTT Baby Blue | https://mechanicalkeyboards.com/products/ktt-baby-blue-38g-tactile-pcb-mount-switch
 - [ ] ktt-ash-grey | KTT Ash Grey | https://hippokeys.com/products/ktt-ash-grey-switch-sample
 - [ ] ktt-matcha | KTT Matcha | https://hippokeys.com/products/ktt-matcha-switch-sample
-- [ ] ktt-x-80-retros-game-1989-silent | KTT x 80 Retros Game 1989 Silent | https://unikeyboards.com/products/ktt-x-80-retros-game-1989-silent-linear-switch-factory-lubed-10pcs
-- [ ] ktt-x-80-retros-game-1989-orange | KTT x 80 Retros Game 1989 Orange | https://unikeyboards.com/products/ktt-x-80-retros-game-1989-orange-linear-switch-factory-lubed-10pcs
-- [ ] ktt-x-80-retros-game-1989-red | KTT x 80 Retros Game 1989 Red | https://unikeyboards.com/products/ktt-x-80-retros-game-1989-red-linear-switch-factory-lubed-10pcs
-- [ ] ktt-phantom-silent | KTT Phantom Silent | https://mechanicalkeyboards.com/products/ktt-phantom-silent-43g-linear-pcb-mount-switch
-- [ ] ktt-silent-(semi-mute) | KTT Silent (Semi Mute) | https://mechanicalkeyboards.com/products/ktt-silent-43g-linear-plate-mount-switch
-- [ ] ktt-ice-orange | KTT Ice Orange | https://kprepublic.com/products/ktt-ice-orange-switch-silent-linear-switch-43g-55g-for-gaming-mechanical-keyboard-orange-pc-pom-tpe-pre-lubed-long-spring
-- [ ] ktt-macaron-purple | KTT Macaron Purple | https://kprepublic.com/products/ktt-macaron-switch-linear-tactile-mx-switch-43g-48g-55g-63g-for-mechanical-keyboard-macaron-red-pink-yellow-purple-green-blue
-- [ ] ktt-macaron-green | KTT Macaron Green | https://kprepublic.com/products/ktt-macaron-switch-linear-tactile-mx-switch-43g-48g-55g-63g-for-mechanical-keyboard-macaron-red-pink-yellow-purple-green-blue
-- [ ] ktt-macaron-yellow | KTT Macaron Yellow | https://kprepublic.com/products/ktt-macaron-switch-linear-tactile-mx-switch-43g-48g-55g-63g-for-mechanical-keyboard-macaron-red-pink-yellow-purple-green-blue
-- [ ] ktt-macaron-pink | KTT Macaron Pink | https://kprepublic.com/products/ktt-macaron-switch-linear-tactile-mx-switch-43g-48g-55g-63g-for-mechanical-keyboard-macaron-red-pink-yellow-purple-green-blue
-- [ ] ktt-macaron-red | KTT Macaron Red | https://kprepublic.com/products/ktt-macaron-switch-linear-tactile-mx-switch-43g-48g-55g-63g-for-mechanical-keyboard-macaron-red-pink-yellow-purple-green-blue
-- [ ] ktt-prunus | KTT Prunus | https://unikeyboards.com/products/ktt-prunus-linear-switch-factory-lubed-edition-10pcs
-- [ ] ktt-mango-pomelo | KTT Mango Pomelo | https://mechanicalkeyboards.com/products/ktt-mango-pomelo-37g-linear-pcb-mount
-- [ ] ktt-wheat-sun | KTT Wheat Sun | https://mechanicalkeyboards.com/products/ktt-wheat-sun-42g-linear-plate-mount-switch
-- [ ] ktt-wisteria-dream | KTT Wisteria Dream | https://mechanicalkeyboards.com/products/ktt-wisteria-dream-45g-linear-plate-mount-switch
-- [ ] ktt-laurel | KTT Laurel | https://mechanicalkeyboards.com/products/ktt-laurel-43g-linear-plate-mount-switch
-- [ ] ktt-lightning-v2 | KTT Lightning V2 | https://mechanicalkeyboards.com/products/ktt-lightning-v2-43g-linear-plate-mount-switch
-- [ ] ktt-lightning | KTT Lightning | https://mechanicalkeyboards.com/products/ktt-lightning-43g-linear-plate-mount-switch
-- [ ] ktt-baby-yellow | KTT Baby Yellow | https://mechanicalkeyboards.com/products/ktt-baby-yellow-50g-linear-plate-mount-switch
-- [ ] ktt-baby-pink | KTT Baby Pink | https://mechanicalkeyboards.com/products/ktt-baby-pink-40g-linear-pcb-mount-switch
-- [ ] ktt-baby-white | KTT Baby White | https://mechanicalkeyboards.com/products/ktt-baby-white-43g-linear-pcb-mount-switch
-- [ ] ktt-moonrosa | KTT MoonRosa | https://mechanicalkeyboards.com/products/ktt-moonrosa-37g-linear-pcb-mount-switch
+- [x] ktt-x-80-retros-game-1989-silent | KTT x 80 Retros Game 1989 Silent | https://unikeyboards.com/products/ktt-x-80-retros-game-1989-silent-linear-switch-factory-lubed-10pcs
+- [x] ktt-x-80-retros-game-1989-orange | KTT x 80 Retros Game 1989 Orange | https://unikeyboards.com/products/ktt-x-80-retros-game-1989-orange-linear-switch-factory-lubed-10pcs
+- [x] ktt-x-80-retros-game-1989-red | KTT x 80 Retros Game 1989 Red | https://unikeyboards.com/products/ktt-x-80-retros-game-1989-red-linear-switch-factory-lubed-10pcs
+- [x] ktt-phantom-silent | KTT Phantom Silent | https://mechanicalkeyboards.com/products/ktt-phantom-silent-43g-linear-pcb-mount-switch
+- [x] ktt-silent-(semi-mute) | KTT Silent (Semi Mute) | https://mechanicalkeyboards.com/products/ktt-silent-43g-linear-plate-mount-switch
+- [x] ktt-ice-orange | KTT Ice Orange | https://kprepublic.com/products/ktt-ice-orange-switch-silent-linear-switch-43g-55g-for-gaming-mechanical-keyboard-orange-pc-pom-tpe-pre-lubed-long-spring
+- [x] ktt-macaron-purple | KTT Macaron Purple | https://kprepublic.com/products/ktt-macaron-switch-linear-tactile-mx-switch-43g-48g-55g-63g-for-mechanical-keyboard-macaron-red-pink-yellow-purple-green-blue
+- [x] ktt-macaron-green | KTT Macaron Green | https://kprepublic.com/products/ktt-macaron-switch-linear-tactile-mx-switch-43g-48g-55g-63g-for-mechanical-keyboard-macaron-red-pink-yellow-purple-green-blue
+- [x] ktt-macaron-yellow | KTT Macaron Yellow | https://kprepublic.com/products/ktt-macaron-switch-linear-tactile-mx-switch-43g-48g-55g-63g-for-mechanical-keyboard-macaron-red-pink-yellow-purple-green-blue
+- [x] ktt-macaron-pink | KTT Macaron Pink | https://kprepublic.com/products/ktt-macaron-switch-linear-tactile-mx-switch-43g-48g-55g-63g-for-mechanical-keyboard-macaron-red-pink-yellow-purple-green-blue
+- [x] ktt-macaron-red | KTT Macaron Red | https://kprepublic.com/products/ktt-macaron-switch-linear-tactile-mx-switch-43g-48g-55g-63g-for-mechanical-keyboard-macaron-red-pink-yellow-purple-green-blue
+- [x] ktt-prunus | KTT Prunus | https://unikeyboards.com/products/ktt-prunus-linear-switch-factory-lubed-edition-10pcs
+- [x] ktt-mango-pomelo | KTT Mango Pomelo | https://mechanicalkeyboards.com/products/ktt-mango-pomelo-37g-linear-pcb-mount
+- [x] ktt-wheat-sun | KTT Wheat Sun | https://mechanicalkeyboards.com/products/ktt-wheat-sun-42g-linear-plate-mount-switch
+- [x] ktt-wisteria-dream | KTT Wisteria Dream | https://mechanicalkeyboards.com/products/ktt-wisteria-dream-45g-linear-plate-mount-switch
+- [x] ktt-laurel | KTT Laurel | https://mechanicalkeyboards.com/products/ktt-laurel-43g-linear-plate-mount-switch
+- [x] ktt-lightning-v2 | KTT Lightning V2 | https://mechanicalkeyboards.com/products/ktt-lightning-v2-43g-linear-plate-mount-switch
+- [x] ktt-lightning | KTT Lightning | https://mechanicalkeyboards.com/products/ktt-lightning-43g-linear-plate-mount-switch
+- [x] ktt-baby-yellow | KTT Baby Yellow | https://mechanicalkeyboards.com/products/ktt-baby-yellow-50g-linear-plate-mount-switch
+- [x] ktt-baby-pink | KTT Baby Pink | https://mechanicalkeyboards.com/products/ktt-baby-pink-40g-linear-pcb-mount-switch
+- [x] ktt-baby-white | KTT Baby White | https://mechanicalkeyboards.com/products/ktt-baby-white-43g-linear-pcb-mount-switch
+- [x] ktt-moonrosa | KTT MoonRosa | https://mechanicalkeyboards.com/products/ktt-moonrosa-37g-linear-pcb-mount-switch
 - [ ] ktt-purple-star | KTT Purple Star | https://hippokeys.com/products/ktt-purple-star-switch-sample
-- [ ] ktt-orange | KTT Orange | https://mechanicalkeyboards.com/products/ktt-orange-46g-linear-pcb-mount-switch
-- [ ] ktt-meow | KTT Meow | https://kprepublic.com/products/ktt-meow-switch-linear-37g-mx-switch-for-mechanical-keyboard-factory-lubed-pc-nylon-pok-long-spring
-- [ ] ktt-cream-yellow | KTT Cream Yellow | https://mechanicalkeyboards.com/products/ktt-cream-yellow-50g-linear-plate-mount-switch
-- [ ] ktt-cabbage-tofu | KTT Cabbage Tofu | https://mechanicalkeyboards.com/products/ktt-cabbage-tofu-45g-linear-plate-mount-switch
-- [ ] ktt-wine-red-pro-53g | KTT Wine Red Pro 53g | https://kprepublic.com/products/ktt-red-wine-red-pro-switch-linear-37g-43g-53g-mx-switch-for-mechanical-keyboard-80m-factory-lubed-wine-red-long-srping
-- [ ] ktt-wine-red-pro-43g | KTT Wine Red Pro 43g | https://kprepublic.com/products/ktt-red-wine-red-pro-switch-linear-37g-43g-53g-mx-switch-for-mechanical-keyboard-80m-factory-lubed-wine-red-long-srping
-- [ ] ktt-wine-red-pro-37g | KTT Wine Red Pro 37g | https://kprepublic.com/products/ktt-red-wine-red-pro-switch-linear-37g-43g-53g-mx-switch-for-mechanical-keyboard-80m-factory-lubed-wine-red-long-srping
-- [ ] ktt-wine-red | KTT Wine Red | https://mechanicalkeyboards.com/products/ktt-red-wine-43g-linear-plate-mount-switch
-- [ ] ktt-mint | KTT Mint | https://mechanicalkeyboards.com/products/ktt-mint-43g-linear-plate-mount-switch
-- [ ] ktt-grapefruit | KTT Grapefruit | https://mechanicalkeyboards.com/products/ktt-grapefruit-45g-linear-plate-mount-switch
-- [ ] ktt-pine | KTT Pine | https://mechanicalkeyboards.com/products/ktt-pine-45g-linear-pcb-mount-switch
-- [ ] ktt-rose | KTT Rose | https://mechanicalkeyboards.com/products/ktt-rose-45g-linear-pcb-mount-switch
-- [ ] ktt-vanilla-ice-cream | KTT Vanilla Ice Cream | https://mechanicalkeyboards.com/products/ktt-vanilla-ice-cream-43g-linear-pcb-mount
-- [ ] ktt-lavender | KTT Lavender | https://mechanicalkeyboards.com/products/ktt-lavender-43g-linear-pcb-mount
-- [ ] ktt-hyacinth | KTT Hyacinth | https://mechanicalkeyboards.com/products/ktt-hyacinth-45g-linear-pcb-mount-switch
-- [ ] ktt-sea-salt-lemon | KTT Sea Salt Lemon | https://mechanicalkeyboards.com/products/ktt-sea-salt-lemon-43g-linear-plate-mount-switch
-- [ ] ktt-peach | KTT Peach | https://mechanicalkeyboards.com/products/ktt-peach-45g-linear-plate-mount-switch
-- [ ] ktt-kang-white-v3 | KTT Kang White V3 | https://kprepublic.com/products/ktt-kang-white-switch-v3-linear-43g-53g-mx-switch-for-mechanical-keyboard-80m-factory-lubed-kanbai-switch-nylon-pom-3pin
-- [ ] ktt-kang-white | KTT Kang White | https://mechanicalkeyboards.com/products/ktt-kang-white-43g-linear-plate-mount
-- [ ] ktt-strawberry | KTT Strawberry | https://mechanicalkeyboards.com/products/ktt-strawberry-43g-linear-pcb-mount
+- [x] ktt-orange | KTT Orange | https://mechanicalkeyboards.com/products/ktt-orange-46g-linear-pcb-mount-switch
+- [x] ktt-meow | KTT Meow | https://kprepublic.com/products/ktt-meow-switch-linear-37g-mx-switch-for-mechanical-keyboard-factory-lubed-pc-nylon-pok-long-spring
+- [x] ktt-cream-yellow | KTT Cream Yellow | https://mechanicalkeyboards.com/products/ktt-cream-yellow-50g-linear-plate-mount-switch
+- [x] ktt-cabbage-tofu | KTT Cabbage Tofu | https://mechanicalkeyboards.com/products/ktt-cabbage-tofu-45g-linear-plate-mount-switch
+- [x] ktt-wine-red-pro-53g | KTT Wine Red Pro 53g | https://kprepublic.com/products/ktt-red-wine-red-pro-switch-linear-37g-43g-53g-mx-switch-for-mechanical-keyboard-80m-factory-lubed-wine-red-long-srping
+- [x] ktt-wine-red-pro-43g | KTT Wine Red Pro 43g | https://kprepublic.com/products/ktt-red-wine-red-pro-switch-linear-37g-43g-53g-mx-switch-for-mechanical-keyboard-80m-factory-lubed-wine-red-long-srping
+- [x] ktt-wine-red-pro-37g | KTT Wine Red Pro 37g | https://kprepublic.com/products/ktt-red-wine-red-pro-switch-linear-37g-43g-53g-mx-switch-for-mechanical-keyboard-80m-factory-lubed-wine-red-long-srping
+- [x] ktt-wine-red | KTT Wine Red | https://mechanicalkeyboards.com/products/ktt-red-wine-43g-linear-plate-mount-switch
+- [x] ktt-mint | KTT Mint | https://mechanicalkeyboards.com/products/ktt-mint-43g-linear-plate-mount-switch
+- [x] ktt-grapefruit | KTT Grapefruit | https://mechanicalkeyboards.com/products/ktt-grapefruit-45g-linear-plate-mount-switch
+- [x] ktt-pine | KTT Pine | https://mechanicalkeyboards.com/products/ktt-pine-45g-linear-pcb-mount-switch
+- [x] ktt-rose | KTT Rose | https://mechanicalkeyboards.com/products/ktt-rose-45g-linear-pcb-mount-switch
+- [x] ktt-vanilla-ice-cream | KTT Vanilla Ice Cream | https://mechanicalkeyboards.com/products/ktt-vanilla-ice-cream-43g-linear-pcb-mount
+- [x] ktt-lavender | KTT Lavender | https://mechanicalkeyboards.com/products/ktt-lavender-43g-linear-pcb-mount
+- [x] ktt-hyacinth | KTT Hyacinth | https://mechanicalkeyboards.com/products/ktt-hyacinth-45g-linear-pcb-mount-switch
+- [x] ktt-sea-salt-lemon | KTT Sea Salt Lemon | https://mechanicalkeyboards.com/products/ktt-sea-salt-lemon-43g-linear-plate-mount-switch
+- [x] ktt-peach | KTT Peach | https://mechanicalkeyboards.com/products/ktt-peach-45g-linear-plate-mount-switch
+- [x] ktt-kang-white-v3 | KTT Kang White V3 | https://kprepublic.com/products/ktt-kang-white-switch-v3-linear-43g-53g-mx-switch-for-mechanical-keyboard-80m-factory-lubed-kanbai-switch-nylon-pom-3pin
+- [x] ktt-kang-white | KTT Kang White | https://mechanicalkeyboards.com/products/ktt-kang-white-43g-linear-plate-mount
+- [x] ktt-strawberry | KTT Strawberry | https://mechanicalkeyboards.com/products/ktt-strawberry-43g-linear-pcb-mount
 
 ## Kailh (109)
 
